@@ -1,0 +1,27 @@
+:root {
+  ---tansition-1: all 0.1s ease;
+}
+
+.card-body > h4 {
+  color: #002147;
+  transition: var(---tansition-1);
+}
+
+.card-body > .btn {
+  color: #002147;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  background-color: #f58026;
+  margin-top: 20px;
+  border-radius: 0.25rem;
+}
+
+.card-body > .btn:hover {
+  background-color: #f6a262;
+}
+
+@media (min-width: 768px) {
+  .home-sidebar {
+    margin-top: 20px;
+  }
+}
