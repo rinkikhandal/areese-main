@@ -1031,36 +1031,22 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
      # Bradcrumb 
 =================================================================== */
 .breadcrumb-area {
-  padding: 140px 0 150px;
+  background-color: var(--primary-grey);
+  padding: 20px 0;
 }
 
 .breadcrumb-area .breadcrumb {
-  background: transparent none repeat scroll 0 0;
+  background: #000000;
   display: inline-block;
   margin: 0;
+  opacity: 0.6;
   padding: 10px 20px;
-  position: relative;
   z-index: 1;
 }
 
 .breadcrumb-area .breadcrumb li i {
   color: #f58026;
   margin-right: 3px;
-}
-
-.breadcrumb-area .breadcrumb::after {
-  background: #000000 none repeat scroll 0 0;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0.6;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
 }
 
 .breadcrumb-area h1 {

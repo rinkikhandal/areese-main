@@ -1,17 +1,20 @@
 :root {
-  ---tansition-1: all 0.1s ease;
+  --primary-blue: #002147;
+  --primary-orange: #f58026;
+  --primary-grey: #66778a;
+  --tansition-1: all 0.1s ease;
 }
 
 .card-body > h4 {
   color: #002147;
-  transition: var(---tansition-1);
+  transition: var(--tansition-1);
 }
 
 .card-body > .btn {
-  color: #002147;
+  color: var(--primary-blue);
   font-size: 1.2rem;
   letter-spacing: 2px;
-  background-color: #f58026;
+  background-color: var(--primary-orange);
   margin-top: 20px;
   border-radius: 0.25rem;
 }
