@@ -27,9 +27,6 @@
           <!-- Start Atribute Navigation -->
           <div class="attr-nav">
             <ul>
-              <li class="search">
-                <a href="#"><i class="fa fa-search"></i></a>
-              </li>
               <li class="side-menu">
                 <a href="#"><i class="fa fa-bars"></i></a>
               </li>
@@ -254,6 +251,12 @@
               </li> -->
               <li>
                 <a href="contact.php">contact</a>
+              </li>
+              <li>
+                <a href="blog-standard.php">Blog</a>
+              </li>
+              <li>
+                <a href="blog-standard.php">About Us</a>
               </li>
             </ul>
           </div>

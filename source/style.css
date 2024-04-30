@@ -4901,39 +4901,18 @@ body,
   box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
   padding: 30px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-.clients-review-carousel .item .info p {
+.clients-review-carousel .item {
   position: relative;
   z-index: 1;
 }
 
-.clients-review-carousel .item .info p::after {
-  content: ",,";
-  font-family: "Times New Roman";
-  font-size: 180px;
-  left: -7px;
-  letter-spacing: -15px;
-  opacity: 0.1;
-  position: absolute;
-  top: 70px;
-  transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-}
-
-.clients-review-carousel .item .info h4 {
-  margin-bottom: 5px;
-  text-transform: capitalize;
-}
-
-.clients-review-carousel .item .info span {
-  color: #f58026;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
+.clients-review-carousel .item iframe {
+  margin: 0 auto;
 }
 
 .testimonials-area .clients-review-carousel .owl-nav {

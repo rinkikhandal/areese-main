@@ -24,14 +24,14 @@
         <div class="col-md-12">
           <div class="row">
             <div class="form-group">
-              <input class="form-control" placeholder="Username*" type="text" />
+              <input class="form-control" placeholder="Phone*" type="tel" name="phone"/>
             </div>
           </div>
         </div>
         <div class="col-md-12">
           <div class="row">
             <div class="form-group">
-              <input class="form-control" placeholder="Password*" type="text" />
+              <input class="form-control" placeholder="Password*" type="password" name="password"/>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
         </div>
         <div class="col-md-12">
           <div class="row">
-            <button type="submit">Login</button>
+            <button type="submit" name="login">Login</button>
           </div>
         </div>
         <p class="link-bottom">

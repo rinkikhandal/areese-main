@@ -45,7 +45,7 @@
           <div class="item active">
             <div
               class="box-table bg-fixed shadow dark"
-              style="background-image: url(assets/img/2440x1578.png)"
+              style="background-image: url(assets/img/students.jpg)"
             >
               <div class="box-cell">
                 <div class="container">
@@ -78,7 +78,7 @@
           <div class="item">
             <div
               class="box-table shadow bg-fixed dark"
-              style="background-image: url(assets/img/2440x1578.png)"
+              style="background-image: url(assets/img/teaching.jpg)"
             >
               <div class="box-cell">
                 <div class="container">
@@ -111,7 +111,7 @@
           <div class="item">
             <div
               class="box-table bg-fixed shadow dark"
-              style="background-image: url(assets/img/2440x1578.png)"
+              style="background-image: url(assets/img/students.jpg)"
             >
               <div class="box-cell">
                 <div class="container">
@@ -176,18 +176,9 @@
             <div class="row">
               <div class="col-md-12 info less-bar">
                 <h5>Introduction</h5>
-                <h1>Welcome to the biggest online learning source of examin</h1>
+                <h1>Welcome to AREESE Institute - A path of revolutionary learning</h1>
                 <p>
-                  Alteration literature to or an sympathize mr imprudence. Of is
-                  ferrars subject as enjoyed or tedious cottage. Procuring as in
-                  resembled by in agreeable. Next long no gave mr eyes.
-                  Admiration advantages no he celebrated so pianoforte
-                  unreserved. Not its herself forming charmed amiable. Him why
-                  feebly expect future now. Resolution diminution conviction so
-                  mr at unpleasing simplicity no. No it as breakfast up
-                  conveying earnestly immediate principle. Him son disposed
-                  produced humoured overcame she bachelor improved. Studied
-                  however out wishing but inhabit fortune windows.
+                 with the legacy of over 10 years areese institute has been guiding students aspiring to crack the JEE and neet and has also produced remarkable results in this field as well. we adopt a holistic approach for our students to not only develop academicaly but also in other fields in life.  With a team of experienced and qualified teachers, we provide a comprehensive curriculum that covers all aspects of the subjects we teach.
                 </p>
                 <p>
                   Curiosity incommode now led smallness allowance. Favour bed
@@ -1145,67 +1136,59 @@
           <div class="col-md-12">
             <div class="clients-review-carousel owl-carousel owl-theme">
               <!-- Single Item -->
-              <div class="item">
-                <div class="col-md-5 thumb">
-                  <img src="assets/img/800x800.png" alt="Thumb" />
-                </div>
-                <div class="col-md-7 info">
-                  <p>
-                    Procuring continued suspicion its ten. Pursuit brother are
-                    had fifteen distant has. Early had add equal china quiet
-                    visit. Appear an manner as no limits either praise..
-                  </p>
-                  <h4>Druna Patia</h4>
-                  <span>Biology Student</span>
-                </div>
+              <div class="item item-personal">
+                  <div class="image-div box-table bg-fixed shadow "
+                   style="background-image: url(assets/img/gurukulam.jpg); height:300px;width:500px">
+                    
+                      <div class="video-info">
+            <div class="overlay-video">
+              <a
+                class="popup-youtube video-play-button"
+                href="https://www.youtube.com/watch?v=NPKgcC9gmPA"
+              >
+                <i class="fa fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+                  </div>
               </div>
               <!-- Single Item -->
               <!-- Single Item -->
-              <div class="item">
-                <div class="col-md-5 thumb">
-                  <img src="assets/img/800x800.png" alt="Thumb" />
-                </div>
-                <div class="col-md-7 info">
-                  <p>
-                    Procuring continued suspicion its ten. Pursuit brother are
-                    had fifteen distant has. Early had add equal china quiet
-                    visit. Appear an manner as no limits either praise..
-                  </p>
-                  <h4>Astron Brun</h4>
-                  <span>Science Student</span>
-                </div>
+              <div class="item item-personal">
+                  <div class="image-div  box-table bg-fixed shadow "
+                   style="background-image: url(assets/img/vikram.jpg); height:300px;width:500px">
+                    
+                      <div class="video-info">
+            <div class="overlay-video">
+              <a
+                class="popup-youtube video-play-button"
+                href="https://www.youtube.com/watch?v=KTjrcFimQo0"
+              >
+                <i class="fa fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+                  </div>
               </div>
               <!-- Single Item -->
+           
               <!-- Single Item -->
-              <div class="item">
-                <div class="col-md-5 thumb">
-                  <img src="assets/img/800x800.png" alt="Thumb" />
-                </div>
-                <div class="col-md-7 info">
-                  <p>
-                    Procuring continued suspicion its ten. Pursuit brother are
-                    had fifteen distant has. Early had add equal china quiet
-                    visit. Appear an manner as no limits either praise..
-                  </p>
-                  <h4>Paol Druva</h4>
-                  <span>Development Student</span>
-                </div>
-              </div>
-              <!-- Single Item -->
-              <!-- Single Item -->
-              <div class="item">
-                <div class="col-md-5 thumb">
-                  <img src="assets/img/800x800.png" alt="Thumb" />
-                </div>
-                <div class="col-md-7 info">
-                  <p>
-                    Procuring continued suspicion its ten. Pursuit brother are
-                    had fifteen distant has. Early had add equal china quiet
-                    visit. Appear an manner as no limits either praise..
-                  </p>
-                  <h4>Druna Patia</h4>
-                  <span>Biology Student</span>
-                </div>
+              <div class="item item-personal">
+                  <div class="image-div  box-table bg-fixed shadow "
+                   style="background-image: url(assets/img/areese_student_gargi.jpg); height:300px;width:500px">
+                     <div class="video-info">
+            <div class="overlay-video">
+              <a
+                class="popup-youtube video-play-button"
+                href="https://www.youtube.com/watch?v=Adh4zjMxQG0"
+              >
+                <i class="fa fa-play"></i>
+              </a>
+            </div>
+          </div>
+                  </div>
               </div>
               <!-- Single Item -->
             </div>
@@ -1358,39 +1341,7 @@
     </div>
     <!-- End Blog -->
 
-    <!-- Start Subscribe 
-    ============================================= -->
-    <div
-      class="subscribe-area text-center text-light default-padding bg-fixed shadow dark-hard"
-      style="background-image: url(assets/img/2440x1578.png)"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3">
-            <div class="content">
-              <h2>Subscribe now</h2>
-              <p>
-                Receive weekly newsletter with educational materials, new
-                courses <br />
-                interesting posts, popular books and much more!
-              </p>
-            </div>
-            <div class="form">
-              <form action="#">
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control"
-                  placeholder="Enter your e-mail here"
-                />
-                <button type="submit">Subscribe</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Subscribe -->
+
 
     <!-- Start Footer 
     ============================================= -->
@@ -1417,3 +1368,43 @@
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+
+<?php 
+include 'connection.php';
+
+if(isset($_POST["Signup"])){
+
+  $phone= $_POST["phone"];
+  $name= $_POST["username"];
+  $password= $_POST["password"];
+  $confirmPassword = $_POST["confirm-password"];
+
+  if($password === $confirmPassword){
+
+    $insertquery = "insert into registration(phone,name,password) values('$phone','$name','$password')";
+    $res = mysqli_query($con,$insertquery);
+
+  if($res){
+    ?>
+    <script>alert("inserted")</script>
+    <?php
+  }else{
+?><script>alert("not inserted")</script>
+<?php
+  }
+  }else{
+    ?>
+    <script>alert("password do not match")</script>
+    <script>alert("not inserted")</script>
+    
+    <?php
+  }
+
+
+  
+};
+
+
+
+?>
+
