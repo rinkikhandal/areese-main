@@ -1372,39 +1372,6 @@
 <?php 
 include 'connection.php';
 
-if(isset($_POST["Signup"])){
-
-  $phone= $_POST["phone"];
-  $name= $_POST["username"];
-  $password= $_POST["password"];
-  $confirmPassword = $_POST["confirm-password"];
-
-  if($password === $confirmPassword){
-
-    $insertquery = "insert into registration(phone,name,password) values('$phone','$name','$password')";
-    $res = mysqli_query($con,$insertquery);
-
-  if($res){
-    ?>
-    <script>alert("inserted")</script>
-    <?php
-  }else{
-?><script>alert("not inserted")</script>
-<?php
-  }
-  }else{
-    ?>
-    <script>alert("password do not match")</script>
-    <script>alert("not inserted")</script>
-    
-    <?php
-  }
-
-
-  
-};
-
-
 
 ?>
 

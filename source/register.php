@@ -1,4 +1,4 @@
- <form action="#" method="POST" id="register-form" class="mfp-hide white-popup-block">
+ <form action="./assets/formsPHP/register-data.php" method="POST" id="register-form" class="mfp-hide white-popup-block">
       <div class="col-md-4 login-social">
         <h4>Register with social</h4>
         <ul>
