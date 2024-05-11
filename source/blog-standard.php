@@ -19,7 +19,7 @@
 
     <!-- Header 
     ============================================= -->
-    <?php include 'header.php'?>
+    <?php include 'nav.php'?>
     <!-- End Header -->
 
     <!-- Start Breadcrumb 

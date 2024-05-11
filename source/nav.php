@@ -1,8 +1,8 @@
- <header id="home">
+<header id="home">
       <!-- Start Navigation -->
       <nav class="navbar navbar-default attr-border navbar-sticky bootsnav">
         <!-- Start Top Search -->
-        <div class="container">
+        <!-- <div class="container">
           <div class="row">
             <div class="top-search">
               <div class="input-group">
@@ -20,7 +20,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- End Top Search -->
 
         <div class="container">

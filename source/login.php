@@ -51,7 +51,7 @@
           </div>
         </div>
         <p class="link-bottom">
-          Not a member yet? <a href="#">Register now</a>
+          Not a member yet? <a class="popup-with-form" href="#register-form">Register now</a>
         </p>
       </div>
     </form>

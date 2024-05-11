@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
- <?php 
- include 'links.php'?>
-  </head>
+  <head><?php 
+ include './links.php';
+ ?></head>
+
+ 
 
   <body>
+
     <!-- Preloader Start -->
     <div class="se-pre-con"></div>
     <!-- Preloader Ends -->
 
+
     <!-- Start Header Top 
     ============================================= -->
-   <?php include 'header_top.php'?>
+<?php include './header_top.php';?>
     <!-- End Header Top -->
 
     <!-- Header 
     ============================================= -->
-   <?php include 'header.php'; ?>
+<?php include './nav.php'; ?>
     <!-- End Header -->
 
     <!-- Start Login Form 
     ============================================= -->
-   <?php include 'login.php' ?>
+<?php include './login.php'; ?>
     <!-- End Login Form -->
 
     <!-- Start Register Form 
     ============================================= -->
-   <?php include 'register.php' ?>
+
+<?php include './register.php'; ?>
     <!-- End Register Form -->
 
     <!-- Start Banner 
@@ -267,20 +271,21 @@
                       <div class="form-group">
                         <input
                           class="form-control"
+                          placeholder="Email*"
+                          type="email"
+                        />
+                    </div>
+                      </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input
+                          class="form-control"
                           placeholder="Phone*"
                           type="tel"
                         />
                       </div>
                     </div>
-                    <div class="col-md-12">
-                      <!-- <div class="form-group">
-                        <input
-                          class="form-control"
-                          placeholder="Phone"
-                          type="text"
-                        />
-                      </div> -->
-                    </div>
+                   
                     <div class="col-md-12">
                       <button class="button-sm button-theme" type="submit">
                         Rigister Now
@@ -1366,12 +1371,10 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/personal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>
 
-<?php 
-include 'connection.php';
 
-
-?>
 
