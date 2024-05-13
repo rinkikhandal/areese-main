@@ -1,7 +1,4 @@
-<?php
-$errorMsg = ""; //initializing error message
-?>
-<form action="assets/db/registerFormHandeler.inc.php" method="POST" id="register-form"  class="mfp-hide white-popup-block register-form">
+<form action="assets/db/register.inc.php" method="POST" id="register-form"  class="mfp-hide white-popup-block register-form">
       <div class="col-md-4 login-social">
         <h4>Register with social</h4>
         <ul>
@@ -63,7 +60,11 @@ $errorMsg = ""; //initializing error message
         </div>
         <!-- Alert Message -->
         <div class="col-md-12 alert-notification">
-          <div id="message" class="alert-msg"></div>
+          <div id="message" class="alert-msg">
+            <?php
+            check_signup_errors();
+            ?>
+          </div>
         </div>
         <p class="link-bottom">Are you a member? <a class="popup-with-form" href="#login-form">Login now</a></p>
       </div>

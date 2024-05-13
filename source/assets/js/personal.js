@@ -7,11 +7,11 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
     var formData = new FormData(this);
     console.log(Object.fromEntries(formData));
 
-    var messageElement = document.getElementById("message");
+    // var messageElement = document.getElementById("message");
     var submitButton = document.getElementById("submit");
 
     // Hide message
-    messageElement.style.display = "none";
+    // messageElement.style.display = "none";
 
     // Show loader
     var loader = document.createElement("img");
@@ -24,9 +24,9 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
     const submitData = async (url, data) => {
       try {
         let response = await axios.post(url, data);
-        console.log(response.data);
-        messageElement.innerHTML = response.data;
-        messageElement.style.display = "block"; // Show message
+        // console.log(response.data);
+        // messageElement.innerHTML = response.data;
+        // messageElement.style.display = "block"; // Show message
         loader.parentNode.removeChild(loader); // Remove loader
         submitButton.disabled = false; // Enable submit button
       } catch (error) {

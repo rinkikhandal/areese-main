@@ -1,10 +1,14 @@
+<?php
+require_once './assets/db/config_session.inc.php';
+require_once './assets/db/register_view.inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
-  <head><?php 
- include './links.php';
- ?></head>
-
- 
+  <head>
+    <?php 
+include './links.php';
+?>
+</head>
 
   <body>
 
