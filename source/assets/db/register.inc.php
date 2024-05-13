@@ -19,21 +19,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // error handlers=======
 $errors =[];
+
+
     if(isInputEmpty($phone,$username,$pass,$confirmPassword)
     ){$errors["empty_input"]="Fill in all the fields!";
   };
   if (passwordsNotMatch($pass,$confirmPassword)){
-    $errors["password_not_match "]="Passwords do not match!";
+    $errors["password_not_match"]="Passwords do not match!";
+
   };
-  if(isUsernameTaken($username)){
+  if(isUsernameTaken($pdo,$username)){
     $errors["username_taken"]="Username already taken!";
+
 
   };
   if(isNotValidPhoneNumber($phone)){
 $errors["phone_not_valid"]="Please enter correct Phone Number!";
+
   };
 
-      require_once "./config_session.inc.php"; 
+    require_once "./config_session.inc.php"; 
 
 
 
@@ -41,7 +46,7 @@ $errors["phone_not_valid"]="Please enter correct Phone Number!";
     $_SESSION["errors_register"]=$errors;
   };
     
-      $query = "INSERT INTO registration (phone,username,pass) Values(:phone,:username,:pass);";
+      // $query = "INSERT INTO registration (phone,username,pass) Values(:phone,:username,:pass);";
 
       
     // Password hashing==================

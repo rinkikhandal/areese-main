@@ -11,7 +11,10 @@ if(isset($_SESSION['errors_register'])){
   // echo "<br>";
 
   foreach($errors as $error){
-    echo '<div class="alert alert-error">' . $error . '</div>';
+    echo ' <div id="message" class="alert-msg" style="display:block !important;" >
+    <div class="alert alert-error">' . $error . '</div>
+          </div>
+        ';
   };
 
   unset($_SESSION['errors_register']);
