@@ -5,9 +5,10 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
 
     var action = this.getAttribute("action");
     var formData = new FormData(this);
-    console.log(Object.fromEntries(formData));
+    // console.log(Object.fromEntries(formData));
 
     var submitButton = document.getElementById("submit");
+    var messageElement = document.getElementById("message");
 
     // Show loader
     var loader = document.createElement("img");
@@ -20,8 +21,14 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
     const submitData = async (url, data) => {
       try {
         let response = await axios.post(url, data);
-        // console.log(response.data);
-        // messageElement.innerHTML = response.data;
+        // console.log(response);
+        const responseData = response.data;
+
+        messageElement.innerHTML = Object.entries(responseData)
+          .map(([key, value]) => {
+            return `<div class="alert alert-error-p">${value}</div>`;
+          })
+          .join("");
 
         loader.parentNode.removeChild(loader); // Remove loader
         submitButton.disabled = false; // Enable submit button
@@ -37,7 +44,7 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
     event.target.elements.phone.value = "";
     event.target.elements["confirm-password"].value = "";
 
-    formInstance.classList.remove(".white-popup-block");
-    formInstance.classList.add(".mfp-hide");
+    // formInstance.classList.remove(".white-popup-block");
+    // formInstance.classList.add(".mfp-hide");
   });
 });

@@ -43,10 +43,13 @@ $errors["phone_not_valid"]="Please enter correct Phone Number!";
 
 
   if($errors){
-    $_SESSION["errors_register"]=$errors;
-  };
+    // $_SESSION["'errors_register'"]=$errors;
     
-      // $query = "INSERT INTO registration (phone,username,pass) Values(:phone,:username,:pass);";
+echo json_encode($errors);
+    exit();
+  }
+    
+      $query = "INSERT INTO registration (phone,username,pass) Values(:phone,:username,:pass);";
 
       
     // Password hashing==================

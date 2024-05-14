@@ -69,19 +69,19 @@ form .alert-notification h3 {
   margin-bottom: 5px;
 }
 
-form .alert-notification .alert-error {
+form .alert-notification .alert-error-p {
   background: #e7e7e7 none repeat scroll 0 0;
   color: red;
   margin-top: 15px;
   margin-bottom: 0;
 }
 
-form .alert-notification .alert-success {
+form .alert-notification .alert-success-p {
   margin-top: 15px;
   margin-bottom: 0;
 }
 
-.alert-error {
+.alert-error-p {
   background: #e7e7e7 none repeat scroll 0 0;
   color: red;
   margin-top: 15px;

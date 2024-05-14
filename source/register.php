@@ -63,10 +63,10 @@ require_once './assets/db/register_view.inc.php';
           </div>
         </div>
         <!-- Alert Message -->
-        <div class="col-md-12 alert-notification">
-            <?php
-            check_signup_errors()
-            ?>
+        <div class="col-md-12 alert-notification" style=";">
+          <div id="message" class="alert-msg"  >
+            
+          </div>
         </div>
         <p class="link-bottom">Are you a member? <a class="popup-with-form" href="#login-form">Login now</a></p>
       </div>

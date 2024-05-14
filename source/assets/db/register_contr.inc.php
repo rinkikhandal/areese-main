@@ -13,7 +13,7 @@ function isInputEmpty(string $phone, string $username,string $password, string $
 }
 
 function passwordsNotMatch(string $password ,string $confirmPassword){
-  if (!$password === $confirmPassword){
+  if ($password !== $confirmPassword){
     return true;
   }return false;
 }
