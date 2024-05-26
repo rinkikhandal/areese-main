@@ -12,78 +12,77 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
   try {
 
-      require_once "./connection.inc.php";
-      require_once "./register_model.inc.php";  //for sql queries
+    require_once "./connection.inc.php";
+    require_once "./register_model.inc.php";  //for sql queries
     require_once "./register_contr.inc.php"; //run validation or error handlers
 
-
+    $data =[];
     // error handlers=======
-$errors =[];
+    $errors =[];
 
 
     if(isInputEmpty($phone,$username,$pass,$confirmPassword)
-    ){$errors["empty_input"]="Fill in all the fields!";
-  };
-  if (passwordsNotMatch($pass,$confirmPassword)){
-    $errors["password_not_match"]="Passwords do not match!";
+    ){
+      $errors["empty_input"]="Fill in all the fields!";
+    };
 
-  };
-  if(isUsernameTaken($pdo,$username)){
-    $errors["username_taken"]="Username already taken!";
+    if (passwordsNotMatch($pass,$confirmPassword)){
+      $errors["password_not_match"]="Passwords do not match!";
+    };
+
+      if(isNotValidPhoneNumber($phone)){
+        $errors["phone_not_valid"]="Please enter correct  Phone Number!";
+
+    };
+
+    if(phoneNumberAlreadyExists($pdo,$phone)){
+        $errors["Account Exists"]="This Number is already registered!";
+
+    };
+
+    if(isUsernameTaken($pdo,$username)){
+      $errors["username_taken"]="Username already taken!";
+    };
+
+  
 
 
-  };
-  if(isNotValidPhoneNumber($phone)){
-$errors["phone_not_valid"]="Please enter correct Phone Number!";
-
-  };
 
     require_once "./config_session.inc.php"; 
 
 
 
-  if($errors){
-    // $_SESSION["'errors_register'"]=$errors;
-    
-echo json_encode($errors);
-    exit();
-  }
-    
-      $query = "INSERT INTO registration (phone,username,pass) Values(:phone,:username,:pass);";
+    if($errors){
+      $data["errors"]=$errors;
+      // $_SESSION["'errors_register'"]=$errors;
+      // converting assoc array in php to JSON Object.
+      echo json_encode($data);
 
-      
-    // Password hashing==================
-    // ONE METHOD----
-    // $salt = bin2hex(random_bytes(10)); //generate random salt
-    // $pepper = $_ENV['SECRET_KEY'];
-    // $toHash = $pass . $salt .$pepper;
-    // $hashedPassword = hash("sha256",$toHash);
+      exit();
+    };
 
-    // OTHER METHOD----
-    $options =[
-      'cost'=> 12,
-    ];
-    $hashedPassword = password_hash($pass, PASSWORD_BCRYPT,$options);
+    createUser($pdo,$username,$pass,$phone);
 
-      $stmt = $pdo->prepare($query);
+      $data["errors"]=null;
+      $data["success"]=["successfully_registered"=>"Registered  Successfully!"];
+      $data["user_details"]=["username"=>$username, "phone"=>$phone];
+      echo json_encode($data);
 
-      $stmt->bindParam(":phone",$phone);
-      $stmt->bindParam(":username",$username);
-      $stmt->bindParam(":pass",$hashedPassword);
-
-      $stmt->execute();
-
-      
+      $_SESSION["user_details"]=["username"=>$username, "phone"=>$phone];
 
       $pdo=null;
       $stmt=null;
 
-      die();
+      exit();
+
+
+    
+    
 
   } catch (PDOException $e) {
     die("Query failed: " . $e->getMessage());
   }
 }else{
-  header("Location:../../index-2.php");
+    header("Location:../../index-2.php");
   
 };

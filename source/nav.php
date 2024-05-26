@@ -269,10 +269,18 @@
           <div class="widget">
             <h4 class="title">Users Pages</h4>
             <div class="profile-thumb">
-              <img src="assets/img/800x800.png" alt="Profile" />
+              <img src="assets/img/800x800.png" alt="Profile" style="margin-bottom:5px;" />
+              <h5 class="username"><?php
+              if(isset($_SESSION["user_username"])){
+                $username = $_SESSION["user_username"];
+                echo $username;
+              }else{
+                echo "username";
+              }
+              ?></h5>
             </div>
             <ul>
-              <li><a href="#">Profile</a></li>
+              <li><a href="./profile.php">Profile</a></li>
               <li><a href="#">Courses</a></li>
               <li><a href="#">Recent Order</a></li>
               <li><a href="#">Edit Profile</a></li>
@@ -293,16 +301,19 @@
             <h4 class="title">Connect With Us</h4>
             <ul class="link">
               <li class="facebook">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/AreeseCareerInstitute"><i class="fab fa-facebook-f"></i></a>
               </li>
-              <li class="twitter">
-                <a href="#"><i class="fab fa-twitter"></i></a>
+              <li class="linkedin">
+                <a href="https://www.linkedin.com/company/areese/"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
               </li>
-              <li class="pinterest">
-                <a href="#"><i class="fab fa-pinterest"></i></a>
+              <li class="instagram" >
+                <a href="https://www.instagram.com/areesecareerinstitute/" style="
+              background-color: #E43187;
+              color: #ffffff;"><i class="fa-brands fa-instagram fa-lg"></i></a>
               </li>
-              <li class="dribbble">
-                <a href="#"><i class="fab fa-dribbble"></i></a>
+              <li class="youtube" >
+                <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" style="background-color: #f70f1b;
+              color: #ffffff;"><i class="fa-brands fa-youtube fa-lg"></i></a>
               </li>
             </ul>
           </div>

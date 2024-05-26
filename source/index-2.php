@@ -1142,12 +1142,12 @@ include './links.php';
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
-            <div class="clients-review-carousel owl-carousel owl-theme">
+          <div class="col-md-12"  style="display:flex; justify-content:center;">
+            <div class="clients-review-carousel owl-carousel-stu owl-theme">
               <!-- Single Item -->
-              <div class="item item-personal">
+              <div class="item item-personal  ">
                   <div class="image-div box-table bg-fixed shadow "
-                   style="background-image: url(assets/img/gurukulam.jpg); height:300px;width:500px">
+                  style="background-image: url(assets/img/gurukulam.jpg); height:220px;width:350px">
                     
                       <div class="video-info">
             <div class="overlay-video">
@@ -1155,7 +1155,7 @@ include './links.php';
                 class="popup-youtube video-play-button"
                 href="https://www.youtube.com/watch?v=NPKgcC9gmPA"
               >
-                <i class="fa fa-play"></i>
+              <i class="fa-solid fa-play fa-2xs"></i>
               </a>
             </div>
           </div>
@@ -1164,9 +1164,9 @@ include './links.php';
               </div>
               <!-- Single Item -->
               <!-- Single Item -->
-              <div class="item item-personal">
+              <div class="item item-personal ">
                   <div class="image-div  box-table bg-fixed shadow "
-                   style="background-image: url(assets/img/vikram.jpg); height:300px;width:500px">
+                  style="background-image: url(assets/img/vikram.jpg); height:220px;width:350px">
                     
                       <div class="video-info">
             <div class="overlay-video">
@@ -1174,7 +1174,7 @@ include './links.php';
                 class="popup-youtube video-play-button"
                 href="https://www.youtube.com/watch?v=KTjrcFimQo0"
               >
-                <i class="fa fa-play"></i>
+              <i class="fa-solid fa-play fa-2xs"></i>
               </a>
             </div>
           </div>
@@ -1184,16 +1184,16 @@ include './links.php';
               <!-- Single Item -->
            
               <!-- Single Item -->
-              <div class="item item-personal">
+              <div class="item item-personal ">
                   <div class="image-div  box-table bg-fixed shadow "
-                   style="background-image: url(assets/img/areese_student_gargi.jpg); height:300px;width:500px">
+                  style="background-image: url(assets/img/areese_student_gargi.jpg); height:220px;width:350px">
                      <div class="video-info">
             <div class="overlay-video">
               <a
                 class="popup-youtube video-play-button"
                 href="https://www.youtube.com/watch?v=Adh4zjMxQG0"
               >
-                <i class="fa fa-play"></i>
+               <i class="fa-solid fa-play fa-2xs"></i>
               </a>
             </div>
           </div>

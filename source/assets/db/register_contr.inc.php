@@ -27,10 +27,25 @@ return false ;
 }
 }
 
+function phoneNumberAlreadyExists(object $pdo, string $phone){
+  if(getPhoneNumber($pdo,$phone)){
+    return true;
+  }else{
+    false;
+  }
+}
+
 function isUsernameTaken(object $pdo, string $username){
   if(getUsername($pdo,$username)){
     return true;
   }else{
     false;
   }
+}
+
+
+
+function createUser(object $pdo, string $username, string $pass,string $phone){
+  registerUser($pdo , $username, $pass, $phone);
+
 }

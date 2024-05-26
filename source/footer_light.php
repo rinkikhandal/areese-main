@@ -13,7 +13,19 @@
                 </p>
                 <div class="social">
                   <ul>
-                    <li>
+                    <li class="">
+                <a href="https://www.facebook.com/AreeseCareerInstitute"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="">
+                <a href="https://www.linkedin.com/company/areese/"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+              </li>
+              <li class="" >
+                <a href="https://www.instagram.com/areesecareerinstitute/" ><i class="fa-brands fa-instagram fa-lg"></i></a>
+              </li>
+              <li class="" >
+                <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" ><i class="fa-brands fa-youtube fa-lg"></i></a>
+              </li>
+                    <!-- <li>
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
@@ -23,8 +35,8 @@
                       <a href="#"><i class="fab fa-google-plus-g"></i></a>
                     </li>
                     <li>
-                      <a href="#"><i class="fab fa-dribbble"></i></a>
-                    </li>
+                      <a href="#"><i class="fab fa-dribbble"></i></a> -->
+                    <!-- </li> -->
                   </ul>
                 </div>
               </div>

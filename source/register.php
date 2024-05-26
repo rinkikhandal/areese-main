@@ -1,24 +1,20 @@
-<?php
-require_once './assets/db/config_session.inc.php';
-require_once './assets/db/register_view.inc.php';
-?>
 <form action="assets/db/register.inc.php" method="POST" id="register-form"  class="mfp-hide white-popup-block register-form">
       <div class="col-md-4 login-social">
         <h4>Register with social</h4>
         <ul>
           <li class="facebook">
-            <a href="#">
+            <a href="https://www.facebook.com/AreeseCareerInstitute">
               <i class="fab fa-facebook-f"></i>
             </a>
           </li>
-          <li class="twitter">
-            <a href="#">
-              <i class="fab fa-twitter"></i>
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/company/areese/">
+              <i class="fab fa-linkedin-in fa-lg"></i>
             </a>
           </li>
-          <li class="linkedin">
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
+          <li class="instagram">
+            <a href="https://www.instagram.com/areesecareerinstitute/" style=" background-color: #e43187">
+              <i class="fa-brands fa-instagram fa-lg"></i>
             </a>
           </li>
         </ul>
@@ -59,7 +55,7 @@ require_once './assets/db/register_view.inc.php';
         </div>
         <div class="col-md-12">
           <div class="row">
-            <button type="submit" id="submit" name="Signup">Sign up</button>
+            <button type="submit" id="register-submit" name="Signup">Sign up</button>
           </div>
         </div>
         <!-- Alert Message -->

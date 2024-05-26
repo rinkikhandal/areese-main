@@ -1,20 +1,20 @@
- <form action="#" id="login-form" class="mfp-hide white-popup-block">
+<form action="./assets/db/login.inc.php" id="login-form" class="mfp-hide white-popup-block login-form">
       <div class="col-md-4 login-social">
         <h4>Login with social</h4>
         <ul>
           <li class="facebook">
-            <a href="#">
+            <a href="https://www.facebook.com/AreeseCareerInstitute">
               <i class="fab fa-facebook-f"></i>
             </a>
           </li>
-          <li class="twitter">
-            <a href="#">
-              <i class="fab fa-twitter"></i>
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/company/areese/">
+              <i class="fab fa-linkedin-in fa-lg"></i>
             </a>
           </li>
-          <li class="linkedin">
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
+          <li class="instagram">
+            <a href="https://www.instagram.com/areesecareerinstitute/" style=" background-color: #e43187">
+              <i class="fa-brands fa-instagram fa-lg"></i>
             </a>
           </li>
         </ul>
@@ -47,7 +47,13 @@
         </div>
         <div class="col-md-12">
           <div class="row">
-            <button type="submit" name="login">Login</button>
+            <button type="submit"  id="login-submit" name="login">Login</button>
+          </div>
+        </div>
+         <!-- Alert Message -->
+        <div class="col-md-12 alert-notification" style=";">
+          <div id="message" class="alert-msg"  >
+            
           </div>
         </div>
         <p class="link-bottom">

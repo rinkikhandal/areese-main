@@ -1,3 +1,9 @@
 {
-  "cSpell.words": ["dbpassword", "dbusername", "ERRMODE", "registrationareese"]
+  "cSpell.words": [
+    "dbpassword",
+    "dbusername",
+    "ERRMODE",
+    "loggedin",
+    "registrationareese"
+  ]
 }
