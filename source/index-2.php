@@ -202,54 +202,6 @@ include './links.php';
                   propriety immediate was improving.
                 </p>
               </div>
-
-              <!-- Start Fatures -->
-              <!-- <div class="our-features">
-                <div class="col-md-6 col-sm-6">
-                  <div class="item mariner">
-                    <div class="icon">
-                      <i class="flaticon-faculty-shield"></i>
-                    </div>
-                    <div class="info">
-                      <h4>Expert faculty</h4>
-                      <a href="#">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="item java">
-                    <div class="icon">
-                      <i class="flaticon-book-2"></i>
-                    </div>
-                    <div class="info">
-                      <h4>Online Learning</h4>
-                      <a href="#">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="item malachite">
-                    <div class="icon">
-                      <i class="flaticon-education"></i>
-                    </div>
-                    <div class="info">
-                      <h4>Scholarship</h4>
-                      <a href="#">Read More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                  <div class="item brilliantrose">
-                    <div class="icon">
-                      <i class="flaticon-university-campus"></i>
-                    </div>
-                    <div class="info">
-                      <h4>Beautiful Campus</h4>
-                      <a href="#">Read More</a>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
           <!-- End Our Features -->
@@ -258,7 +210,7 @@ include './links.php';
           <div class="col-md-4 home-sidebar for_margin">
             <!-- Start Online Registration -->
             <div class="sidebar-item online-registration">
-              <h4>Online Registration</h4>
+              <h4>Enquiry Form</h4>
               <div class="reg-form">
                 <form action="#">
                   <div class="row">
@@ -289,10 +241,18 @@ include './links.php';
                         />
                       </div>
                     </div>
-                   
                     <div class="col-md-12">
-                      <button class="button-sm button-theme" type="submit">
-                        Rigister Now
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          placeholder="Enter your query*"
+                          type="text"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="button-sm button-theme" id="enquiry-submit" type="submit">
+                        Submit
                       </button>
                     </div>
                   </div>

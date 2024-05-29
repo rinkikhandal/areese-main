@@ -8,8 +8,8 @@
 /* for the ntse ones======= */
 .card-body > h3 {
   color: #002147;
-  font-size:2.2rem;
-  font-weight:800;
+  font-size: 2.2rem;
+  font-weight: 800;
   transition: var(--tansition-1);
 }
 
@@ -26,27 +26,22 @@
   background-color: #f6a262;
 }
 
-.card-body p.card-text{
-  color:green;
-  font-size:1.5rem;
-  font-weight:700;
-  margin-bottom:5px;
+.card-body p.card-text {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
-.card-body h5.card-text{
-  font-size:1.5rem;
-  font-weight:800;
-  margin-bottom:5px;
+.card-body h5.card-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 /* for the ntse ones======= */
 
 /* online registration ======= in index-2 */
 
-@media (min-width: 768px) {
-  .home-sidebar {
-    margin-top: 40px;
-  }
-}
 /* online registration ======= in index-2 */
 
 /* for the ntse ones======= */
@@ -304,4 +299,12 @@ form .alert-notification .alert-success-p {
   z-index: 1;
   height: 100%;
   width: 100%;
+}
+
+
+/* enquiry */
+.reg-form textarea{
+    border: 1px solid #e7e7e7;
+    border-radius: inherit;
+    box-shadow: inherit;
 }
