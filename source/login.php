@@ -1,4 +1,4 @@
-<form action="./assets/db/login.inc.php" id="login-form" class="mfp-hide white-popup-block login-form">
+<form action="./assets/db/login.inc.php" id="login-form" class="mfp-hide white-popup-block login-form" method="POST">
       <div class="col-md-4 login-social">
         <h4>Login with social</h4>
         <ul>

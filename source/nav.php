@@ -45,7 +45,7 @@
               <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="index.html">
-              <img src="assets/img/logo.png" class="logo" alt="Logo" />
+              <img src="assets/img/logo.png" class="logo" alt="Logo" style="height:45px"/>
             </a>
           </div>
           <!-- End Header Navigation -->

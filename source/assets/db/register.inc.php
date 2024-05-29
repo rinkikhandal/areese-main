@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     };
 
       if(isNotValidPhoneNumber($phone)){
-        $errors["phone_not_valid"]="Please enter correct  Phone Number!";
+        $errors["invalid Phone Number"]="Please enter correct  Phone Number!";
 
     };
 
@@ -65,10 +65,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
       $data["errors"]=null;
       $data["success"]=["successfully_registered"=>"Registered  Successfully!"];
-      $data["user_details"]=["username"=>$username, "phone"=>$phone];
+      
       echo json_encode($data);
 
-      $_SESSION["user_details"]=["username"=>$username, "phone"=>$phone];
 
       $pdo=null;
       $stmt=null;

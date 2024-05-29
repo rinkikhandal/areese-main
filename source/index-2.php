@@ -15,8 +15,6 @@ include './links.php';
     <!-- Preloader Start -->
     <div class="se-pre-con"></div>
     <!-- Preloader Ends -->
-
-
     <!-- Start Header Top 
     ============================================= -->
 <?php include './header_top.php';?>
@@ -127,7 +125,7 @@ include './links.php';
                     <div class="col-md-8">
                       <div class="content">
                         <h1 data-animation="animated fadeInUp">
-                          Join the bigest online <span>free resourses</span>
+                          Join the biggest online <span>free resources</span>
                         </h1>
                         <p data-animation="animated fadeInUp">
                           Supposing breakfast day fulfilled off depending
@@ -186,7 +184,7 @@ include './links.php';
                 <h5>Introduction</h5>
                 <h1>Welcome to AREESE Institute - A path of revolutionary learning</h1>
                 <p>
-                 with the legacy of over 10 years areese institute has been guiding students aspiring to crack the JEE and neet and has also produced remarkable results in this field as well. we adopt a holistic approach for our students to not only develop academicaly but also in other fields in life.  With a team of experienced and qualified teachers, we provide a comprehensive curriculum that covers all aspects of the subjects we teach.
+                with the legacy of over 10 years areese institute has been guiding students aspiring to crack the JEE and neet and has also produced remarkable results in this field as well. we adopt a holistic approach for our students to not only develop academically but also in other fields in life.  With a team of experienced and qualified teachers, we provide a comprehensive curriculum that covers all aspects of the subjects we teach.
                 </p>
                 <p>
                   Curiosity incommode now led smallness allowance. Favour bed
@@ -212,7 +210,7 @@ include './links.php';
             <div class="sidebar-item online-registration">
               <h4>Enquiry Form</h4>
               <div class="reg-form">
-                <form action="#">
+                <form action="./assets/db/query.inc.php" class="enquiry-form" method="POST">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="form-group">
@@ -220,6 +218,7 @@ include './links.php';
                           class="form-control"
                           placeholder="Name*"
                           type="text"
+                          name="username"
                         />
                       </div>
                     </div>
@@ -228,7 +227,7 @@ include './links.php';
                         <input
                           class="form-control"
                           placeholder="Email*"
-                          type="email"
+                          type="email" name="email" 
                         />
                     </div>
                       </div>
@@ -238,6 +237,7 @@ include './links.php';
                           class="form-control"
                           placeholder="Phone*"
                           type="tel"
+                          name="phone"
                         />
                       </div>
                     </div>
@@ -247,9 +247,20 @@ include './links.php';
                           class="form-control"
                           placeholder="Enter your query*"
                           type="text"
+                          name="query"
                         ></textarea>
                       </div>
                     </div>
+                    <!-- Alert Message -->
+                    <div class="col-md-12 alert-notification" style="display:flex;justify-content:center">
+                    <div class="form-group" style="width:90%">
+                      <div id="enquiry-message" class="alert-msg"  >
+                      </div>
+                      </div>
+                    </div>
+                    <!-- End Alert Message -->
+
+
                     <div class="col-md-12">
                       <button class="button-sm button-theme" id="enquiry-submit" type="submit">
                         Submit
@@ -439,7 +450,6 @@ include './links.php';
                   </p>
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
-
                   <p class="">Foundation ∣ Pre-Foundation</p>
                   <p>NTSE ∣ Olympiad ∣ Board</p>
                   <a

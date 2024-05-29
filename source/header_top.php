@@ -22,7 +22,7 @@
             <?php
             if(isset($_SESSION["user_username"])){
               ?>
-              <a class="logout" href="./assests/db/logout.inc.php">
+              <a class="logout" href="./assets/db/logout.inc.php">
               <i class="fa-solid fa-arrow-right"></i> Logout
             </a>
               
