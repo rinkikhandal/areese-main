@@ -19,9 +19,24 @@
             <a class="popup-with-form" href="#register-form">
               <i class="fas fa-edit"></i> Register
             </a>
-            <a class="popup-with-form" href="#login-form">
+            <?php
+            if(isset($_SESSION["user_username"])){
+              ?>
+              <a class="logout" href="./assests/db/logout.inc.php">
+              <i class="fa-solid fa-arrow-right"></i> Logout
+            </a>
+              
+              <?php
+            }else{
+              ?>
+               <a class="popup-with-form" href="#login-form">
               <i class="fas fa-user"></i> Login
             </a>
+              
+              <?php
+            }
+            ?>
+           
           </div>
         </div>
       </div>

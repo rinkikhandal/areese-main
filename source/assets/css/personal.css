@@ -6,8 +6,10 @@
 }
 
 /* for the ntse ones======= */
-.card-body > h4 {
+.card-body > h3 {
   color: #002147;
+  font-size:2.2rem;
+  font-weight:800;
   transition: var(--tansition-1);
 }
 
@@ -22,6 +24,19 @@
 
 .card-body > .btn:hover {
   background-color: #f6a262;
+}
+
+.card-body p.card-text{
+  color:green;
+  font-size:1.5rem;
+  font-weight:700;
+  margin-bottom:5px;
+}
+
+.card-body h5.card-text{
+  font-size:1.5rem;
+  font-weight:800;
+  margin-bottom:5px;
 }
 /* for the ntse ones======= */
 

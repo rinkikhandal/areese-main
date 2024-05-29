@@ -442,13 +442,13 @@ include './links.php';
                 </div>
                 <div class="card-body info text-center">
                   <!-- <i class="fa-solid fa-book-open"></i> -->
-                  <h4>Areese Career Institute</h4>
+                  <h3>Areese Career Institute</h4>
                   <p class="card-text">Offline Class</p>
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
-                  <p class="card-text">Foundation ∣ Pre-Foundation</p>
-                  <p class="card-text">NTSE ∣ Olympiad ∣ Boards</p>
-                  <p class="card-text mb-2">( Science ∣ Commerce )</p>
+                  <p class="">Foundation ∣ Pre-Foundation</p>
+                  <p class="">NTSE ∣ Olympiad ∣ Boards</p>
+                  <p class=" mb-2">( Science ∣ Commerce )</p>
                   <a
                     href="http://www.bestinstituteforboardexam.com/"
                     class="btn btn-outline"
@@ -471,7 +471,7 @@ include './links.php';
                 </div>
                 <div class="card-body info text-center">
                   <!-- <i class="fa-solid fa-desktop"></i> -->
-                  <h4>Areese Online Classes</h4>
+                  <h3>Areese Online Classes</h4>
 
                   <p class="card-text">
                     Pay after Selection Batch <br />
@@ -480,7 +480,7 @@ include './links.php';
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
 
-                  <p class="card-text">Foundation ∣ Pre-Foundation</p>
+                  <p class="">Foundation ∣ Pre-Foundation</p>
                   <p>NTSE ∣ Olympiad ∣ Board</p>
                   <a
                     href="https://areese.courses.store/"
@@ -504,7 +504,7 @@ include './links.php';
                 </div>
                 <div class="card-body info text-center">
                   <!-- <i class="fa-solid fa-school"></i> -->
-                  <h4 class="card-title">Areese Gurukulam</h4>
+                  <h3 class="card-title">Areese Gurukulam</h4>
 
                   <p class="card-text">
                     Pay after Selection Batch <br />
@@ -513,7 +513,7 @@ include './links.php';
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
 
-                  <p class="card-text">Foundation ∣ Olympiad</p>
+                  <p class="">Foundation ∣ Olympiad</p>
                   <p>Fully Residential Program</p>
                   <a
                     href="http://www.areesegurukulam.com/"
