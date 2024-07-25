@@ -25,8 +25,8 @@
               <a class="logout" href="./assets/db/logout.inc.php">
               <i class="fa-solid fa-arrow-right"></i> Logout
             </a>
-              
               <?php
+              // echo $_SESSION["user_username"];
             }else{
               ?>
                <a class="popup-with-form" href="#login-form">

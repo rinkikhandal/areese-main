@@ -152,12 +152,12 @@
                         <h6 class="title">User Pages</h6>
                         <div class="content">
                           <ul class="menu-col">
-                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="profile.php">Profile</a></li>
                             <li>
-                              <a href="edit-profile.html">Edit Profile</a>
+                              <a href="edit-profile.php">Edit Profile</a>
                             </li>
-                            <li><a href="login.html">login</a></li>
-                            <li><a href="register.html">register</a></li>
+                            <li><a class="popup-with-form" href="#login-form">login</a></li>
+                            <li><a class="popup-with-form" href="#register-form">register</a></li>
                           </ul>
                         </div>
                       </div>
@@ -166,7 +166,7 @@
                         <h6 class="title">Other Pages</h6>
                         <div class="content">
                           <ul class="menu-col">
-                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
                             <li><a href="faq.html">Faq</a></li>
                             <li>
                               <a href="pricing-table.html">Pricing Table</a>
@@ -256,7 +256,7 @@
                 <a href="blog-standard.php">Blog</a>
               </li>
               <li>
-                <a href="blog-standard.php">About Us</a>
+                <a href="about-us.php">About Us</a>
               </li>
             </ul>
           </div>
@@ -283,7 +283,7 @@
               <li><a href="./profile.php">Profile</a></li>
               <li><a href="#">Courses</a></li>
               <li><a href="#">Recent Order</a></li>
-              <li><a href="#">Edit Profile</a></li>
+              <li><a href="./edit-profile.php">Edit Profile</a></li>
               <li><a href="#">Logout</a></li>
             </ul>
           </div>

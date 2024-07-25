@@ -14,16 +14,16 @@
                 <div class="social">
                   <ul>
                     <li class="">
-                <a href="https://www.facebook.com/AreeseCareerInstitute"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/AreeseCareerInstitute" target="_blank"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li class="">
-                <a href="https://www.linkedin.com/company/areese/"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                <a href="https://www.linkedin.com/company/areese/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
               </li>
               <li class="" >
-                <a href="https://www.instagram.com/areesecareerinstitute/" ><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/areesecareerinstitute/"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
               </li>
               <li class="" >
-                <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" ><i class="fa-brands fa-youtube fa-lg"></i></a>
+                <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA"  target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
               </li>
                     <!-- <li>
                       <a href="#"><i class="fab fa-facebook-f"></i></a>

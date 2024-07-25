@@ -4575,7 +4575,7 @@ body,
 }
 
 /* ============================================================== 
-     # Edit Profile 
+    # Edit Profile 
 =================================================================== */
 
 .edit-profile .update-info img {
@@ -4587,24 +4587,44 @@ body,
   width: 120px;
 }
 
-.edit-profile .update-info h4 {
+.edit-profile .user-info-update h4 {
   font-weight: 600;
   margin-bottom: 20px;
+  margin-left: 15px;
+  font-size: 2rem;
 }
 
-.edit-profile .update-info input {
+.edit-profile .user-info-update input {
   border: 1px solid #e7e7e7;
   box-shadow: inherit;
 }
 
-.edit-profile .update-info textarea {
+.edit-profile .user-info-update textarea {
   border: 1px solid #e7e7e7;
   box-shadow: inherit;
   min-height: 120px;
   padding: 15px;
 }
 
-.edit-profile .update-info button {
+@media (max-width: 991px) {
+  .name-sec {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+  .edit-profile .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .edit-profile .container {
+    width: 80%;
+  }
+}
+
+.update-user-info-btn {
   background: #f58026 none repeat scroll 0 0;
   border: medium none;
   box-shadow: inherit;
