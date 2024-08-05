@@ -450,7 +450,7 @@ require_once './assets/db/config_session.inc.php';
       <div class="row">
         <div class="top-cat-items">
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch-1.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-feature"></i> -->
                 <!-- <img src="assets/img/1.png" alt="" style="width:40px"> -->
@@ -462,7 +462,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch-2.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-interaction"></i> -->
                 <!-- <img src="assets/img/1.png" alt=""> -->
@@ -474,7 +474,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch-3.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-conveyor"></i> -->
                 <div class="info">
