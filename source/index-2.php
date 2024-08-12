@@ -450,7 +450,7 @@ require_once './assets/db/config_session.inc.php';
       <div class="row">
         <div class="top-cat-items">
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch-1.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-1.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-feature"></i> -->
                 <!-- <img src="assets/img/1.png" alt="" style="width:40px"> -->
@@ -462,7 +462,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch-2.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-2.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-interaction"></i> -->
                 <!-- <img src="assets/img/1.png" alt=""> -->
@@ -474,7 +474,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch-3.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-3.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-conveyor"></i> -->
                 <div class="info">
@@ -485,7 +485,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-4.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-education"></i> -->
                 <div class="info">
@@ -496,7 +496,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-11.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-potential"></i> -->
                 <div class="info">
@@ -507,7 +507,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-6.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-print"></i> -->
                 <div class="info">
@@ -518,7 +518,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-14.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-translate"></i> -->
                 <div class="info">
@@ -529,7 +529,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-8.png)">
               <a href="#">
                 <!-- <i class=</a></div>"flaticon-firewall"></i> -->
                 <div class="info">
@@ -540,7 +540,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-9.png)">
               <a href="#">
                 <!-- <i class="flaticon-artificial-intelligence"></i> -->
                 <div class="info">
@@ -551,7 +551,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-16.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-firewall"></i> -->
                 <div class="info">
@@ -562,7 +562,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-18.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-firewall"></i> -->
                 <div class="info">
@@ -575,7 +575,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/teaching.jpg)">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-12.jpg)">
               <a href="#">
                 <!-- <i class="flaticon-firewall"></i> -->
                 <div class="info">
