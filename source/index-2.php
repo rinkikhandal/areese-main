@@ -370,7 +370,7 @@ require_once './assets/db/config_session.inc.php';
             <div class="item">
               <div class="thumb">
                 <a href="#">
-                  <img src="assets/img/online.jpg" alt="Thumb" />
+                  <img src="assets/img/online-2.jpg" alt="Thumb" />
                 </a>
                 <!-- <div class="overlay">
                   <a class="btn btn-theme effect btn-sm" href="#">

@@ -77,8 +77,8 @@ require_once './assets/db/config_session.inc.php';
                 <div class="info">
                   <h4>Address</h4>
                   <span
-                    >80/4, 2nd floor, Rathore Tower,Opp. Sanganer Bus
-                    Depot,Pratap Nagar, Jaipur 302033</span
+                    >80/4, 2nd floor, Rathore Tower, Opp. Sanganer Bus
+                    Depot, Pratap Nagar, Jaipur 302033</span
                   >
                 </div>
               </div>
