@@ -49,6 +49,8 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
             messageElement
           );
         } else if (responseData.success) {
+          let { phone, email } = responseData.info;
+
           displayMessages(
             responseData.success,
             "alert alert-success-p",
@@ -57,8 +59,19 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
 
           // Clear the form fields
           event.target.reset();
+
+          // // Open OTP popup
+          // magnificPopup.open({
+          //   items: {
+          //     src: "#registration-success", // Selector for the OTP popup
+          //     type: "inline",
+          //   },
+          //   preloader: false,
+          //   focus: "#otp", // Focus on the OTP input when the popup opens
+          // });
         }
 
+        //in case of error clear after 60s
         setTimeout(() => {
           event.target.reset();
         }, 60000);
@@ -202,65 +215,70 @@ document
     submitData(action, formData);
   });
 
-// user-info-update from===================
+// =====Toggle eye for password======
 
-document
-  .querySelector(".user-info-update")
-  .addEventListener("submit", function (e) {
-    e.preventDefault();
+const passIcons = document.querySelectorAll(".eye-icon");
 
-    var action = this.getAttribute("action");
-    var formData = new FormData(this);
+passIcons.forEach((icon) => {
+  icon.addEventListener("click", (e) => {
+    // toggle the type attribute
+    const type =
+      e.currentTarget.previousElementSibling.getAttribute("type") === "password"
+        ? "text"
+        : "password";
 
-    var submitButton = document.getElementById("user-info-message");
-    var messageElement = document.getElementById("user-info-submit");
+    e.currentTarget.previousElementSibling.setAttribute("type", type);
 
-    // Show loader
-    var loader = document.createElement("img");
-    loader.src = "assets/img/ajax-loader.gif";
-    loader.className = "loader";
-    submitButton.parentNode.insertBefore(loader, submitButton.nextSibling);
-    submitButton.disabled = true;
-
-    console.log(Object.fromEntries(formData));
-
-    // Send form data using Axios
-    const submitData = async (url, data) => {
-      try {
-        let response = await axios.post(url, data);
-        const responseData = response.data;
-
-        // console.log(responseData.user_details);
-
-        // Determine whether to show errors or success messages
-        // console.log(responseData);
-        if (responseData.errors) {
-          displayMessages(
-            responseData.errors,
-            "alert alert-error-p",
-            messageElement
-          );
-        } else {
-          displayMessages(
-            responseData.success,
-            "alert alert-success-p",
-            messageElement
-          );
-
-          // Clear the form fields
-          event.target.reset();
-        }
-
-        // event.target.reset();
-
-        loader.parentNode.removeChild(loader); // Remove loader
-        submitButton.disabled = false; // Enable submit button
-      } catch (error) {
-        console.error("Request failed", error);
-        loader.parentNode.removeChild(loader); // Remove loader in case of error
-        submitButton.disabled = false; // Enable submit button in case of error
-      }
-    };
-
-    submitData(action, formData);
+    // toggle the icon
+    e.currentTarget.classList.toggle("fa-eye");
   });
+});
+
+// OTP form handling  =============================
+
+const inputs = document.querySelectorAll(".otp-field input");
+inputs.forEach((input, index) => {
+  input.dataset.index = index;
+  input.addEventListener("keyup", handleOtp);
+  input.addEventListener("paste", handleOnPasteOtp);
+});
+
+function handleOtp(e) {
+  const input = e.target;
+  let value = input.value;
+  let isValidInput = value.match(/[0-9a-z]/gi);
+  input.value = "";
+  input.value = isValidInput ? value[0] : "";
+  let fieldIndex = input.dataset.index;
+  if (fieldIndex < inputs.length - 1 && isValidInput) {
+    input.nextElementSibling.focus();
+  }
+  if (e.key === "Backspace" && fieldIndex > 0) {
+    input.previousElementSibling.focus();
+  }
+  if (fieldIndex == inputs.length - 1 && isValidInput) {
+    submit();
+  }
+}
+
+function handleOnPasteOtp(e) {
+  const data = e.clipboardData.getData("text");
+  const value = data.split("");
+  if (value.length === inputs.length) {
+    inputs.forEach((input, index) => (input.value = value[index]));
+    submit();
+  }
+}
+
+function submit() {
+  console.log("Submitting...");
+  // 👇 Entered OTP
+  let otp = "";
+  inputs.forEach((input) => {
+    otp += input.value;
+    input.disabled = true;
+    input.classList.add("disabled");
+  });
+  console.log(otp);
+  // 👉 Call API below
+}

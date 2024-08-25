@@ -24,11 +24,18 @@
     <div class="col-md-12">
       <div class="row">
         <div class="form-group">
-          <input class="form-control" placeholder="Phone*" type="tel" name="phone" />
+          <input class="form-control" placeholder="Phone*" type="tel" name="phone" id="phone" />
         </div>
       </div>
     </div>
     <div class="col-md-12">
+      <div class="row">
+        <div class="form-group">
+          <input class="form-control" placeholder="Email*" type="email" name="email" id="email" />
+        </div>
+      </div>
+    </div>
+    <div class=" col-md-12">
       <div class="row">
         <div class="form-group">
           <input class="form-control" placeholder="Username*" type="text" name="name" />
@@ -37,15 +44,17 @@
     </div>
     <div class="col-md-12">
       <div class="row">
-        <div class="form-group">
+        <div class="form-group " style="position:relative;">
           <input class="form-control" placeholder="Password*" type="password" name="password" />
+          <i class="fa-solid  fa-eye-slash  eye-icon"></i>
         </div>
       </div>
     </div>
     <div class="col-md-12">
       <div class="row">
-        <div class="form-group">
+        <div class="form-group " style="position:relative;">
           <input class="form-control" placeholder="Repeat Password*" type="password" name="confirm-password" />
+          <i class="fa-solid  fa-eye-slash  eye-icon"></i>
         </div>
       </div>
     </div>
@@ -61,5 +70,20 @@
       </div>
     </div>
     <p class="link-bottom">Are you a member? <a class="popup-with-form" href="#login-form">Login now</a></p>
+  </div>
+</form>
+
+<!-- ============= OTP Verification Form =========== -->
+
+<form id="registration-success" class="mfp-hide white-popup-block otp-form" action="" method="POST">
+  <p>Registration successful! Please enter the OTP sent to your phone number.</p>
+  <h1>Enter OTP</h1>
+  <div class="otp-field">
+    <input type="text" maxlength="1" />
+    <input type="text" maxlength="1" />
+    <input class="space" type="text" maxlength="1" />
+    <input type="text" maxlength="1" />
+    <input type="text" maxlength="1" />
+    <input type="text" maxlength="1" />
   </div>
 </form>

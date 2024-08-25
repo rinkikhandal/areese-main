@@ -129,7 +129,7 @@
 
     /* ==================================================
                     # Magnific popup init
-                 ===============================================*/
+===============================================*/
     $(".popup-link").magnificPopup({
       type: "image",
       // other options
@@ -146,8 +146,23 @@
     $(".popup-with-form").magnificPopup({
       type: "inline",
       preloader: false,
-      focus: "#name",
+      focus: "#phone",
+      // callbacks: {
+      //   open: function () {
+      //     // Focus on multiple elements
+      //     $("#name").focus(); // Focus on the first element
+      //     $("#otp").focus(); // Optionally focus on a second element
+      //     // Add more as needed
+      //   },
+      // },
     });
+
+    // // Initialize Magnific Popup for OTP popup
+    // $(".popup-with-otp").magnificPopup({
+    //   type: "inline",
+    //   preloader: false,
+    //   focus: "#otp", // Focus on the OTP input when the popup opens
+    // });
 
     $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
       type: "iframe",

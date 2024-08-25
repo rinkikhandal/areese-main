@@ -329,3 +329,116 @@ form .alert-notification .alert-success-p {
   padding: 0px 6px;
   border-radius: 0.4rem;
 }
+
+/* OTP */
+
+.otp-field {
+  display: flex;
+}
+.otp-field input {
+  width: 24px;
+  font-size: 32px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+  border: 1px solid #e7e7e9;
+  background: #fff;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  transition: all 0.1s;
+}
+
+.otp-field input:focus {
+  border: 0.2px solid #66afe9;
+  box-shadow: 0 0 1px 1px #66afe9;
+}
+.disabled {
+  opacity: 0.5;
+}
+.space {
+  margin-right: 1rem !important;
+}
+
+/* PASSWORD INPUT */
+/* 
+.form-control-pass {
+  display: flex;
+  height: 100%;
+  max-height: 52px;
+  color: #555 !important;
+  width: 100%;
+  padding: 6px 12px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-control-pass input.pass-inp {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: none;
+  padding: none;
+  height: 100%;
+  width: 100%;
+}
+
+.form-control-pass:focus-within {
+  border-color: #66afe9 !important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.form-control-pass i {
+  height: 100%;
+  display: block;
+  color: #6b6a6a;
+  cursor: pointer;
+}*/
+
+.form-control:focus-within,
+.form-control:focus-visible {
+  border-color: #66afe9 !important;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.form-group i {
+  position: absolute;
+  right: 12px;
+  top: 18px;
+  height: 100%;
+  display: block;
+  color: #6b6a6a;
+  cursor: pointer;
+}
+
+/* Forgot Password */
+
+.forgo-pass {
+  margin-top: -10px !important;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.forgo-pass a {
+  color: #f58026;
+}
+
+.forgo-pass a:hover {
+  text-decoration: underline;
+}
