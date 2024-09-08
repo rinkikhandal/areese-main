@@ -24,7 +24,7 @@ function passwordsNotMatch(string $password, string $confirmPassword)
 function isNotValidPhoneNumber(string $phone)
 {
 
-  if (!preg_match('^[6-9]\d{9}$', $phone)) {
+  if (!preg_match('/^[6-9]\d{9}$/', $phone)) {
     return true;
   } else {
     return false;

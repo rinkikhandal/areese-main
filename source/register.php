@@ -74,7 +74,7 @@
 </form>
 
 <!-- ============= OTP Verification Form =========== -->
-
+<!-- 
 <form id="registration-success" class="mfp-hide white-popup-block otp-form" action="" method="POST">
   <p>Registration successful! Please enter the OTP sent to your phone number.</p>
   <h1>Enter OTP</h1>
@@ -86,4 +86,4 @@
     <input type="text" maxlength="1" />
     <input type="text" maxlength="1" />
   </div>
-</form>
+</form> -->

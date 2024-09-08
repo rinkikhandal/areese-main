@@ -19,6 +19,7 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
 
     var action = this.getAttribute("action");
     var formData = new FormData(this);
+    console.log(Object.fromEntries(formData));
 
     var submitButton = document.getElementById("register-submit");
     var messageElement = document.getElementById("message");
@@ -39,7 +40,7 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
         let response = await axios.post(url, data);
         const responseData = response.data;
 
-        // console.log(responseData.user_details);
+        console.log(responseData);
 
         // Determine whether to show errors or success messages
         if (responseData.errors) {
@@ -57,18 +58,10 @@ document.querySelectorAll(".register-form").forEach((formInstance) => {
             messageElement
           );
 
+          console.log(responseData.success);
+
           // Clear the form fields
           event.target.reset();
-
-          // // Open OTP popup
-          // magnificPopup.open({
-          //   items: {
-          //     src: "#registration-success", // Selector for the OTP popup
-          //     type: "inline",
-          //   },
-          //   preloader: false,
-          //   focus: "#otp", // Focus on the OTP input when the popup opens
-          // });
         }
 
         //in case of error clear after 60s
