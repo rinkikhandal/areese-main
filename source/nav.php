@@ -172,7 +172,7 @@
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="advisor-carousel.html">About</a>
+                          <a href="advisor-carousel.html">About Batch</a>
                         </li>
                         <li>
                           <a href="advisor-2-colum.html">Eligibility </a>
@@ -189,7 +189,7 @@
                     <h6 class="title">AREESE Super 30</h6>
                     <div class="content">
                       <ul class="menu-col">
-                        <li><a href="profile.php">About</a></li>
+                        <li><a href="profile.php">About Batch</a></li>
                         <li>
                           <a href="edit-profile.php">Eligibility </a>
                         </li>
@@ -207,7 +207,7 @@
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="gallery-2-colum.html">NEET Pre-Medical</a>
+                          <a href="gallery-2-colum.html">NEET (Pre-Medical)</a>
                         </li>
                         <li class="dropdown">
                           <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
