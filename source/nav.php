@@ -113,12 +113,12 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation </a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">9 <sup>th</sup> Class</a>
+                              <a href="#">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">10 <sup>th</sup> Class</a>
+                              <a href="#">10<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -128,21 +128,21 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">9 <sup>th</sup> Class</a>
+                              <a href="#">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
                             <li>
-                              <a href="#">10 <sup>th</sup> Class</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">11 <sup>th</sup> Class</a>
+                              <a href="#">10<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">12 <sup>th</sup> Class</a>
+                              <a href="#">11<sup>th</sup> Class</a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">12<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -152,12 +152,12 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Commerce</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">11 <sup>th</sup> Class</a>
+                              <a href="#">11<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">12 <sup>th</sup> Class</a>
+                              <a href="#">12<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -229,12 +229,12 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation</a>
                           <ul class="dropdown-menu w-less " role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">9 <sup>th</sup> Class</a>
+                              <a href="#">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">10 <sup>th</sup> Class</a>
+                              <a href="#">10<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -244,22 +244,22 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">9 <sup>th</sup> Class</a>
+                              <a href="#">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">10 <sup>th</sup> Class</a>
+                              <a href="#">10<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">11 <sup>th</sup> Class</a>
+                              <a href="#">11<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">12 <sup>th</sup> Class</a>
+                              <a href="#">12<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -268,10 +268,10 @@
                         <li class="dropdown">
                           <a href="gallery-4-colum.html" class="dropdown-toggle" data-toggle="dropdown">Commerce</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
-                            <li><a href="teachers.html">11 <sup>th</sup> Class</a></li>
+                            <li><a href="teachers.html">11<sup>th</sup> Class</a></li>
                             <hr>
 
-                            <li><a href="teachers-details.html">12 <sup>th</sup> Class</a></li>
+                            <li><a href="teachers-details.html">12<sup>th</sup> Class</a></li>
                           </ul>
 
                         </li>
@@ -315,8 +315,8 @@
                 </ul>
 
               </li>
-              <li><a href="event-3.html">10 <sup>th</sup> Class</a></li>
-              <li><a href="event-3.html">12 <sup>th</sup> Class</a></li>
+              <li><a href="event-3.html">10<sup>th</sup> Class</a></li>
+              <li><a href="event-3.html">12<sup>th</sup> Class</a></li>
             </ul>
           </li>
           <!-- <li class="dropdown">
