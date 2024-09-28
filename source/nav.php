@@ -86,89 +86,197 @@
               <li>
                 <div class="row">
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Gallery</h6>
+                    <h6 class="title">Courses</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="gallery-2-colum.html">Gallery Two Colum</a>
+                          <a href="gallery-2-colum.html">NEET Pre-Medical</a>
                         </li>
-                        <li>
-                          <a href="gallery-3-colum.html">Gallery Three Colum</a>
-                        </li>
-                        <li>
-                          <a href="gallery-4-colum.html">Gallery Four Colum</a>
-                        </li>
-                        <li>
-                          <a href="gallery-6-colum.html">Gallery Six Colum</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <!-- end col-3 -->
-                  <div class="col-menu col-md-3">
-                    <h6 class="title">Advisor</h6>
-                    <div class="content">
-                      <ul class="menu-col">
-                        <li>
-                          <a href="advisor-carousel.html">Advisor Carousel</a>
-                        </li>
-                        <li>
-                          <a href="advisor-2-colum.html">Advisor Two Colum</a>
-                        </li>
-                        <li>
-                          <a href="advisor-3-colum.html">Advisor Three Colum</a>
-                        </li>
-                        <li>
-                          <a href="advisor-carousel-2.html">Advisor Carousel Two</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <!-- end col-3 -->
-                  <div class="col-menu col-md-3">
-                    <h6 class="title">User Pages</h6>
-                    <div class="content">
-                      <ul class="menu-col">
-                        <li><a href="profile.php">Profile</a></li>
-                        <li>
-                          <a href="edit-profile.php">Edit Profile</a>
-                        </li>
-                        <li>
-                          <?php
-                          if (isset($_SESSION["user_username"])) {
-                          ?>
-                            <a class="logout" href="./assets/db/logout.inc.php">
-                              logout
-                            </a>
-                          <?php
-                            // echo $_SESSION["user_username"];
-                          } else {
-                          ?>
-                            <a class="popup-with-form" href="#login-form">
-                              login
-                            </a>
+                        <li class="dropdown">
+                          <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE </a>
+                          <!-- need changes -->
+                          <ul class="dropdown-menu " role="menu">
 
-                          <?php
-                          }
-                          ?>
+                            <li>
+                              <a href="#">JEE Main + BITSAT</a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">JEE Advance + BITSAT</a>
+                            </li>
+
+                          </ul>
+
                         </li>
-                        <!-- <li><a class="popup-with-form" href="#login-form">login</a></li> -->
-                        <li><a class="popup-with-form" href="#register-form">register</a></li>
+                        <li class="dropdown">
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation </a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li>
+                              <a href="#">9 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">10 <sup>th</sup></a>
+                            </li>
+
+                          </ul>
+
+                        </li>
+                        <li class="dropdown">
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
+                          <ul class="dropdown-menu " role="menu">
+                            <li>
+                              <a href="#">9 <sup>th</sup></a>
+                            </li>
+                            <hr>
+                            <li>
+                              <a href="#">10 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">11 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">12 <sup>th</sup></a>
+                            </li>
+
+                          </ul>
+
+                        </li>
+                        <li class="dropdown">
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Commerce</a>
+                          <ul class="dropdown-menu " role="menu">
+                            <li>
+                              <a href="#">11 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">12 <sup>th</sup></a>
+                            </li>
+
+                          </ul>
+
+                        </li>
                       </ul>
                     </div>
                   </div>
                   <!-- end col-3 -->
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Other Pages</h6>
+                    <h6 class="title">Pay After Selection</h6>
                     <div class="content">
                       <ul class="menu-col">
-                        <li><a href="about-us.php">About Us</a></li>
-                        <li><a href="faq.html">Faq</a></li>
                         <li>
-                          <a href="pricing-table.html">Pricing Table</a>
+                          <a href="advisor-carousel.html">About</a>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="404.html">Error Page</a></li>
+                        <li>
+                          <a href="advisor-2-colum.html">Eligibility Test</a>
+                        </li>
+                        <li>
+                          <a href="advisor-3-colum.html">FAQ</a>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- end col-3 -->
+                  <div class="col-menu col-md-3">
+                    <h6 class="title">AREESE Super 30</h6>
+                    <div class="content">
+                      <ul class="menu-col">
+                        <li><a href="profile.php">About</a></li>
+                        <li>
+                          <a href="edit-profile.php">Eligibility Test</a>
+                        </li>
+                        <li>
+                          <a class="popup-with-form" href="#login-form">
+                            FAQ
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- end col-3 -->
+                  <div class="col-menu col-md-3">
+                    <h6 class="title">Online Courses</h6>
+                    <div class="content">
+                      <ul class="menu-col">
+                        <li>
+                          <a href="gallery-2-colum.html">NEET Pre-Medical</a>
+                        </li>
+                        <li class="dropdown">
+                          <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
+                          <!-- need changes -->
+                          <ul class="dropdown-menu " role="menu">
+                            <li>
+                              <a href="#">JEE Main + BITSAT</a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">JEE Advance + BITSAT</a>
+                            </li>
+
+                          </ul>
+
+                        </li>
+                        <li class="dropdown">
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation</a>
+                          <ul class="dropdown-menu " role="menu">
+                            <li>
+                              <a href="#">9 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">10 <sup>th</sup></a>
+                            </li>
+
+                          </ul>
+
+                        </li>
+                        <li class="dropdown">
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
+                          <ul class="dropdown-menu " role="menu">
+                            <li>
+                              <a href="#">9 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">10 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">11 <sup>th</sup></a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="#">12 <sup>th</sup></a>
+                            </li>
+
+                          </ul>
+
+                        </li>
+                        <li class="dropdown">
+                          <a href="gallery-4-colum.html" class="dropdown-toggle" data-toggle="dropdown">Commerce</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="teachers.html">11 <sup>th</sup></a></li>
+                            <hr>
+
+                            <li><a href="teachers-details.html">12 <sup>th</sup></a></li>
+                          </ul>
+
+                        </li>
+                        <li> <a href="#">Subject wise </a></li>
+                        <li> <a href="#">Chapter wise </a></li>
                       </ul>
                     </div>
                   </div>
@@ -198,9 +306,17 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Results</a>
             <ul class="dropdown-menu">
-              <li><a href="event.html">Event Mixed Colum</a></li>
-              <li><a href="event-2.html">Event Grid Colum</a></li>
-              <li><a href="event-3.html">Event Carousel</a></li>
+              <li><a href="event.html">NEET</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">JEE Main</a></li>
+                  <li><a href="#">JEE Advance</a></li>
+                </ul>
+
+              </li>
+              <li><a href="event-3.html">10 <sup>th</sup></a></li>
+              <li><a href="event-3.html">12 <sup>th</sup></a></li>
             </ul>
           </li>
           <!-- <li class="dropdown">
@@ -233,8 +349,12 @@
           <li>
             <a href="contact.php">contact</a>
           </li>
-          <li>
-            <a href="blog-standard.php">Blog & Downloads</a>
+          <li class="dropdown">
+            <a href="blog-standard.php" class="dropdown-toggle" data-toggle="dropdown">Blog </a>
+            <ul class="dropdown-menu">
+              <li><a href="teachers.html">Blogs</a></li>
+              <li><a href="teachers-details.html">Downloads</a></li>
+            </ul>
           </li>
           <li>
             <a href="about-us.php">About Us</a>

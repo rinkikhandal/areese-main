@@ -442,3 +442,18 @@ form .alert-notification .alert-success-p {
 .forgo-pass a:hover {
   text-decoration: underline;
 }
+
+/* li of dropdowns padding */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 0.5px solid #fdf9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding-left: 10px;
+}
