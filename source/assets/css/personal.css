@@ -457,3 +457,19 @@ hr {
 .dropdown-menu li {
   padding-left: 10px;
 }
+
+.dropdown-menu li sup {
+  text-transform: lowercase;
+}
+
+.menu-personal {
+  width: auto;
+  max-width: 200px;
+}
+.w-less {
+  width: 60px !important;
+}
+
+.menu-personal li {
+  text-align: start;
+}
