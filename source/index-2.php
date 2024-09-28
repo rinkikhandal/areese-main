@@ -1050,6 +1050,9 @@ require_once './assets/db/config_session.inc.php';
   <!-- jQuery Frameworks
     ============================================= -->
   <?php include "./jquery-links.php" ?>
+  <script src="assets/js/teachers.js"></script>
+  <script src="assets/js/enquiry.js"></script>
+
 
 </body>
 

@@ -4,7 +4,7 @@
       <div class="f-items">
         <div class="col-md-4 item">
           <div class="f-item">
-            <img src="assets/img/logo-light2.png" alt="Logo" />
+            <img src="assets/img/logo-light2.png" alt="Logo" style="max-width:250px;" />
             <p>
               Excellence decisively nay man yet impression for contrasted
               remarkably. There spoke happy for you are out. Fertile how old

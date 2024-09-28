@@ -46,6 +46,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $errors["username_taken"] = "Username already taken!";
     };
 
+    if (emailExists($pdo, $email)) {
+      $errors["email_exists"] = "Email already exists!";
+    };
+
 
 
 

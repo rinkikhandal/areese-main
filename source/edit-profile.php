@@ -66,34 +66,59 @@ require_once './assets/db/config_session.inc.php';
                     <form action="./assets/db/edit-profile.inc.php" method="POST" enctype="multipart/form-data" class="user-info-update ">
                         <h4>Update Current Info</h4>
 
-                        <div class="col-md-6">
-                            <img src="assets/img/800x800.png" alt="Thumb">
+                        <div class="col-md-6" style="position:relative">
+                            <img src=<?php
+                                        if (isset($_SESSION["user"]) && !empty($_SESSION["user"]["image"]) && $_SESSION["user"]["image"] !== "null") {
+                                            echo $_SESSION["user"]["image"];
+                                        } else {
+                                            echo "assets/img/800x800.png";
+                                        }
+                                        ?>
+                                alt="Thumb" id="imagePreview" style="object-fit:cover;height:100% ">
                             <div class="profile-image">
-                                <label for="profile-pic">Upload image <i class="fa-solid fa-arrow-up-from-bracket"></i></label>
+                                <label for="profile-pic"><i class="fa-solid fa-arrow-up-from-bracket"></i></label>
                                 <input type="file" id="profile-pic" name="profile-pic" accept="image/*" style="display:none;">
                             </div>
                         </div>
                         <div class="col-md-6 name-sec">
-
-
                             <div class="col-md-full ">
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Name" type="text" name="name">
+                                    <input class="form-control" placeholder="Name" type="text" name="name"
+                                        value=<?php
+                                                if (isset($_SESSION["user"])) {
+                                                    echo $_SESSION["user"]["username"];
+                                                } else {
+                                                    echo "";
+                                                }
+                                                ?>>
                                 </div>
                             </div>
                             <div class="col-md-full">
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Email" name="email" type="email">
+                                    <input class="form-control" placeholder="Email" name="email" type="email"
+                                        value=<?php
+                                                if (isset($_SESSION["user"])) {
+                                                    echo $_SESSION["user"]["email"];
+                                                } else {
+                                                    echo "";
+                                                }
+                                                ?>>
                                 </div>
                             </div>
-                            <div class="col-md-full">
+                            <!-- <div class="col-md-full">
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Phone" name="phone" type="text">
+                                    <input class="form-control" placeholder="Phone" name="phone" type="text"
+                                        
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="col-md-full">
                                 <div class="form-group comments">
-                                    <textarea class="form-control" placeholder="About Yourself" name="about"></textarea>
+                                    <textarea class="form-control" placeholder="About Yourself" name="about"><?php
+                                                                                                                if (isset($_SESSION["user"]) && !empty($_SESSION["user"]["about"]) && $_SESSION["user"]["about"] !== "null") {
+                                                                                                                    echo htmlspecialchars($_SESSION["user"]["about"]); // htmlspecialchars to avoid HTML injection
+                                                                                                                }
+                                                                                                                ?></textarea>
+
                                 </div>
                             </div>
                             <!-- Alert Message -->
@@ -153,6 +178,8 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
     <?php include "./jquery-links.php"
     ?>
+    <script src="assets/js/userInfo.js"></script>
+
 
 </body>
 

@@ -178,7 +178,7 @@
               </li>
             </ul>
           </li>
-          <li class="dropdown">
+          <!-- <li class="dropdown">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Courses</a>
             <ul class="dropdown-menu">
               <li><a href="courses.html">Courses Carousel One</a></li>
@@ -187,7 +187,7 @@
               <li><a href="courses-4.html">Courses Carousel Two</a></li>
               <li><a href="course-details.html">Course Details</a></li>
             </ul>
-          </li>
+          </li> -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Faculty</a>
             <ul class="dropdown-menu">
@@ -234,7 +234,7 @@
             <a href="contact.php">contact</a>
           </li>
           <li>
-            <a href="blog-standard.php">Blog</a>
+            <a href="blog-standard.php">Blog & Downloads</a>
           </li>
           <li>
             <a href="about-us.php">About Us</a>
@@ -250,10 +250,17 @@
       <div class="widget">
         <h4 class="title">Users Pages</h4>
         <div class="profile-thumb">
-          <img src="assets/img/800x800.png" alt="Profile" style="margin-bottom:5px;" />
+          <img src=<?php
+                    if (isset($_SESSION["user"]) && !empty($_SESSION["user"]["image"]) && $_SESSION["user"]["image"] !== "null") {
+                      echo $_SESSION["user"]["image"];
+                    } else {
+                      echo "assets/img/800x800.png";
+                    }
+                    ?> alt="Profile" style="margin-bottom:5px;object-fit:cover;height:100%">
+
           <h5 class="username"><?php
-                                if (isset($_SESSION["user_username"])) {
-                                  $username = $_SESSION["user_username"];
+                                if (isset($_SESSION["user"])) {
+                                  $username = $_SESSION["user"]["username"];
                                   echo $username;
                                 } else {
                                   echo "username";
@@ -266,7 +273,7 @@
           <li><a href="#">Recent Order</a></li>
           <li><a href="./edit-profile.php">Edit Profile</a></li>
           <li>
-            <?php if (isset($_SESSION["user_username"])) {
+            <?php if (isset($_SESSION["user"])) {
             ?>
               <a class="logout" href="./assets/db/logout.inc.php">
                 Logout

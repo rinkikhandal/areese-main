@@ -14,6 +14,17 @@ function getUsername(object $pdo, string $username)
   return $result;
 };
 
+function getEmail(object $pdo, string $email)
+{
+  $query = "SELECT email FROM registration WHERE email = :email;";
+  $stmt = $pdo->prepare($query);
+  $stmt->bindParam(':email', $email);
+  $stmt->execute();
+
+  $result = $stmt->fetch(PDO::FETCH_ASSOC);
+  return $result;
+}
+
 function getPhoneNumber(object $pdo, string $phone)
 {
   $query = "SELECT phone FROM registration WHERE phone = :phone;";

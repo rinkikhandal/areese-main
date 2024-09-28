@@ -20,7 +20,7 @@
            <i class="fas fa-edit"></i> Register
          </a>
          <?php
-          if (isset($_SESSION["user_username"])) {
+          if (isset($_SESSION["user"])) {
           ?>
            <a class="logout" href="./assets/db/logout.inc.php">
              <i class="fa-solid fa-arrow-right"></i> Logout

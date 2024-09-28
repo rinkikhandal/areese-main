@@ -54,6 +54,15 @@ function isUsernameTaken(object $pdo, string $username)
   }
 }
 
+function emailExists(object $pdo, string $email)
+{
+  if (getEmail($pdo, $email)) {
+    return true;
+  } else {
+    false;
+  }
+}
+
 
 
 function createUser(object $pdo, string $username, string $pass, string $phone, string $email)
