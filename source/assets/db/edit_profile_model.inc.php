@@ -5,27 +5,43 @@ declare(strict_types=1);
 
 
 
-function updateUserData(object $pdo, string $username, string $email, string $image, string $about)
+function updateUserData(object $pdo, string $username, string $email, ?string $image = null, ?string $about = null): void
 {
-  if ($image === "") {
-    $query = "UPDATE registration SET username = :username, about = :about WHERE email = :email;";
-  } else if ($about === "") {
-    $query = "UPDATE registration SET username = :username, profilePic = :profile_pic WHERE email = :email;";
-  } else if ($about === "" && $image === "") {
-    $query = "UPDATE registration SET username = :username WHERE email = :email;";
-  } else {
+  // Start the query base
+  $query = "UPDATE registration SET username = :username";
 
-    $query = "UPDATE registration SET username = :username, profilePic = :profile_pic, about = :about WHERE email = :email;";
+  // Dynamically append fields if they are provided
+  if (!empty($image)) {
+    $query .= ", profilePic = :profile_pic";
   }
 
+  if (!empty($about)) {
+    $query .= ", about = :about";
+  }
 
+  // Complete the query with the email condition
+  $query .= " WHERE email = :email;";
+
+  // Prepare the statement
   $stmt = $pdo->prepare($query);
+
+  // Bind mandatory parameters
   $stmt->bindParam(":username", $username);
   $stmt->bindParam(":email", $email);
-  $stmt->bindParam(":profile_pic", $image);
-  $stmt->bindParam(":about", $about);
+
+  // Bind optional parameters if present
+  if (!empty($image)) {
+    $stmt->bindParam(":profile_pic", $image);
+  }
+
+  if (!empty($about)) {
+    $stmt->bindParam(":about", $about);
+  }
+
+  // Execute the query
   $stmt->execute();
 }
+
 
 function getUpdatedData(object $pdo, string $email)
 {

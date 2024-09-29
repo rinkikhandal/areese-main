@@ -86,7 +86,7 @@
               <li>
                 <div class="row">
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Courses</h6>
+                    <h6 class="title">Classroom</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li>
@@ -168,7 +168,7 @@
                   </div>
                   <!-- end col-3 -->
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Pay After Selection</h6>
+                    <h6 class="title">Residential Program</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li>
@@ -186,7 +186,7 @@
                   </div>
                   <!-- end col-3 -->
                   <div class="col-menu col-md-3">
-                    <h6 class="title">AREESE Super 30</h6>
+                    <h6 class="title">Online Classes</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li><a href="profile.php">About Batch</a></li>
@@ -203,7 +203,7 @@
                   </div>
                   <!-- end col-3 -->
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Online Courses</h6>
+                    <h6 class="title">Gallery</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li>
@@ -299,8 +299,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Faculty</a>
             <ul class="dropdown-menu">
-              <li><a href="teachers.html">Advisor</a></li>
-              <li><a href="teachers-details.html">Advisor Details</a></li>
+              <li><a href="teachers.php">Advisor</a></li>
+              <!-- <li><a href="teachers-details.php">Advisor Details</a></li> -->
             </ul>
           </li>
           <li class="dropdown">

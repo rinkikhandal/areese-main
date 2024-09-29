@@ -74,7 +74,7 @@ document
           // console.log(responseData.success);
 
           // Clear the form fields
-          event.target.reset();
+          // event.target.reset();
         }
 
         // event.target.reset();

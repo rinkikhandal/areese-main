@@ -85,6 +85,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       $about
     );
 
+    $data["errors"] = null;
+    $data["success"] = ["successfully_updated" => "Updated  Successfully!"];
+
+
     $result = getUpdatedData($pdo, $email);
 
     $data["errors"] = null;
@@ -94,20 +98,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo json_encode($data);
 
     // session variables Updated=========
-    $newSessionId = session_regenerate_id(true);
+    session_regenerate_id(true);
 
-    $sessionId = $newSessionId . "_" . $result["id"];
-
-    session_id($sessionId);
-
-    session_start(); // session start
-
-    $user_credentials = ["id" => $result["id"], "username" => htmlspecialchars($result["username"]), "email" => htmlspecialchars($result["email"]), "phone" => htmlspecialchars($result["phone"]), "image" => $result["profilePic"]];
-
-
-    if (!empty($result["about "]) && $result["about"] !== null) {
-      $user_credentials["about"] = htmlspecialchars($result["about"]);
-    }
+    $user_credentials = ["id" => $result["id"], "username" => htmlspecialchars($result["username"]), "email" => htmlspecialchars($result["email"]), "phone" => htmlspecialchars($result["phone"]), "image" => $result["profilePic"], "about" => htmlspecialchars($result["about"])];
 
     echo $user_credentials;
 

@@ -114,7 +114,7 @@ require_once './assets/db/config_session.inc.php';
                             <div class="col-md-full">
                                 <div class="form-group comments">
                                     <textarea class="form-control" placeholder="About Yourself" name="about"><?php
-                                                                                                                if (isset($_SESSION["user"]) && !empty($_SESSION["user"]["about"]) && $_SESSION["user"]["about"] !== "null") {
+                                                                                                                if (isset($_SESSION["user"]["about"]) && !empty($_SESSION["user"]["about"]) && $_SESSION['user']['about'] !== "null") {
                                                                                                                     echo htmlspecialchars($_SESSION["user"]["about"]); // htmlspecialchars to avoid HTML injection
                                                                                                                 }
                                                                                                                 ?></textarea>
@@ -124,6 +124,7 @@ require_once './assets/db/config_session.inc.php';
                             <!-- Alert Message -->
                             <div class="col-md-full alert-notification" style="">
                                 <div id="user-info-message" class="alert-msg">
+                                    hi
 
                                 </div>
                             </div>

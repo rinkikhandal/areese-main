@@ -47,6 +47,14 @@ const teacherDetails = [
     about: "Together we will learn new things",
     image: "pradeep-sir.png",
   },
+  {
+    id: 7,
+    name: "Suresh Khokhar",
+    subject: "Mathematics",
+    honorific: "Mr.",
+    about: "Together we will learn new things",
+    image: "suresh_sir.jpg",
+  },
 ];
 
 // looping teachers
@@ -73,7 +81,7 @@ teacherDivs.forEach((teacherDiv) => {
                         <p>
                         ${about}
                         </p>
-                        <a href="#">Read More</a>
+                        <a href="./teachers-details.php?id=${id}">Read More</a>
                       </div>
                     </div>
                   </div>
@@ -83,3 +91,5 @@ teacherDivs.forEach((teacherDiv) => {
     })
     .join("");
 });
+
+export { teacherDetails };
