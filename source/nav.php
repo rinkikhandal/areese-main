@@ -306,7 +306,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Results</a>
             <ul class="dropdown-menu">
-              <li><a href="event.html">NEET</a></li>
+              <li><a href="NEET-result.php">NEET</a></li>
               <li class="dropdown">
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
                 <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">

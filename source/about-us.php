@@ -7,7 +7,7 @@ require_once './assets/db/config_session.inc.php';
 
 <head>
     <!-- ========== Meta Tags ========== -->
-    <?php  include "links.php" ?>
+    <?php include "links.php" ?>
 
 </head>
 
@@ -19,25 +19,25 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Header Top 
     ============================================= -->
-  <?php include './header_top.php';?>
+    <?php include './header_top.php'; ?>
 
     <!-- End Header Top -->
 
     <!-- Header 
     ============================================= -->
-   <?php include './nav.php'; ?>
+    <?php include './nav.php'; ?>
 
     <!-- End Header -->
 
-       <!-- Start Login Form 
+    <!-- Start Login Form 
     ============================================= -->
-<?php include './login.php'; ?>
+    <?php include './login.php'; ?>
     <!-- End Login Form -->
 
     <!-- Start Register Form 
     ============================================= -->
 
-<?php include './register.php'; ?>
+    <?php include './register.php'; ?>
     <!-- End Register Form -->
 
     <!-- Start Breadcrumb 
@@ -62,21 +62,19 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
     <div class="about-area default-padding">
         <div class="container">
-            <div class="row">
-                <div class="about-info">
-                    <div class="col-md-6 thumb">
-                        <img src="assets/img/800x800.png" alt="Thumb">
-                    </div>
-                    <div class="col-md-6 info">
+            <div class="row" style="display: grid;place-content: center;">
+                <div class="about-info" style="max-width:1100px;">
+
+                    <div class=" info">
                         <h5>Introduction</h5>
-                        <h2>Welcome to the beigest online learning source of Eduka</h2>
+                        <h2>Welcome to AREESE Institute - A path of revolutionary learning</h2>
                         <p>
-                            Alteration literature to or an sympathize mr imprudence. Of is ferrars subject as enjoyed or tedious cottage. Procuring as in resembled by in agreeable. Next long no gave mr eyes. Admiration advantages no he celebrated so pianoforte unreserved. Not its herself forming charmed amiable. Him why feebly expect future now. 
+                            With the legacy of over 10 years, AREESE is now one of the leading institutes for NEET and JEE preparation. Founded in 2014 by a group of ex-CSRL SUPER-30 faculties, IITians, and NITians. Our mission is to provide unparalleled education and guidance to all students, so that we achieve 100% result in NEET & JEE.
                         </p>
                         <p>
-                            Curiosity incommode now led smallness allowance. Favour bed assure son things yet. She consisted consulted elsewhere happiness disposing household any old the. Widow downs. Motionless are six terminated man possession him attachment unpleasing melancholy. Sir smile arose one share. No abroad in easily relied an whence lovers temper by. Looked wisdom common he an be giving length mr. Dissuade ecstatic and properly saw entirely sir why laughter. frequently apartments off all discretion devonshire.
+                            Inspired by the legendary Super-30 model, where 30 students are rigorously prepared with a 100% success rate, AREESE adopts a unique approach to ensure every student excels. Adopting this proven approach, AREESE strives to ensure that each student, regardless of their starting point, receives the attention, resources, and mentorship they need to excel. By fostering an environment of rigorous academic training, individualized support, and unwavering commitment to student success, we maximize every learner's potential, ensuring that no one is left behind. At AREESE, every student matters, and every student succeeds.
                         </p>
-                        <a href="#" class="btn btn-dark border btn-md">Read More</a>
+                        <!-- <a href="#" class="btn btn-dark border btn-md">Read More</a> -->
                     </div>
                 </div>
                 <div class="seperator col-md-12">
@@ -126,27 +124,31 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
     <div class="wcs-area bg-dark text-light">
         <div class="container-full">
-            <div class="row">
-                <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
-                <div class="col-md-6 content">
+            <div class="" style="display:grid; place-content:center; ">
+                <!-- <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div> -->
+                <div class="content" style="max-width:1000px;">
                     <div class="site-heading text-left">
-                        <h2>Why chose us</h2>
+                        <h2 style="" class="why-aree">Why choose us</h2>
+                        <div class="underline"></div>
                         <p>
-                            Discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression. 
+                            In today's competitive landscape, many institutes focus solely on their top students to produce top ranks, leaving average students behind. This, combined with large batch sizes, makes it nearly impossible to provide personal care and attention, resulting in lower overall selection percentages.
+                        </p>
+                        <p>
+                            AREESE strives to ensure that each student, regardless of their starting point, receives the attention, resources, and mentorship they need to excel. By fostering an environment of rigorous academic training, individualized support, and unwavering commitment to student success, we maximize every learner's potential, ensuring that no one is left behind. At AREESE, every student matters, and every student succeeds.
                         </p>
                     </div>
 
                     <!-- item -->
                     <div class="item">
-                        <div class="icon">
+                        <div class="icon" style="">
                             <i class="flaticon-trending"></i>
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">Trending Courses</a>
+                                <a href="#">Personalized Care</a>
                             </h4>
                             <p>
-                                Absolute required of reserved in offering no. How sense found our those gay again taken the. Had mrs outweigh desirous sex overcame. Improved property reserved disposal do offering me.
+                                We believe that each student’s learning journey is unique. Our approach ensures that every learner receives individualized attention, customized guidance, and ongoing support tailored to their specific academic needs and goals. Whether through one-on-one mentorship, targeted interventions, or bespoke learning plans, we strive to unlock each student’s full potential.
                             </p>
                         </div>
                     </div>
@@ -159,17 +161,17 @@ require_once './assets/db/config_session.inc.php';
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">Books & Library</a>
+                                <a href="#">Small Batch Sizes</a>
                             </h4>
                             <p>
-                                Absolute required of reserved in offering no. How sense found our those gay again taken the. Had mrs outweigh desirous sex overcame. Improved property reserved disposal do offering me.
+                                By maintaining intentionally small class sizes, we prioritize quality over quantity. This enables our dedicated educators to closely monitor each student’s progress, provide focused feedback, and offer personalized strategies that empower them to succeed. Our intimate learning environment fosters meaningful teacher-student interactions and ensures that no student gets overlooked.
                             </p>
                         </div>
                     </div>
                     <!-- item -->
 
                     <!-- item -->
-                    <div class="item">
+                    <!-- <div class="item">
                         <div class="icon">
                             <i class="flaticon-professor"></i>
                         </div>
@@ -181,7 +183,7 @@ require_once './assets/db/config_session.inc.php';
                                 Absolute required of reserved in offering no. How sense found our those gay again taken the. Had mrs outweigh desirous sex overcame. Improved property reserved disposal do offering me.
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- item -->
 
                 </div>
@@ -199,7 +201,7 @@ require_once './assets/db/config_session.inc.php';
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Experience Advisors</h2>
                         <p>
-                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. 
+                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
                         </p>
                     </div>
                 </div>
@@ -209,204 +211,43 @@ require_once './assets/db/config_session.inc.php';
                     <div class="advisor-carousel owl-carousel owl-theme text-center text-light">
 
                         <!-- Single Item -->
-                        <div class="advisor-item">
-                            <div class="info-box">
-                                <img src="assets/img/800x800.png" alt="Thumb">  
-                                <div class="info-title">
-                                    <h4>Professon. Nuri Paul</h4>
-                                    <span>Chemistry specialist</span>
-                                </div>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <div class="overlay-content">
-                                                <h4>About Nuri Paul</h4>
-                                                <p>
-                                                    Great explorer of the truth, the master-builder of human happiness.
-                                                </p>
-                                                <a href="#">Read More</a>
-                                                <div class="social">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>    
+
+                        <div class="info-box">
+                            <img src="assets/img/800x800.png" alt="Thumb">
+                            <div class="info-title">
+                                <h4>Professon. Nuri Paul</h4>
+                                <span>Chemistry specialist</span>
+                            </div>
+                            <div class="overlay">
+                                <div class="box">
+                                    <div class="content">
+                                        <div class="overlay-content">
+                                            <h4>About Nuri Paul</h4>
+                                            <p>
+                                                Great explorer of the truth, the master-builder of human happiness.
+                                            </p>
+                                            <a href="#">Read More</a>
+                                            <div class="social">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
-                                </div>  
-                            </div>    
-                        </div> 
-                        <!-- Single Item -->
-                        <!-- Single Item -->
-                        <div class="advisor-item">
-                            <div class="info-box">
-                                <img src="assets/img/800x800.png" alt="Thumb">  
-                                <div class="info-title">
-                                    <h4>John Babu</h4>
-                                    <span>Interactive Designer</span>
                                 </div>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <div class="overlay-content">
-                                                <h4>About John Babu</h4>
-                                                <p>
-                                                    Great explorer of the truth, the master-builder of human happiness.
-                                                </p>
-                                                <a href="#">Read More</a>
-                                                <div class="social">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>    
-                        </div> 
-                        <!-- Single Item -->
-                        <!-- Single Item -->
-                        <div class="advisor-item">
-                            <div class="info-box">
-                                <img src="assets/img/800x800.png" alt="Thumb">  
-                                <div class="info-title">
-                                    <h4>Mridul Druva</h4>
-                                    <span>Creative developer</span>
-                                </div>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <div class="overlay-content">
-                                                <h4>About Mridul Druva</h4>
-                                                <p>
-                                                    Great explorer of the truth, the master-builder of human happiness.
-                                                </p>
-                                                <a href="#">Read More</a>
-                                                <div class="social">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>    
-                        </div> 
-                        <!-- Single Item -->
-                        <!-- Single Item -->
-                        <div class="advisor-item">
-                            <div class="info-box">
-                                <img src="assets/img/800x800.png" alt="Thumb">  
-                                <div class="info-title">
-                                    <h4>Sufia Nilla</h4>
-                                    <span>Project Manager</span>
-                                </div>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <div class="overlay-content">
-                                                <h4>About Sufia Nilla</h4>
-                                                <p>
-                                                    Great explorer of the truth, the master-builder of human happiness.
-                                                </p>
-                                                <a href="#">Read More</a>
-                                                <div class="social">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>    
-                        </div> 
-                        <!-- Single Item -->
-                        <!-- Single Item -->
-                        <div class="advisor-item">
-                            <div class="info-box">
-                                <img src="assets/img/800x800.png" alt="Thumb">  
-                                <div class="info-title">
-                                    <h4>Professon. Nuri Paul</h4>
-                                    <span>Chemistry specialist</span>
-                                </div>
-                                <div class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <div class="overlay-content">
-                                                <h4>About Nuri Paul</h4>
-                                                <p>
-                                                    Great explorer of the truth, the master-builder of human happiness.
-                                                </p>
-                                                <a href="#">Read More</a>
-                                                <div class="social">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                                        </li>
-                                                    </ul>
-                                                </div>    
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>    
-                        </div> 
+                            </div>
+                        </div>
                         <!-- Single Item -->
 
                     </div>
@@ -452,7 +293,7 @@ require_once './assets/db/config_session.inc.php';
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Our Gallery</h2>
                         <p>
-                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. 
+                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
                         </p>
                     </div>
                 </div>
@@ -537,14 +378,16 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Footer 
     ============================================= -->
-<?php include 'footer_dark.php' ?>
-    
+    <?php include 'footer_dark.php' ?>
+
     <!-- End Footer -->
 
     <!-- jQuery Frameworks
     ============================================= -->
-   
+
     <?php include "./jquery-links.php" ?>
+    <script type="module" src="./assets/js/teachers.js"></script>
 
 </body>
+
 </html>

@@ -144,22 +144,14 @@ require_once './assets/db/config_session.inc.php';
             <div class="col-md-12 info less-bar">
               <h5>Introduction</h5>
               <h1>Welcome to AREESE Institute - A path of revolutionary learning</h1>
-              <p>
-                With the legacy of over 10 years AREESE institute has been guiding students aspiring to crack the JEE and NEET and has also produced remarkable results in this field as well. We adopt a holistic approach for our students to not only develop academically but also in other fields in life. With a team of experienced and qualified teachers, we provide a comprehensive curriculum that covers all aspects of the subjects we teach.
+              <p style="">
+                With the legacy of over 10 years, AREESE is now one of the leading institutes for NEET and JEE preparation. Founded in 2014 by a group of ex-CSRL SUPER-30 faculties, IITians, and NITians. Our mission is to provide unparalleled education and guidance to all students, so that we achieve 100% result in NEET & JEE.
               </p>
+              <h4 style="margin-bottom: 0px;font-weight: 600;">Why AREESE?</h4>
               <p>
-                Curiosity incommode now led smallness allowance. Favour bed
-                assure son things yet. She consisted consulted elsewhere
-                happiness disposing household any old the. Widow downs In no
-                impression assistance contrasted. Manners she wishing justice
-                hastily new anxious. At discovery discourse departure
-                objection we. Few extensive add delighted tolerably sincerity
-                her. Law ought him least enjoy decay one quick court. Expect
-                warmly its tended garden him esteem had remove off. Effects
-                dearest staying now sixteen nor improve. Delightful unreserved
-                impossible few estimating men favorable see entreaties. She
-                propriety immediate was improving.
+                In today's competitive landscape, many institutes focus solely on their top students to produce top ranks, leaving average students behind. This, combined with large batch sizes, makes it nearly impossible to provide personal care and attention, resulting in lower overall selection percentages.
               </p>
+              <p> Inspired by the legendary Super-30 model, where 30 students are rigorously prepared with a 100% success rate, AREESE adopts a unique approach to ensure every student excels. Adopting this proven approach, AREESE strives to ensure that each student, regardless of their starting point, receives the attention, resources, and mentorship they need to excel. By fostering an environment of rigorous academic training, individualized support, and unwavering commitment to student success, we maximize every learner's potential, ensuring that no one is left behind. At AREESE, every student matters, and every student succeeds.</p>
             </div>
           </div>
         </div>
