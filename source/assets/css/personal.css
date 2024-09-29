@@ -478,40 +478,40 @@ hr {
 }
 
 /* about us site heading why choose AREESE */
-.site-heading .why-aree {
-  /* margin-left: auto !important;
-  margin-right: auto !important; */
-  display: block;
+
+.site-heading-per {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center flex !important;
+}
+
+.site-heading-per h2 {
+  display: inline-block !important;
   text-align: center;
+  margin: 0 auto 80px !important;
+  position: relative;
 }
 
-.site-heading .why-aree::before {
+.site-heading-per h2::before {
   background: #f58026 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   position: absolute;
-  left: 0;
-  margin-left: 0;
+  left: 30% !important;
+  margin-left: -40px;
   position: absolute;
-  width: 0;
+  width: 40px;
   z-index: 1;
 }
 
-.site-heading .why-aree::after {
+.site-heading-per h2::after {
   background: #f58026 none repeat scroll 0 0;
   bottom: 0;
   content: "";
   position: absolute;
-  left: 0;
+  left: 50% !important;
   margin-left: 0;
   position: absolute;
-  width: 0 !important;
+  width: 30px !important;
   z-index: 1;
-}
-
-.site-heading .underline {
-  display: block;
-  width: 0;
-  height: 0;
-  border-top: 2px solid #f58026;
 }

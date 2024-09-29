@@ -127,9 +127,8 @@ require_once './assets/db/config_session.inc.php';
             <div class="" style="display:grid; place-content:center; ">
                 <!-- <div class="col-md-6 thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div> -->
                 <div class="content" style="max-width:1000px;">
-                    <div class="site-heading text-left">
+                    <div class="site-heading text-left site-heading-per">
                         <h2 style="" class="why-aree">Why choose us</h2>
-                        <div class="underline"></div>
                         <p>
                             In today's competitive landscape, many institutes focus solely on their top students to produce top ranks, leaving average students behind. This, combined with large batch sizes, makes it nearly impossible to provide personal care and attention, resulting in lower overall selection percentages.
                         </p>
