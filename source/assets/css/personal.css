@@ -458,23 +458,26 @@ hr {
   text-transform: lowercase;
 }
 
-.menu-personal {
-  width: auto;
-  max-width: 200px;
-  padding: 10px;
-}
-.w-less {
-  width: 60px !important;
-}
+@media (min-width: 1022px) {
+  .menu-personal {
+    width: auto;
+    max-width: 200px;
+    padding: 10px;
+  }
 
-.menu-personal li,
-.w-less li {
-  padding-left: 10px;
-}
+  .w-less {
+    width: 60px !important;
+  }
 
-.w-less li {
-  padding-left: 20px;
-  width: 100%;
+  .menu-personal li,
+  .w-less li {
+    padding-left: 10px;
+  }
+
+  .w-less li {
+    padding-left: 20px;
+    width: 100%;
+  }
 }
 
 /* about us site heading why choose AREESE */

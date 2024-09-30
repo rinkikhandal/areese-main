@@ -253,10 +253,10 @@
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="advisor-carousel.html">AREESE Super30 Batch</a>
+                          <a href="super30-batch.php">AREESE Super30 Batch</a>
                         </li>
                         <li>
-                          <a href="advisor-2-colum.html">Pay After Selection Batch</a>
+                          <a href="payAfter-batch.php">Pay After Selection Batch</a>
                         </li>
                         <!-- <li>
                           <a href="advisor-3-colum.html">FAQ</a>
@@ -380,8 +380,8 @@
                 </ul>
 
               </li>
-              <li><a href="event-3.html">10<sup>th</sup> Class</a></li>
-              <li><a href="event-3.html">12<sup>th</sup> Class</a></li>
+              <li><a href="10Class-result.php">10<sup>th</sup> Class</a></li>
+              <li><a href="12Class-result.php">12<sup>th</sup> Class</a></li>
             </ul>
           </li>
           <!-- <li class="dropdown">
@@ -419,7 +419,7 @@
             <ul class="dropdown-menu">
               <li><a href="teachers.html">Blogs</a></li>
               <li><a href="teachers-details.html">Downloads</a></li>
-              <li><a href="teachers-details.html">Gallery</a></li>
+              <li><a href="gallery.php">Gallery</a></li>
             </ul>
           </li>
           <li>
@@ -457,7 +457,14 @@
           <li><a href="./profile.php">Profile</a></li>
           <li><a href="#">Courses</a></li>
           <li><a href="#">Recent Order</a></li>
-          <li><a href="./edit-profile.php">Edit Profile</a></li>
+          <?php
+          if (isset($_SESSION["user"])) {
+          ?>
+            <li><a href="./edit-profile.php">Edit Profile</a></li>
+
+          <?php
+          };
+          ?>
           <li>
             <?php if (isset($_SESSION["user"])) {
             ?>
@@ -481,11 +488,11 @@
       <div class="widget">
         <h4 class="title">Additional Links</h4>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="./about-us.php">About</a></li>
+          <li><a href="./gallery.php">Portfolio</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Rating</a></li>
-          <li><a href="#">Popular Courses</a></li>
+          <li><a href="./index-2.php#popular-courses">Popular Courses</a></li>
         </ul>
       </div>
       <div class="widget social">

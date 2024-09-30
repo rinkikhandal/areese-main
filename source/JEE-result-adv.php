@@ -10,7 +10,7 @@ require_once './assets/db/config_session.inc.php';
   <?php
   include './links.php';
   ?>
-  <link rel="stylesheet" href="./assets/css/neet-result.css">
+  <link rel="stylesheet" href="./assets/css/result.css">
 
 </head>
 
@@ -45,7 +45,7 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Banner 
     ============================================= -->
-  <div class="results default-padding">
+  <div class="results default-padding default-padding-side">
     <h2>JEE Advance Results </h2>
     <div class="stu-res-div">
       <!-- =======Single Item======= -->

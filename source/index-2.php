@@ -214,7 +214,7 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Popular Courses 
     ============================================= -->
-  <div class="popular-courses bg-gray circle carousel-shadow default-padding">
+  <div class="popular-courses bg-gray circle carousel-shadow default-padding" id="popular-courses">
     <div class="container">
       <div class="row">
         <div class="site-heading text-center">
@@ -374,13 +374,13 @@ require_once './assets/db/config_session.inc.php';
               <div class="card-body info text-center">
                 <!-- <i class="fa-solid fa-desktop"></i> -->
                 <h3>AREESE Online Classes</h4>
-                  <br>
                   <p class="card-text">Online Class</p>
 
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
                   <p class="">Foundation ∣ Pre-Foundation</p>
                   <p>NTSE ∣ Olympiad ∣ Board</p>
+                  <p class=" mb-2">( Science ∣ Commerce )</p>
                   <a href="https://areese.courses.store/" target="blank" class="btn btn-outline">More details</a>
               </div>
             </div>

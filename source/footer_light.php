@@ -14,17 +14,17 @@
                 <div class="social">
                   <ul>
                     <li class="">
-                <a href="https://www.facebook.com/AreeseCareerInstitute" target="_blank"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li class="">
-                <a href="https://www.linkedin.com/company/areese/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
-              </li>
-              <li class="" >
-                <a href="https://www.instagram.com/areesecareerinstitute/"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-              </li>
-              <li class="" >
-                <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA"  target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
-              </li>
+                      <a href="https://www.facebook.com/AreeseCareerInstitute" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="">
+                      <a href="https://www.linkedin.com/company/areese/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                    </li>
+                    <li class="">
+                      <a href="https://www.instagram.com/areesecareerinstitute/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    </li>
+                    <li class="">
+                      <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                    </li>
                     <!-- <li>
                       <a href="#"><i class="fab fa-facebook-f"></i></a>
                     </li>
@@ -52,7 +52,7 @@
                     <a href="#">result</a>
                   </li>
                   <li>
-                    <a href="#">Gallery</a>
+                    <a href="./about-us.php#portfolio">Gallery</a>
                   </li>
                   <li>
                     <a href="#">Faqs</a>
@@ -102,9 +102,7 @@
                       </a>
                     </div>
                     <div class="info">
-                      <a href="#"
-                        >Subjects allied to Creative arts and design</a
-                      >
+                      <a href="#">Subjects allied to Creative arts and design</a>
                       <div class="meta-title">
                         <span class="post-date">12 Feb, 2018</span> - By
                         <a href="#">Jessica</a>

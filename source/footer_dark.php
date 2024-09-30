@@ -38,7 +38,7 @@
                 <a href="#">Result</a>
               </li>
               <li>
-                <a href="#">Gallery</a>
+                <a href="./about-us.php#portfolio">Gallery</a>
               </li>
               <li>
                 <a href="#">Faqs</a>

@@ -46,7 +46,7 @@ require_once './assets/db/config_session.inc.php';
   <!-- Start Banner 
     ============================================= -->
   <div class="results default-padding default-padding-side">
-    <h2>JEE Main Results </h2>
+    <h2>12<sup>th</sup> Class Results </h2>
     <div class="stu-res-div">
       <!-- =======Single Item======= -->
       <div class="single-res-stu">
