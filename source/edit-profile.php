@@ -42,6 +42,11 @@ require_once './assets/db/config_session.inc.php';
         <?php include './register.php'; ?>
         <!-- End Register Form -->
 
+        <!-- Start Scholarship Form 
+    ============================================= -->
+        <?php include './scholarship.php.php'; ?>
+        <!-- End Scholarship Form -->
+
 
         <!-- Start Breadcrumb 
     ============================================= -->

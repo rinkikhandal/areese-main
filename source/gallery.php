@@ -39,6 +39,8 @@ require_once './assets/db/config_session.inc.php';
   <?php include './register.php'; ?>
   <!-- End Register Form -->
 
+
+
   <!-- Start Breadcrumb 
     ============================================= -->
   <div

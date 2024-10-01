@@ -43,6 +43,8 @@ require_once './assets/db/config_session.inc.php';
     <!-- End Register Form -->
 
 
+
+
     <!-- Start Breadcrumb 
     ============================================= -->
     <div class="breadcrumb-area shadow dark text-center bg-fixed text-light" style="background-image: url(assets/img/2440x1578.png);">

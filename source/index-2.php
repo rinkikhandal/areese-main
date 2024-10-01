@@ -37,6 +37,9 @@ require_once './assets/db/config_session.inc.php';
   <?php include './register.php'; ?>
   <!-- End Register Form -->
 
+
+
+
   <!-- Start Banner 
     ============================================= -->
   <div class="banner-area content-top-heading text-normal heading-weight-600 auto-height">
@@ -402,6 +405,37 @@ require_once './assets/db/config_session.inc.php';
               <div class="card-body info text-center ">
                 <!-- <i class="fa-solid fa-school"></i> -->
                 <h3 class="card-title">AREESE Gurukulam</h4>
+
+                  <p class="card-text">
+                    Pay after Selection Batch <br />
+                    for
+                  </p>
+                  <h5 class="card-text">NEET ∣ JEE</h5>
+                  <hr />
+
+                  <p class="">Foundation ∣ Olympiad</p>
+                  <p>Fully Residential Program</p>
+                  <a href="http://www.areesegurukulam.com/" target="blank" class="btn btn-outline">More details</a>
+              </div>
+            </div>
+            <!-- End Single Item -->
+            <!-- Single Item -->
+            <div class="item">
+              <div class="thumb">
+                <a href="#">
+                  <img src="assets/img/gurukulam-3.png" alt="Thumb" />
+                </a>
+                <!-- <div class="overlay">
+                  <a class="btn btn-theme effect btn-sm" href="#">
+                    <i class="fas fa-chart-bar"></i> Enroll Now
+                  </a>
+                </div> -->
+              </div>
+              <hr>
+
+              <div class="card-body info text-center ">
+                <!-- <i class="fa-solid fa-school"></i> -->
+                <h3 class="card-title">AREESE Super30</h4>
 
                   <p class="card-text">
                     Pay after Selection Batch <br />

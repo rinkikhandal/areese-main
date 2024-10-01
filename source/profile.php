@@ -5,9 +5,9 @@ require_once './assets/db/config_session.inc.php';
 <html lang="en">
 
 <head>
-   <?php
-   include "./links.php"
-   ?>
+    <?php
+    include "./links.php"
+    ?>
 </head>
 
 <body>
@@ -18,13 +18,26 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Header Top 
     ============================================= -->
-    <?php include "./header_top.php"?>
+    <?php include "./header_top.php" ?>
     <!-- End Header Top -->
 
     <!-- Header 
     ============================================= -->
-<?php include "./nav.php"?>
+    <?php include "./nav.php" ?>
     <!-- End Header -->
+
+    <!-- Start Login Form 
+    ============================================= -->
+    <?php include './login.php'; ?>
+    <!-- End Login Form -->
+
+    <!-- Start Register Form 
+    ============================================= -->
+
+    <?php include './register.php'; ?>
+    <!-- End Register Form -->
+
+
 
     <!-- Start Breadcrumb 
     ============================================= -->
@@ -83,7 +96,7 @@ require_once './assets/db/config_session.inc.php';
                                         Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting. earnestly advantage estimable extensive. Five settle education him departure any arranging one prevailed. Their end whole migh
                                     </p>
                                     <p>
-                                        Affixed civilly moments promise explain fertile in. Assurance advantage belonging happiness departure so of. Now improving and one sincerity intention allowance commanded not. Oh an am frankness be necessary earnestly advantage estimable extensive. Five settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves. 
+                                        Affixed civilly moments promise explain fertile in. Assurance advantage belonging happiness departure so of. Now improving and one sincerity intention allowance commanded not. Oh an am frankness be necessary earnestly advantage estimable extensive. Five settle genius excuse. Deal say over you age from. Comparison new ham melancholy son themselves.
                                     </p>
                                     <ul>
                                         <li>
@@ -161,7 +174,7 @@ require_once './assets/db/config_session.inc.php';
                             <div id="tab3" class="tab-pane">
                                 <div class="info title">
                                     <p>
-                                        Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed. Expect relied do we genius is. On as around spirit of hearts genius. Is raptures daughter branched laughter peculiar in settling. 
+                                        Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed. Expect relied do we genius is. On as around spirit of hearts genius. Is raptures daughter branched laughter peculiar in settling.
                                     </p>
                                     <div class="row">
                                         <form action="#" class="contact-form">
@@ -195,7 +208,7 @@ require_once './assets/db/config_session.inc.php';
                                     <div class="update-pass">
                                         <h4>Change Password</h4>
                                         <p>
-                                            Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed. Expect relied do we genius is. On as around spirit of hearts genius. Is raptures daughter branched laughter peculiar in settling. 
+                                            Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed. Expect relied do we genius is. On as around spirit of hearts genius. Is raptures daughter branched laughter peculiar in settling.
                                         </p>
                                         <div class="row">
                                             <form action="#" class="contact-form">
@@ -237,15 +250,16 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Footer 
     ============================================= -->
-   
-        <?php
-        include "./footer_dark.php"
-        ?>
+
+    <?php
+    include "./footer_dark.php"
+    ?>
 
     <!-- jQuery Frameworks
     ============================================= -->
-        <?php include "./jquery-links.php"?>
+    <?php include "./jquery-links.php" ?>
 
 
 </body>
+
 </html>

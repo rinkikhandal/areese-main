@@ -16,6 +16,7 @@
          </div>
        </div>
        <div class="user-login text-right col-md-4">
+
          <a class="popup-with-form" href="#register-form">
            <i class="fas fa-edit"></i> Register
          </a>

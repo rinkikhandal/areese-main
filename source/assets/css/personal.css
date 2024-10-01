@@ -502,7 +502,6 @@ hr {
   position: absolute;
   left: 30% !important;
   margin-left: -40px;
-  position: absolute;
   width: 40px;
   z-index: 1;
 }
@@ -512,9 +511,8 @@ hr {
   bottom: 0;
   content: "";
   position: absolute;
-  left: 50% !important;
+  left: 47% !important;
   margin-left: 0;
-  position: absolute;
   width: 30px !important;
   z-index: 1;
 }

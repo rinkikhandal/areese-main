@@ -43,6 +43,8 @@ require_once './assets/db/config_session.inc.php';
   <?php include './register.php'; ?>
   <!-- End Register Form -->
 
+
+
   <!-- Start Banner 
     ============================================= -->
   <div class="results default-padding ">
