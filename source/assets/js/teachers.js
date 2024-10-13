@@ -127,6 +127,22 @@ const teacherDetails = [
     about: "Together we will learn new things",
     image: "Shekhar-Sir.png",
   },
+  {
+    id: 17,
+    name: "Neera Ma'am",
+    subject: "Mathematics",
+    honorific: "Ms",
+    about: "Together we will learn new things",
+    image: "Neera-Ma'am.png",
+  },
+  {
+    id: 18,
+    name: "Pankaj Balujha",
+    subject: "Mathematics",
+    honorific: "Mr.",
+    about: "Together we will learn new things",
+    image: "Pankaj-Balujha.png",
+  },
 ];
 
 // looping teachers

@@ -516,3 +516,9 @@ hr {
   width: 30px !important;
   z-index: 1;
 }
+/* navbar residential bold */
+
+.bold-nav-res {
+  color: rgb(73, 72, 72) !important;
+  font-weight: 600 !important;
+}

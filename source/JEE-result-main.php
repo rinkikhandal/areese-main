@@ -49,85 +49,8 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
   <div class="results default-padding default-padding-side">
     <h2>JEE Main Results </h2>
-    <div class="stu-res-div">
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
+    <img src="./assets/img/result-poster.jpg" alt="">
 
-      <!-- =======End Of Single Item======= -->
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
-
-      <!-- =======End Of Single Item======= -->
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
-
-      <!-- =======End Of Single Item======= -->
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
-
-      <!-- =======End Of Single Item======= -->
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
-
-      <!-- =======End Of Single Item======= -->
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
-
-      <!-- =======End Of Single Item======= -->
-      <!-- =======Single Item======= -->
-      <div class="single-res-stu">
-        <img src="./assets/img/800x800.png" alt="">
-        <div class="overlay">
-          <p style="font-size: 1.3rem; font-weight: 900;">AIR</p>
-          <h4>568</h4>
-          <p style="font-size: 1.2rem;">Abhik Patra</p>
-        </div>
-      </div>
-
-      <!-- =======End Of Single Item======= -->
-    </div>
   </div>
 
   <!-- End Banner -->

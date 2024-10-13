@@ -44,7 +44,7 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="breadcrumb-area shadow dark text-center bg-fixed text-light" style="background-image: url(assets/img/2440x1578.png);">
+    <div class="breadcrumb-area shadow dark text-center bg-fixed text-light" style="background:white;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

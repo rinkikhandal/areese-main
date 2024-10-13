@@ -86,16 +86,36 @@
               <li>
                 <div class="row">
                   <!-- end col-3 -->
+                  <div class="col-menu col-md-4">
+                    <h6 class="title">Residential Program</h6>
+                    <div class="content">
+                      <ul class="menu-col">
+                        <li>
+                          <a href="super30-batch.php" class="bold-nav-res">AREESE Super30 Batch</a>
+                        </li>
+                        <li>
+                          <a href="payAfter-batch.php" class="bold-nav-res">Pay After Selection Batch</a>
+                        </li>
+                        <!-- <li>
+                          <a href=" advisor-3-colum.html">FAQ</a>
+                        </li> -->
+
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- end col-3 -->
+                  <!-- end col-3 -->
 
                   <div class="col-menu col-md-4">
                     <h6 class="title">Classroom</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="gallery-2-colum.html">NEET (Pre-Medical)</a>
+                          <a href="NEET-classroom.php">NEET</a>
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE </a>
+                          <a href="" data-toggle="dropdown" class="dropdown-toggle">JEE </a>
                           <!-- need changes -->
                           <ul class="dropdown-menu menu-personal" role="menu" style="position:absolute;left:150px;">
 
@@ -108,11 +128,12 @@
                               <a href="#">JEE (Advance) + BITSAT</a>
                             </li>
 
+
                           </ul>
 
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation </a>
+                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Foundation </a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
                               <a href="#">9<sup>th</sup> Class</a>
@@ -127,8 +148,8 @@
 
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
-                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
+                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Boards / School Exams</a>
+                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:180px;">
                             <li>
                               <a href="#">9<sup>th</sup> Class</a>
                             </li>
@@ -151,7 +172,7 @@
 
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Commerce</a>
+                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Commerce</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
                               <a href="#">11<sup>th</sup> Class</a>
@@ -164,6 +185,22 @@
 
                           </ul>
 
+                        </li>
+                        <li class="dropdown">
+                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Test Series</a>
+                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:100px;">
+                            <li>
+                              <a href="#">NEET</a>
+                            </li>
+                            <li>
+                              <a href="#">JEE</a>
+                            </li>
+
+                            <li>
+                              <a href="#">Boards</a>
+
+                            </li>
+                          </ul>
                         </li>
                       </ul>
                     </div>
@@ -174,7 +211,7 @@
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="gallery-2-colum.html">NEET (Pre-Medical)</a>
+                          <a href="gallery-2-colum.html">NEET</a>
                         </li>
                         <li class="dropdown">
                           <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
@@ -193,7 +230,7 @@
 
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation</a>
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Foundation</a>
                           <ul class="dropdown-menu w-less " role="menu" style="position:absolute;left:150px;">
                             <li>
                               <a href="#">9<sup>th</sup> Class</a>
@@ -208,8 +245,8 @@
 
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
-                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards / School Exams</a>
+                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:180px;">
                             <li>
                               <a href="#">9<sup>th</sup> Class</a>
                             </li>
@@ -244,29 +281,26 @@
                         </li>
                         <li> <a href="#">Subject wise </a></li>
                         <li> <a href="#">Chapter wise </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <!-- end col-3 -->
-                  <div class="col-menu col-md-4">
-                    <h6 class="title">Residential Program</h6>
-                    <div class="content">
-                      <ul class="menu-col">
-                        <li>
-                          <a href="super30-batch.php">AREESE Super30 Batch</a>
-                        </li>
-                        <li>
-                          <a href="payAfter-batch.php">Pay After Selection Batch</a>
-                        </li>
-                        <!-- <li>
-                          <a href="advisor-3-colum.html">FAQ</a>
-                        </li> -->
+                        <li class="dropdown">
+                          <a href="gallery-2-colum.html" data-toggle="dropdown" class="dropdown-toggle">Test Series</a>
+                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:100px;">
+                            <li>
+                              <a href="#">NEET</a>
+                            </li>
+                            <li>
+                              <a href="#">JEE</a>
+                            </li>
 
+                            <li>
+                              <a href="#">Boards</a>
+
+                            </li>
+                          </ul>
+                        </li>
                       </ul>
                     </div>
                   </div>
 
-                  <!-- end col-3 -->
                   <!-- <div class="col-menu col-md-3">
                     <h6 class="title">Gallery</h6>
                     <div class="content">
