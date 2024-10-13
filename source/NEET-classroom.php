@@ -56,15 +56,22 @@
   <!-- End Breadcrumb -->
 
   <!--Start Description   =============================================-->
-  <div class="default-padding .default-padding-per">
+  <div class="default-padding default-padding-per courses-offer">
     <div class="inner-container">
+      <h2 style="margin-bottom:20px">
+        Courses We Offer
+      </h2>
+      <p style="text-align: center; max-width: 90%; margin:0 auto 50px;">
+        AREESE offers a diverse range of tailored courses designed to meet each student's unique needs. This personalized approach ensures focused, goal-oriented learning, helping students sharpen their skills and significantly boost their performance. By providing specialized attention, AREESE empowers students to excel in their academic journey and achieve their full potential
+      </p>
       <div class="card-holder">
+
 
         <!-- cards -->
 
         <!-- Single Item -->
         <section class="cards">
-          <div class="upper-part" style="background-color:#588157;">
+          <div class="upper-part" style="background-color:#606c38;">
             <h4>Two year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
             <h5>About the course</h5>
@@ -88,8 +95,8 @@
             </div>
 
           </div>
-          <div class="lower-part" style="background-color:#588157 ;">
-            <h5>Syllabus covers</h5>
+          <div class="lower-part" style="background-color:#606c38 ;">
+            <h5>Syllabus Covers</h5>
             <p>Entire Syllabus of class 11<sup>th</sup> and 12<sup>th</sup>.</p>
             <h5>Course Duration</h5>
             <p>Two Years</p>
@@ -98,17 +105,17 @@
             <h5>Selection Procedure</h5>
             <p>Direct/AREESE Scholarship Test</p>
             <h5>Course Fee</h5>
-            <p>1,00,000</p>
+            <p>₹ 1,00,000</p>
           </div>
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
         <section class="cards">
-          <div class="upper-part" style="background-color:#dda15e">
+          <div class="upper-part" style="background-color:#ef233c">
             <h4>One year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
             <h5>About the course</h5>
-            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), BITSAT, VITEEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
+            <p>Our One-Year Programme covers the entire syllabus of class 12th according to latest syllabus of JEE/NEET, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for NEET/JEE.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner">
@@ -128,28 +135,29 @@
             </div>
 
           </div>
-          <div class="lower-part" style="background-color:#dda15e">
-            <h5>Syllabus covers</h5>
-            <p>Entire Syllabus of class 11<sup>th</sup> and 12<sup>th</sup>.</p>
+          <div class="lower-part" style="background-color:#ef233c">
+            <h5>Syllabus Covers</h5>
+            <p>Entire Syllabus of class 12<sup>th</sup>.</p>
             <h5>Course Duration</h5>
-            <p>Two Years</p>
+            <p>One Year</p>
             <h5>Eligibility</h5>
-            <p>10<sup>th</sup> pass</p>
+            <p>11<sup>th</sup> pass</p>
             <h5>Selection Procedure</h5>
             <p>Direct/AREESE Scholarship Test</p>
             <h5>Course Fee</h5>
-            <p>1,00,000</p>
+            <p>₹ 50,000</p>
           </div>
         </section>
         <!-- Single Item -->
 
         <!-- Single Item -->
         <section class="cards">
-          <div class="upper-part" style="background-color:#e76f51">
-            <h4>Dropper</h4>
-            <p>(10th to 11th Moving Students)</p>
+          <div class="upper-part" style="background-color:#b5838d">
+            <h4>Dropper Batch</h4>
+            <p>ONE YEAR TARGET COURSE</p>
+            <p style="margin-top:-15px;">(12th Pass Students)</p>
             <h5>About the course</h5>
-            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), BITSAT, VITEEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
+            <p>Our one-year course for class 12th pass thoroughly covers the syllabus for NEET/JEE (Main & Advanced). We train students to think analytically and adopt a systematic approach to problem-solving, essential for NEET/JEE and to lend you a helping hand and guide you to clear NEET/JEE with very good rank.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner">
@@ -169,27 +177,28 @@
             </div>
 
           </div>
-          <div class="lower-part" style="background-color:#e76f51">
-            <h5>Syllabus covers</h5>
+          <div class="lower-part" style="background-color:#b5838d">
+            <h5>Syllabus Covers</h5>
             <p>Entire Syllabus of class 11<sup>th</sup> and 12<sup>th</sup>.</p>
             <h5>Course Duration</h5>
-            <p>Two Years</p>
+            <p>One Year</p>
             <h5>Eligibility</h5>
-            <p>10<sup>th</sup> pass</p>
+            <p>12<sup>th</sup> pass</p>
             <h5>Selection Procedure</h5>
             <p>Direct/AREESE Scholarship Test</p>
             <h5>Course Fee</h5>
-            <p>1,00,000</p>
+            <p>₹ 65,000</p>
           </div>
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
         <section class="cards">
-          <div class="upper-part" style="background-color:#a68a64">
+          <div class="upper-part" style="background-color:#4b2e39">
             <h4>Dropper Plus</h4>
-            <p>(10th to 11th Moving Students)</p>
+            <p>ONE YEAR TARGET COURSE</p>
+            <p style="margin-top:-15px;">(12th Pass Students)</p>
             <h5>About the course</h5>
-            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), BITSAT, VITEEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
+            <p>Our One year course is designed for Ex-AREESE students or those who have qualified for NEET/JEE (Main)/JEE (Advanced), our one-year course is designed to elevate your Rank to next level and helping you achieve what you aspire.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner">
@@ -209,17 +218,17 @@
             </div>
 
           </div>
-          <div class="lower-part" style="background-color:#a68a64">
-            <h5>Syllabus covers</h5>
+          <div class="lower-part" style="background-color:#4b2e39">
+            <h5>Syllabus Covers</h5>
             <p>Entire Syllabus of class 11<sup>th</sup> and 12<sup>th</sup>.</p>
             <h5>Course Duration</h5>
-            <p>Two Years</p>
+            <p>One Year</p>
             <h5>Eligibility</h5>
-            <p>10<sup>th</sup> pass</p>
+            <p>Ex-AREESE students or those who have qualified for NEET/JEE (Main)/JEE (Advanced),</p>
             <h5>Selection Procedure</h5>
-            <p>Direct/AREESE Scholarship Test</p>
+            <p>Direct</p>
             <h5>Course Fee</h5>
-            <p>1,00,000</p>
+            <p>₹ 65,000</p>
           </div>
         </section>
         <!-- Single Item -->
@@ -229,6 +238,201 @@
 
   </div>
   <!--End Description   =============================================-->
+
+  <!--Start of Course Features   =============================================-->
+  <div class="default-padding default-padding-per course-features">
+    <div class="inner-container">
+      <h2>
+        Course Features
+      </h2>
+      <div class="card-holder ">
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/1.jpg" alt="image-icon">
+          <h5>Experienced & Best faculty team</h5>
+          <div class="description">
+            <p>Our skilled and knowledgeable faculty is committed, diligent, and driven by a passion for your success.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/2.jpg" alt="image-icon">
+          <h5>Best Faculty Team for all students</h5>
+          <div class="description">
+            <p>Best Faculty Team for all students
+              Every student has access to the best faculty, regardless of their previous performance.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/3.jpg" alt="image-icon">
+          <h5>Ultimate Personal Care</h5>
+          <div class="description">
+            <p>Individualized attention is given to each student, ensuring that you're never just another face in the crowd.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/4.jpg" alt="image-icon">
+          <h5>Result-oriented Teaching Methodology</h5>
+          <div class="description">
+            <p>Engaging and interactive classes using a scientific, result-driven teaching methodology.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/5.jpg" alt="image-icon">
+          <h5>Relevant Learning Study Material</h5>
+          <div class="description">
+            <p>Comprehensive, well-researched, and relevant Learning material.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/6.jpg" alt="image-icon">
+          <h5>Regular Test Series & Performance Analysis</h5>
+          <div class="description">
+            <p>Daily progress tracking, regular assessments, performance analysis, and constructive feedback for continuous improvement.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/7.jpg" alt="image-icon">
+          <h5>best Infrastructure</h5>
+          <div class="description">
+            <p>Excellent infrastructure with all necessary facilities</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/8.jpg" alt="image-icon">
+          <h5>Excellent Academic Control</h5>
+          <div class="description">
+            <p>Academic oversight ensures the timely completion of courses with the highest quality of teaching.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/9.jpg" alt="image-icon">
+          <h5>Best Results & Reputation</h5>
+          <div class="description">
+            <p>A proven track record of success spanning over 25 years.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/10.jpg" alt="image-icon">
+          <h5>Content Research & Development Team</h5>
+          <div class="description">
+            <p>The support of an Educational Research and Content Development Center monitors examination patterns to ensure you are well-prepared according to the latest trends in assessments.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/11.jpg" alt="image-icon">
+          <h5>Hi-tech Communication</h5>
+          <div class="description">
+            <p>Facilities such as digital attendance, test score notifications via SMS and email, and an online student-parent portal.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/12.jpg" alt="image-icon">
+          <h5>Great student life</h5>
+          <div class="description">
+            <p>A competitive, motivating, and supportive environment designed to foster success.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/13.jpg" alt="image-icon">
+          <h5>Full Academic Support</h5>
+          <div class="description">
+            <p>Comprehensive academic support available outside of class through regular problem-solving sessions, knowledge labs, individual counseling, and seminars.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/14.jpg" alt="image-icon">
+          <h5>Residential Coaching and School Campus</h5>
+          <div class="description">
+            <p>A 20-acre residential campus in Kota and a 10-acre campus in Mohalli and Rajsamand, featuring all necessary facilities, including coaching, a school, mess, guest house, playgrounds, and more, all within the campus boundaries.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/15.jpg" alt="image-icon">
+          <h5>Intellectual & Concern Management</h5>
+          <div class="description">
+            <p>Dedicated management with an exceptional emphasis on providing quality education.</p>
+          </div>
+        </article>
+        <!-- single Item -->
+        <!-- single Item -->
+        <article class="feature-card">
+          <div class="img-back">
+          </div>
+          <img src="./assets/img/classroom-png/16.jpg" alt="image-icon">
+          <h5>13-Hour Self Study Program</h5>
+          <div class="description">
+            <p>A unique and intensive program, designed to maximize the productivity</p>
+          </div>
+        </article>
+        <!-- single Item -->
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <!--End of Course Features   =============================================-->
+
 
 
 
