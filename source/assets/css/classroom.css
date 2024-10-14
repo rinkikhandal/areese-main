@@ -14,11 +14,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 40px;
+}
+
+.course-features .card-holder {
+  row-gap: 70px;
 }
 
 .cards {
   width: 300px;
-  margin-bottom: 50px;
 }
 
 .cards h4,
@@ -53,7 +57,6 @@
 .cards .middle-part .middle-inner {
   height: 100px;
   width: 100px;
-  background: linear-gradient(to left, rgb(183, 182, 182), white 60%);
   border-radius: 50%;
   z-index: 10;
   display: flex;
@@ -65,7 +68,6 @@
 .cards .middle-part .middle-inner-2 {
   height: 80px;
   width: 80px;
-  background: linear-gradient(to right, rgb(183, 182, 182), white 60%);
   border: none;
   border-radius: 50%;
   display: flex;
@@ -184,7 +186,7 @@
   font-size: small;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 620px) {
   .card-holder {
     display: flex;
     flex-direction: row;
@@ -194,8 +196,12 @@
   }
 
   .course-features .card-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
     row-gap: 80px;
     column-gap: 40px;
+    flex-wrap: wrap;
   }
 }
 
