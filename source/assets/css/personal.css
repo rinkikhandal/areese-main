@@ -522,3 +522,7 @@ hr {
   color: rgb(73, 72, 72) !important;
   font-weight: 600 !important;
 }
+
+.bold-nav-res:hover {
+  color: #feb506 !important;
+}

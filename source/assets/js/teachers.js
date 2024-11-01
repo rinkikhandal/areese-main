@@ -4,7 +4,10 @@ const teacherDetails = [
     name: "Ankit Kumar",
     subject: "Physics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "R.T.U Kota",
+    about:
+      "Senior Faculty of Physics with 13+ Years of experience in Reputed National Level Institutes",
     image: "ankit-kumar-1.jpg",
   },
   {
@@ -12,7 +15,10 @@ const teacherDetails = [
     name: "Bhupendra Sharma",
     subject: "Biology",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Sc",
+    University: "Rajasthan University",
+    about:
+      "Senior Faculty of Biology and Chemistry with 20+ Years of experience in Reputed National Level Institutes",
     image: "Bhupendra-Sharma.png",
   },
   {
@@ -20,7 +26,10 @@ const teacherDetails = [
     name: "Gaurav Sharma",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Sc ,B.ed",
+    University: "Rajasthan University",
+    about:
+      "Senior Faculty of Mathematics with 8+ Years of experience in Reputed National Level Institutes",
     image: "gaurav-sharma.png",
   },
   {
@@ -28,7 +37,10 @@ const teacherDetails = [
     name: " Mohit Sharma",
     subject: "Chemistry",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "Rajasthan Technical University",
+    about:
+      "Senior Faculty of Chemistry with 2+ Years of experience in Reputed National Level Institutes",
     image: "Mohit-Sharma.png",
   },
   {
@@ -36,7 +48,10 @@ const teacherDetails = [
     name: "Rahul Kumar Singh",
     subject: "Physics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "Aku Patna University",
+    about:
+      "Senior Faculty of Physics with 2+ Years of experience in Reputed National Level Institutes",
     image: "Rahul-Kumar-Singh.png",
   },
   {
@@ -44,7 +59,10 @@ const teacherDetails = [
     name: "Pradeep Kumar",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "R.T.U Kota",
+    about:
+      "Senior Faculty of Mathematics with 13+ Years of experience in Reputed National Level Institutes",
     image: "pradeep-sir.png",
   },
   {
@@ -52,31 +70,43 @@ const teacherDetails = [
     name: "Suresh Khokhar",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "Chemical Science",
+    University: "IIT Bombay BS",
+    about:
+      "Senior Faculty of Chemistry with 7+ Years of experience in Reputed National Level Institutes",
     image: "suresh_sir.jpg",
   },
   {
     id: 8,
-    name: "Akhil Sir",
+    name: "Akhil Saxena",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Com, D.EI.Ed",
+    University: "Rajasthan Technical University",
+    about:
+      "Senior Faculty of Mathematics and chemistry with 9+ Years of experience in Reputed National Level Institutes",
     image: "Akhil-Sir.png",
   },
   {
     id: 9,
-    name: "Ashok Sir",
-    subject: "Mathematics",
+    name: "Ashok Kumar",
+    subject: "Chemistry",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "NIT Jalandhar, Punjab",
+    about:
+      "Senior Faculty of Chemistry with 8+ Years of experience in Reputed National Level Institutes",
     image: "Ashok-Sir.png",
   },
   {
     id: 10,
-    name: "Chetanya Sir",
-    subject: "Mathematics",
+    name: "Chetanya Kumar",
+    subject: "Biology",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Sc",
+    University: "Delhi University",
+    about:
+      "Senior Faculty of Biology and chemistry with 1+ Years of experience",
     image: "Chetanya-Sir.png",
   },
   {
@@ -84,23 +114,32 @@ const teacherDetails = [
     name: "Govind Kumar",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Tech",
+    University: "REC Jaipur",
+    about:
+      "Senior Faculty of Mathematics with 5+ Years of experience in Reputed National Level Institutes",
     image: "Govind-Kumar.png",
   },
   {
     id: 12,
     name: "Kavita Agarwal",
-    subject: "Mathematics",
+    subject: "Biology",
     honorific: "Ms.",
-    about: "Together we will learn new things",
+    edu: "M.Sc.(Microbiology), B.ed",
+    University: "Devi Ahilya Vishwavidyalaya, Indore",
+    about:
+      "Senior Faculty of Biology and chemistry with 8+ Years of experience in Reputed National Level Institutes",
     image: "Kavita-Agarwal.png",
   },
   {
     id: 13,
     name: "Manish Kumar",
-    subject: "Mathematics",
+    subject: "Physics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Sc",
+    University: "VG University Jaipur",
+    about:
+      "Senior Faculty of Biology and chemistry with 7+ Years of experience in Reputed National Level Institutes",
     image: "Manish-Kumar.png",
   },
   {
@@ -108,31 +147,43 @@ const teacherDetails = [
     name: "Mukesh Sir",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Tech",
+    University: "R.T.U Kota",
+    about:
+      "Senior Faculty of Biology and chemistry with 8+ Years of experience in Reputed National Level Institutes",
     image: "Mukesh-Sir.png",
   },
   {
     id: 15,
     name: "Prashant Bharadwaj",
-    subject: "Mathematics",
+    subject: "Biology",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.Sc.(Biochemistry)",
+    University: "BHU, Varanasi ",
+    about:
+      "Senior Faculty of Biology and chemistry with 0+ Years of experience.",
     image: "Prashant-Bharadwaj.png",
   },
   {
     id: 16,
-    name: "Shekhar Sir",
-    subject: "Mathematics",
+    name: "Shekhar Ravindra Ghodeswar",
+    subject: "English",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "M.A, B.Ed",
+    University: "Mumbai University",
+    about:
+      "Senior Faculty of English and chemistry with 17+ Years of experience in Reputed National Level Institutes",
     image: "Shekhar-Sir.png",
   },
   {
     id: 17,
-    name: "Neera Ma'am",
-    subject: "Mathematics",
+    name: "Neera Singh",
+    subject: "Physics",
     honorific: "Ms",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "Magadh University",
+    about:
+      "Senior Faculty of Physics and chemistry with 22+ Years of experience in Reputed National Level Institutes",
     image: "Neera-Ma'am.png",
   },
   {
@@ -140,7 +191,10 @@ const teacherDetails = [
     name: "Pankaj Balujha",
     subject: "Mathematics",
     honorific: "Mr.",
-    about: "Together we will learn new things",
+    edu: "B.Tech",
+    University: "Pantnagar University",
+    about:
+      "Senior Faculty of Mathematics and chemistry with 22+ Years of experience in Reputed National Level Institutes",
     image: "Pankaj-Balujha.png",
   },
 ];
@@ -153,7 +207,8 @@ const teacherDivs = document.querySelectorAll(".advisor-carousel");
 teacherDivs.forEach((teacherDiv) => {
   teacherDiv.innerHTML = teacherDetails
     .map((teacher) => {
-      const { id, name, subject, honorific, about, image } = teacher;
+      const { id, name, subject, honorific, about, image, edu, University } =
+        teacher;
       return `<div class="advisor-item" data-id="${id}">
               <div class="info-box">
                 <img src="assets/img/teachers/${image}" alt="Thumb" />
@@ -166,10 +221,16 @@ teacherDivs.forEach((teacherDiv) => {
                     <div class="content">
                       <div class="overlay-content">
                         <h4>About ${name}</h4>
-                        <p>
-                        ${about}
+                        <p style="color:#F58026;font-weight:600">
+                        ${edu}
                         </p>
-                        <a href="./teachers-details.php?id=${id}">Read More</a>
+                        <p style="margin:-15px 0 0;color:#F58026">
+                        ${University}
+                        </p>
+                        <p>
+                        ${about}.
+                        </p>
+                        <a href="./teachers-details.php?id=${id}" >Read More</a>
                       </div>
                     </div>
                   </div>

@@ -3,26 +3,71 @@
 }
 
 .inner-container {
-  padding: 0px;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.card-holder {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 40px;
+.courses-offer {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
 }
 
-.course-features .card-holder {
-  row-gap: 70px;
+.courses-offer .inner-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.courses-offer .card-holder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out;
+}
+
+.courses-offer .card-holder i {
+  background-color: rgb(253, 252, 252);
+  padding: 12px 15px;
+  border-radius: 50%;
+  color: #f58026;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgb(172, 172, 172);
+  display: none;
+}
+
+.courses-offer .card-holder i.fa-angle-right {
+  position: absolute;
+  right: 40px;
+  top: auto;
+  bottom: auto;
+}
+.courses-offer .card-holder i.fa-angle-left {
+  position: absolute;
+  left: 40px;
+  top: auto;
+  bottom: auto;
 }
 
 .cards {
-  width: 300px;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+  .cards {
+    min-width: 50%; /* Show 2 cards on medium screens */
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    min-width: 33.33%; /* Show 3 cards on large screens */
+  }
 }
 
 .cards h4,
@@ -136,6 +181,18 @@
   background-color: #f9f9f9;
 }
 
+.course-features .card-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+}
+
+.course-features .card-holder {
+  row-gap: 70px;
+}
+
 .feature-card {
   width: 250px;
   background: white !important;
@@ -203,10 +260,18 @@
     column-gap: 40px;
     flex-wrap: wrap;
   }
+
+  .courses-offer .card-holder i {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {
   .inner-container {
     padding: 0 120px;
+  }
+
+  .courses-offer .card-holder i {
+    display: none;
   }
 }

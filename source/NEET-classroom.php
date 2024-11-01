@@ -64,11 +64,10 @@
       <p style="text-align: center; max-width: 90%; margin:0 auto 50px;">
         AREESE offers a diverse range of tailored courses designed to meet each student's unique needs. This personalized approach ensures focused, goal-oriented learning, helping students sharpen their skills and significantly boost their performance. By providing specialized attention, AREESE empowers students to excel in their academic journey and achieve their full potential
       </p>
-      <div class="card-holder">
-
-
+      <div class="card-holder card-carousal">
+        <i class='fa fa-angle-right'></i>
+        <i class='fa fa-angle-left'></i>
         <!-- cards -->
-
         <!-- Single Item -->
         <section class="cards">
           <div class="upper-part" style="background-color:#386641;">
@@ -115,7 +114,7 @@
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
-        <section class="cards">
+        <section class="cards" style="">
           <div class="upper-part" style="background-color:#ef233c">
             <h4>One year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
@@ -150,7 +149,7 @@
         <!-- Single Item -->
 
         <!-- Single Item -->
-        <section class="cards">
+        <section class="cards" style="  ">
           <div class="upper-part" style="background-color:#ff6700">
             <h4>Dropper Batch</h4>
             <p>ONE YEAR TARGET COURSE</p>
@@ -198,7 +197,7 @@
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
-        <section class="cards">
+        <section class="cards" style="  ">
           <div class="upper-part" style="background-color:#8f3985">
             <h4>Dropper Plus</h4>
             <p>ONE YEAR TARGET COURSE</p>
@@ -384,14 +383,14 @@
         </article>
         <!-- single Item -->
         <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #D58D38;">
+        <article class="feature-card" style="padding-bottom: 15px;border-bottom: 2px solid #D58D38;">
           <div class="img-back">
           </div>
           <img src="./assets/img/classroom-png/11.jpg" alt="image-icon">
           <h5>Recorded video lectures & CBT Test</h5>
           <div class="description">
             <p>
-
+              Our institute offers recorded video lectures for flexible learning and Computer-Based Tests (CBT) to enhance readiness.
             </p>
           </div>
         </article>
@@ -434,14 +433,14 @@
         </article>
         <!-- single Item -->
         <!-- single Item -->
-        <article class="feature-card" style="border-bottom: 2px solid #EF901E;">
+        <article class="feature-card" style="padding-bottom:4px ;border-bottom: 2px solid #EF901E;">
           <div class="img-back">
           </div>
           <img src="./assets/img/classroom-png/15.jpg" alt="image-icon">
-          <h5>CBT(online) test</h5>
+          <h5>Board Excel Program</h5>
           <div class="description">
             <p>
-
+              Our Board Excel Program offers specialized guidance tailored to each student's respective board, ensuring focused and effective preparation.
             </p>
           </div>
         </article>
@@ -483,6 +482,7 @@
   <!-- jQuery Frameworks
     ============================================= -->
   <?php include "./jquery-links.php" ?>
+  <script src="./assets/js/neet-course.carousal.js"></script>
 
 </body>
 
