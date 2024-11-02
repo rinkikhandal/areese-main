@@ -48,6 +48,40 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
     <div class="results default-padding default-padding-side">
         <h2>NEET Results </h2>
+        <div id="portfolio" class="portfolio-area ">
+            <div class="container">
+                <div class="portfolio-items-area text-center">
+                    <div class="row">
+                        <div class="col-md-12 portfolio-content">
+
+                            <!-- End Mixitup Nav-->
+
+                            <div class="row magnific-mix-gallery masonary text-light">
+                                <div id="portfolio-grid" class="portfolio-items col-2">
+                                    <div class="pf-item ceremony students">
+                                        <div class="item-effect">
+                                            <img src="./assets/img/result-poster.jpg" />
+                                            <div class="overlay">
+                                                <a href="./assets/img/result-poster.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pf-item ceremony students">
+                                        <div class="item-effect">
+                                            <img src="./assets/img/NEET-result.png" alt="thumb" />
+                                            <div class="overlay">
+                                                <a href="./assets/img/NEET-result.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

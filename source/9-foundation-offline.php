@@ -144,7 +144,7 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Footer 
     ============================================= -->
-  <?php include 'footer_light.php' ?>
+  <?php include 'footer_dark.php' ?>
   <!-- End Footer -->
 
   <!-- jQuery Frameworks
