@@ -234,7 +234,7 @@ require_once './assets/db/config_session.inc.php';
             <h5>Eligibility</h5>
             <p>12<sup>th</sup> pass</p>
             <h5>Family Income</h5>
-            <p>Less than 3 Lacs per annum (Background Verification by Vigilance team)</p>
+            <p>Less than 3 Lakhs per annum (Background Verification by Vigilance team)</p>
             <h5>Selection Procedure</h5>
 
             <p>

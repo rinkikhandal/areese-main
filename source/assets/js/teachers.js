@@ -197,6 +197,17 @@ const teacherDetails = [
       "Senior Faculty of Mathematics and chemistry with 22+ Years of experience in Reputed National Level Institutes",
     image: "Pankaj-Balujha.png",
   },
+  {
+    id: 19,
+    name: "Anushka",
+    subject: "Social Studies",
+    honorific: "Ms.",
+    edu: "M.A.",
+    University: "Rajasthan University",
+    about:
+      "Senior Faculty of SST with 9+ Years of experience in Reputed National Level Institutes",
+    image: "Anushka-ma'am.jpg",
+  },
 ];
 
 // looping teachers

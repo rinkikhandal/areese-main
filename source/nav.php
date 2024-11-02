@@ -114,34 +114,21 @@
                         <li>
                           <a href="NEET-classroom.php">NEET</a>
                         </li>
-                        <li class="dropdown">
-                          <a href="" data-toggle="dropdown" class="dropdown-toggle">JEE </a>
+                        <li>
+                          <a href="JEE-classroom.php">JEE </a>
                           <!-- need changes -->
-                          <ul class="dropdown-menu menu-personal" role="menu" style="position:absolute;left:150px;">
-
-                            <li>
-                              <a href="#">JEE (Main) + BITSAT</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">JEE (Advance) + BITSAT</a>
-                            </li>
-
-
-                          </ul>
 
                         </li>
                         <li class="dropdown">
                           <a href="" data-toggle="dropdown" class="dropdown-toggle">Foundation </a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">9<sup>th</sup> Class</a>
+                              <a href="9-foundation-offline.php">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">10<sup>th</sup> Class</a>
+                              <a href="10-foundation-offline.php">10<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -151,21 +138,21 @@
                           <a href="" data-toggle="dropdown" class="dropdown-toggle">Boards / School Exams</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:180px;">
                             <li>
-                              <a href="#">9<sup>th</sup> Class</a>
+                              <a href="9-boards-offline.php">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
                             <li>
-                              <a href="#">10<sup>th</sup> Class</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">11<sup>th</sup> Class</a>
+                              <a href="10-boards-offline.php">10<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">12<sup>th</sup> Class</a>
+                              <a href="11-boards-offline.php">11<sup>th</sup> Class</a>
+                            </li>
+                            <hr>
+
+                            <li>
+                              <a href="12-boards-offline.php">12<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -175,12 +162,12 @@
                           <a href="" data-toggle="dropdown" class="dropdown-toggle">Commerce</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">11<sup>th</sup> Class</a>
+                              <a href="11-commerce-offline.php">11<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">12<sup>th</sup> Class</a>
+                              <a href="12-commerce-offline.php">12<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -233,12 +220,12 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Foundation</a>
                           <ul class="dropdown-menu w-less " role="menu" style="position:absolute;left:150px;">
                             <li>
-                              <a href="#">9<sup>th</sup> Class</a>
+                              <a href="9-foundation-online.php">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">10<sup>th</sup> Class</a>
+                              <a href="10-foundation-online.php">10<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -248,22 +235,22 @@
                           <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards / School Exams</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:180px;">
                             <li>
-                              <a href="#">9<sup>th</sup> Class</a>
+                              <a href="9-boards-online.php">9<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">10<sup>th</sup> Class</a>
+                              <a href="10-boards-online.php">10<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">11<sup>th</sup> Class</a>
+                              <a href="11-boards-online.php">11<sup>th</sup> Class</a>
                             </li>
                             <hr>
 
                             <li>
-                              <a href="#">12<sup>th</sup> Class</a>
+                              <a href="12-boards-online.php">12<sup>th</sup> Class</a>
                             </li>
 
                           </ul>
@@ -272,10 +259,10 @@
                         <li class="dropdown">
                           <a href="gallery-4-colum.html" class="dropdown-toggle" data-toggle="dropdown">Commerce</a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
-                            <li><a href="teachers.html">11<sup>th</sup> Class</a></li>
+                            <li><a href="11-commerce-online.php">11<sup>th</sup> Class</a></li>
                             <hr>
 
-                            <li><a href="teachers-details.html">12<sup>th</sup> Class</a></li>
+                            <li><a href="12-commerce-online.php">12<sup>th</sup> Class</a></li>
                           </ul>
 
                         </li>

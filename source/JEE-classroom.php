@@ -1,4 +1,7 @@
-<?php require_once "./assets/db/config_session.inc.php"; ?>
+<?php
+require_once './assets/db/config_session.inc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,20 +13,18 @@
 </head>
 
 <body>
+
   <!-- Preloader Start -->
   <div class="se-pre-con"></div>
   <!-- Preloader Ends -->
-
   <!-- Start Header Top 
     ============================================= -->
   <?php include './header_top.php'; ?>
-
   <!-- End Header Top -->
 
   <!-- Header 
     ============================================= -->
   <?php include './nav.php'; ?>
-
   <!-- End Header -->
 
   <!-- Start Login Form 
@@ -37,17 +38,18 @@
   <?php include './register.php'; ?>
   <!-- End Register Form -->
 
+
   <!-- Start Breadcrumb 
     ============================================= -->
   <div class="breadcrumb-area shadow dark text-center bg-fixed text-light" style="background:white">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Classroom > NEET</h1>
+          <h1>Classroom > JEE</h1>
           <ul class="breadcrumb">
             <li><a href="#"><i class="fas fa-home"></i> Admission</a></li>
             <li><a href="#">Classroom</a></li>
-            <li class="active">NEET</li>
+            <li class="active">JEE</li>
           </ul>
         </div>
       </div>
@@ -74,7 +76,7 @@
             <h4>Two year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
             <h5>About the course</h5>
-            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of NEET, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for NEET.</p>
+            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), BITSAT, VITEEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner" style=" background: linear-gradient(to left, rgb(214, 242, 222), white 60%);">
@@ -119,7 +121,7 @@
             <h4>One year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
             <h5>About the course</h5>
-            <p>Our One-Year Programme covers the entire syllabus of class 12th according to latest syllabus of NEET, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for NEET.</p>
+            <p>Our One-Year Programme covers the entire syllabus of class 12th according to latest syllabus of JEE(Main + Advance), CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner" style=" background: linear-gradient(to left, rgb(242, 217, 214), white 60%);">
@@ -155,7 +157,7 @@
             <p>ONE YEAR TARGET COURSE</p>
             <p style="margin-top:-15px;">(12th Pass Students)</p>
             <h5>About the course</h5>
-            <p>Our one-year course for class 12th pass thoroughly covers the syllabus for NEET We train students to think analytically and adopt a systematic approach to problem-solving, essential for NEET and to lend you a helping hand and guide you to clear NEET with very good rank.</p>
+            <p>Our one-year course for class 12th pass thoroughly covers the syllabus for JEE (Main & Advanced). We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE and to lend you a helping hand and guide you to clear JEE with very good rank.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner" style=" background: linear-gradient(to left, rgb(239, 201, 180), white 60%);">
@@ -203,7 +205,7 @@
             <p>ONE YEAR TARGET COURSE</p>
             <p style="margin-top:-15px;">(12th Pass Students)</p>
             <h5>About the course</h5>
-            <p>Our One year course is designed for Ex-AREESE students or those who have qualified for NEET, our one-year course is designed to elevate your Rank to next level and helping you achieve what you aspire.</p>
+            <p>Our One year course is designed for Ex-AREESE students or those who have qualified for JEE (Main)/JEE (Advanced), our one-year course is designed to elevate your Rank to next level and helping you achieve what you aspire.</p>
           </div>
           <div class="middle-part">
             <div class="middle-inner" style=" background: linear-gradient(to left, rgb(242, 228, 246), white 60%);">
@@ -239,7 +241,7 @@
             <h5>Course Duration</h5>
             <p>One Year</p>
             <h5>Eligibility</h5>
-            <p>Ex-AREESE students or those who have qualified for NEET</p>
+            <p>Ex-AREESE students or those who have qualified for JEE (Main)/JEE (Advanced),</p>
             <h5>Selection Procedure</h5>
             <p>Direct</p>
             <h5>Course Fee</h5>
@@ -254,221 +256,6 @@
   </div>
   <!--End Description   =============================================-->
 
-  <!--Start of Course Features   =============================================-->
-  <div class="default-padding default-padding-per course-features">
-    <div class="inner-container">
-      <h2>
-        Course Features
-      </h2>
-      <div class="card-holder ">
-        <!-- single Item -->
-        <article class="feature-card" style="border-bottom: 2px solid #FACA4C;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/1.jpg" alt="image-icon">
-          <h5>Experienced & Best faculty team</h5>
-          <div class="description">
-            <p>Our skilled and knowledgeable faculty is committed, diligent, and driven by a passion for your success.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="border-bottom: 2px solid #FE4229;">
-          <div class=" img-back">
-          </div>
-          <img src="./assets/img/classroom-png/2.jpg" alt="image-icon">
-          <h5>Best Faculty Team for all students</h5>
-          <div class="description">
-            <p>Best Faculty Team for all students
-              Every student has access to the best faculty, regardless of their previous performance.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #559DFF;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/3.jpg" alt="image-icon">
-          <h5>Ultimate Personal Care</h5>
-          <div class="description">
-            <p>
-              Each student receives personalized attention, ensuring you're never just another face in the crowd but a truly valued individual, who matters.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="border-bottom: 2px solid #7A49A2;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/4.jpg" alt="image-icon">
-          <h5>Result-oriented Teaching Methodology</h5>
-          <div class="description">
-            <p>
-              Engaging and interactive classes designed with a scientific, result-driven teaching methodology to maximize learning and outcomes.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="border-bottom: 2px solid #567AFF;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/5.jpg" alt="image-icon">
-          <h5>Relevant Learning Study Material</h5>
-          <div class="description">
-            <p>
-              Comprehensive, thoroughly researched, and highly relevant learning materials to support effective student learning.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="border-bottom: 2px solid #559DFF;">
-          <div class=" img-back">
-          </div>
-          <img src="./assets/img/classroom-png/6.jpg" alt="image-icon">
-          <h5>Regular Test Series & Performance Analysis</h5>
-          <div class="description">
-            <p>
-              Daily progress tracking, regular assessments, performance analysis, and feedback for continuous improvement.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 5.2px;border-bottom: 2px solid #EF9F4A;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/7.jpg" alt="image-icon">
-          <h5>best Infrastructure</h5>
-          <div class="description">
-            <p>
-              State-of-the-art infrastructure with all the necessary facilities, providing an ideal environment for focused and effective learning experiences.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 5.9px;border-bottom: 2px solid #7E4BAA;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/8.jpg" alt="image-icon">
-          <h5>Excellent Academic Control</h5>
-          <div class="description">
-            <p>
-              Academic oversight guarantees timely course completion while maintaining the highest standards of teaching quality and educational excellence.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 5px;border-bottom: 2px solid #568BFF;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/9.jpg" alt="image-icon">
-          <h5>Best Results & Reputation</h5>
-          <div class="description">
-            <p>
-              A proven track record of success spanning over 10 years, highlighting our commitment to excellence in education and student achievement.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 15px;border-bottom: 2px solid #DEA615;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/10.jpg" alt="image-icon">
-          <h5>Content Research & Development Team</h5>
-          <div class="description">
-            <p>
-              An Educational Research and Content Development Center monitors exam patterns to ensure you're ready for the latest trends.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 15px;border-bottom: 2px solid #D58D38;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/11.jpg" alt="image-icon">
-          <h5>Recorded video lectures & CBT Test</h5>
-          <div class="description">
-            <p>
-              Our institute offers recorded video lectures for flexible learning and Computer-Based Tests (CBT) to enhance readiness.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #653589;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/12.jpg" alt="image-icon">
-          <h5>Great student life</h5>
-          <div class="description">
-            <p>
-              A competitive, motivating, and supportive environment is designed to foster student success, personal growth, and a sense of achievement.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #FE4229;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/13.jpg" alt="image-icon">
-          <h5>Full Academic Support</h5>
-          <div class="description">
-            <p>Comprehensive academic support available outside of class through regular problem-solving sessions, knowledge labs, individual counseling, and seminars.</p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 5px;border-bottom: 2px solid #7A49A2;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/14.jpg" alt="image-icon">
-          <h5>Residential Facility</h5>
-          <div class="description">
-            <p>
-              Our coaching institute offers a well-equipped residential facility with mess services, providing students with a comfortable and focused learning environment.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom:4px ;border-bottom: 2px solid #EF901E;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/15.jpg" alt="image-icon">
-          <h5>Board Excel Program</h5>
-          <div class="description">
-            <p>
-              Our Board Excel Program offers specialized guidance tailored to each student's respective board, ensuring focused and effective preparation.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-        <!-- single Item -->
-        <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #8D8D8D;">
-          <div class="img-back">
-          </div>
-          <img src="./assets/img/classroom-png/16.jpg" alt="image-icon">
-          <h5>13-Hour Self Study Program</h5>
-          <div class="description">
-            <p>
-              A unique, intensive program designed to maximize productivity and enhance learning outcomes for participants, ensuring a transformative experience.
-            </p>
-          </div>
-        </article>
-        <!-- single Item -->
-
-
-      </div>
-
-    </div>
-
-
-  </div>
-  <!--End of Course Features   =============================================-->
-
-
 
 
 
@@ -476,13 +263,15 @@
 
   <!-- Start Footer 
     ============================================= -->
-  <?php include 'footer_dark.php' ?>
+  <?php include 'footer_light.php' ?>
   <!-- End Footer -->
 
   <!-- jQuery Frameworks
     ============================================= -->
   <?php include "./jquery-links.php" ?>
-  <script src="./assets/js/neet-course.carousal.js"></script>
+  <script src="assets/js/teachers.js" type="module"></script>
+  <script src="assets/js/enquiry.js"></script>
+
 
 </body>
 
