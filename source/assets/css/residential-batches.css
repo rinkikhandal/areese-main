@@ -111,6 +111,7 @@ section.cards h4 {
 section.cards h5 {
   color: #f58026;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 section.cards p {
@@ -126,6 +127,58 @@ section.cards p {
   margin: 0 auto;
 }
 
+.cards-with-scroll {
+  max-width: 1200px;
+  margin: 0 auto;
+  row-gap: 4rem;
+}
+
+.cards-with-scroll section {
+  border-radius: 0.5rem;
+  box-shadow: 2px -2px 10px rgb(245, 244, 244);
+  padding: 20px 20px;
+  border-bottom: 3px solid rgb(245, 179, 138);
+  transition: all 0.5s ease-in-out;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards-with-scroll section:hover {
+  box-shadow: 2px -2px 15px rgb(220, 220, 220);
+}
+
+.cards-with-scroll section h4 {
+  color: #f97510;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards-with-scroll section p {
+  color: rgb(168, 168, 168);
+}
+
+.cards-with-scroll section span a,
+i {
+  color: rgb(114, 114, 247);
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.cards-with-scroll section span:hover a,
+.cards-with-scroll section span:hover i {
+  color: #87baf4;
+}
+
+@media (min-width: 768px) {
+  .cards-with-scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 800px) {
   .courses-offer-super30 div.card-holder {
     display: grid;
@@ -139,6 +192,12 @@ section.cards p {
 @media (min-width: 1000px) {
   .inner-container {
     padding: 0 120px !important;
+  }
+
+  .cards-with-scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
   }
 }
 

@@ -234,107 +234,6 @@ require_once './assets/db/config_session.inc.php';
       <div class="row">
         <div class="col-md-12">
           <div class="popular-courses-items bottom-price popular-courses-carousel owl-carousel owl-theme">
-            <!-- Single Item -->
-            <!-- <div class="item">
-                <div class="thumb">
-                  <a href="#">
-                    <img src="assets/img/800x600.png" alt="Thumb" />
-                  </a>
-                  <div class="overlay">
-                    <a class="btn btn-theme effect btn-sm" href="#">
-                      <i class="fas fa-chart-bar"></i> Enroll Now
-                    </a>
-                  </div>
-                </div>
-                <div class="info">
-                  <div class="author-info">
-                    <div class="thumb">
-                      <a href="#"
-                        ><img src="assets/img/100x100.png" alt="Thumb"
-                      /></a>
-                    </div>
-                    <div class="others">
-                      <a href="#">Akua Paul</a>
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <span>5 (1,890)</span>
-                      </div>
-                    </div>
-                  </div>
-                  <h4><a href="#">Social Science & Humanities</a></h4>
-                  <div class="cats">
-                    <a href="#">Social</a>
-                    <a href="#">Online</a>
-                  </div>
-                  <p>
-                    Would day nor ask walls known. But preserved advantage are
-                    but and certainty earnestly enjoyment.
-                  </p>
-                  <div class="bottom-info">
-                    <ul>
-                      <li><i class="fas fa-user"></i> 6,690</li>
-                      <li><i class="fas fa-clock"></i> 16:00</li>
-                    </ul>
-                    <div class="price-btn">$12.00</div>
-                  </div>
-                </div>
-              </div> -->
-            <!-- End Single Item -->
-            <!-- Single Item -->
-            <!-- <div class="item">
-                <div class="thumb">
-                  <a href="#">
-                    <img src="assets/img/800x600.png" alt="Thumb" />
-                  </a>
-                  <div class="overlay">
-                    <a class="btn btn-theme effect btn-sm" href="#">
-                      <i class="fas fa-chart-bar"></i> Enroll Now
-                    </a>
-                  </div>
-                </div>
-                <div class="info">
-                  <div class="author-info">
-                    <div class="thumb">
-                      <a href="#"
-                        ><img src="assets/img/100x100.png" alt="Thumb"
-                      /></a>
-                    </div>
-                    <div class="others">
-                      <a href="#">Jon Babu</a>
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                        <span>4.7 (890)</span>
-                      </div>
-                    </div>
-                  </div>
-                  <h4><a href="#">Actualized Leadership Network</a></h4>
-                  <div class="cats">
-                    <a href="#">Online</a>
-                    <a href="#">Source</a>
-                  </div>
-                  <p>
-                    Would day nor ask walls known. But preserved advantage are
-                    but and certainty earnestly enjoyment.
-                  </p>
-                  <div class="bottom-info">
-                    <ul>
-                      <li><i class="fas fa-user"></i> 8,690</li>
-                      <li><i class="fas fa-clock"></i> 126:00</li>
-                    </ul>
-                    <div class="price-btn">Free</div>
-                  </div>
-                </div>
-              </div> -->
-            <!-- End Single Item -->
-            <!-- Single Item -->
             <div class="item">
               <div class="thumb">
                 <a href="#">
@@ -349,7 +248,6 @@ require_once './assets/db/config_session.inc.php';
               <hr>
 
               <div class="card-body info text-center">
-                <!-- <i class="fa-solid fa-book-open"></i> -->
                 <h3>AREESE Career Institute</h4>
                   <p class="card-text">Offline Class</p>
                   <h5 class="card-text">NEET ∣ JEE</h5>
@@ -367,15 +265,9 @@ require_once './assets/db/config_session.inc.php';
                 <a href="#">
                   <img src="assets/img/online-2.jpg" alt="Thumb" />
                 </a>
-                <!-- <div class="overlay">
-                  <a class="btn btn-theme effect btn-sm" href="#">
-                    <i class="fas fa-chart-bar"></i> Enroll Now
-                  </a>
-                </div> -->
               </div>
               <hr>
               <div class="card-body info text-center">
-                <!-- <i class="fa-solid fa-desktop"></i> -->
                 <h3>AREESE Online Classes</h4>
                   <p class="card-text">Online Class</p>
 
@@ -394,18 +286,11 @@ require_once './assets/db/config_session.inc.php';
                 <a href="#">
                   <img src="assets/img/gurukulam-3.png" alt="Thumb" />
                 </a>
-                <!-- <div class="overlay">
-                  <a class="btn btn-theme effect btn-sm" href="#">
-                    <i class="fas fa-chart-bar"></i> Enroll Now
-                  </a>
-                </div> -->
               </div>
               <hr>
 
               <div class="card-body info text-center ">
-                <!-- <i class="fa-solid fa-school"></i> -->
                 <h3 class="card-title">AREESE Gurukulam</h4>
-
                   <p class="card-text">
                     Pay after Selection Batch <br />
                     for
@@ -423,18 +308,12 @@ require_once './assets/db/config_session.inc.php';
             <div class="item">
               <div class="thumb">
                 <a href="#">
-                  <img src="assets/img/gurukulam-3.png" alt="Thumb" />
+                  <img src="assets/img/super30.png" alt="Thumb" />
                 </a>
-                <!-- <div class="overlay">
-                  <a class="btn btn-theme effect btn-sm" href="#">
-                    <i class="fas fa-chart-bar"></i> Enroll Now
-                  </a>
-                </div> -->
               </div>
               <hr>
 
               <div class="card-body info text-center ">
-                <!-- <i class="fa-solid fa-school"></i> -->
                 <h3 class="card-title">AREESE Super30</h4>
 
                   <p class="card-text">

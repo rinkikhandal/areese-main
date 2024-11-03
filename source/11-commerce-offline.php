@@ -63,9 +63,9 @@ require_once './assets/db/config_session.inc.php';
   <!-- courses offered======== -->
   <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
     <h2>11<sup>th</sup> Offline Course for School Exams</h2>
-    <div style="" class="inner-container ">
+    <div class="inner-container ">
       <!-- Single Item -->
-      <section class="cards card-foundation" style="  ">
+      <section class="cards card-foundation">
         <div class="upper-part">
 
           <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>

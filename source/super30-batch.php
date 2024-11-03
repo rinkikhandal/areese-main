@@ -47,6 +47,8 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Banner 
     ============================================= -->
+
+
   <div class=" ">
     <div class="bg-img default-padding box-table bg-fixed shadow dark" style="background-image:url(assets/img/areese-hostel.jpg) ;">
       <div class="box-cell">
@@ -118,8 +120,55 @@ require_once './assets/db/config_session.inc.php';
       <!-- End Online Registration -->
 
     </div>
+    <!-- Start of cards=============== -->
+    <div class="default-padding default-padding-per cards-with-scroll" style="margin-top: 70px;">
+      <section>
+        <h4>
+          About AREESE Super30
+        </h4>
+        <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
+        <span>
+          <a href="#about">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+      <section>
+        <h4>
+          Sponsors of AREESE super30
+        </h4>
+        <p>The AREESE Super-30 Batch is a life-changing initiative aimed at providing top-quality education</p>
+        <span>
+          <a href="#sponsors">Read More</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+      <section>
+        <h4>
+          Courses Offered by AREESE Super30
+        </h4>
+        <p>AREESE Super30 offers two types of courses both with students still studing in schools and those who are dropouts.</p>
+        <span>
+          <a href="#courses">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+      </section>
+      <section>
+        <h4>
+          Why AREESE Super30
+        </h4>
+        <p> AREESE Super30 provides continuous guiding and support to the students to excel in every field. By providing proper amenities to the students we ensure that the student can properly focus on his/her education.</p>
+        <span>
+          <a href="#why">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+    </div>
 
-    <div class="about-residential default-padding default-padding-per ">
+
+    <!-- end of cards=============== -->
+
+    <div class="about-residential default-padding default-padding-per " id="about">
       <h2>About Super30 Batch</h2>
       <div style="" class="  inner-container">
         <p style="text-align: center;margin-top: -30px;">
@@ -144,7 +193,7 @@ require_once './assets/db/config_session.inc.php';
 
     </div>
     <!-- SPONSORS ========== -->
-    <div class="about-residential default-padding default-padding-per " style="background-color: #F9F9F9;">
+    <div class="about-residential default-padding default-padding-per " style="background-color: #F9F9F9;" id="sponsors">
       <h2>Sponsors and Alumni Fueling AREESE Super30</h2>
       <div style="" class="  inner-container">
         <p>
@@ -169,11 +218,11 @@ require_once './assets/db/config_session.inc.php';
       </div>
     </div>
     <!-- courses offered======== -->
-    <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
+    <div class="about-residential default-padding default-padding-per courses-offer-super30 " id="courses">
       <h2>Courses offered at AREESE Super30</h2>
       <div style="" class="inner-container card-holder">
         <!-- Single Item -->
-        <section class="cards" style="  ">
+        <section class="cards">
           <div class="upper-part">
             <h4>TWO YEAR TARGET COURSE</h4>
 
@@ -271,6 +320,29 @@ require_once './assets/db/config_session.inc.php';
   <!-- jQuery Frameworks
     ============================================= -->
   <?php include "./jquery-links.php" ?>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Get the navbar height
+      const navbarHeight = document.querySelector(".navbar").offsetHeight;
+
+      // Attach click event listeners to each link
+      document.querySelectorAll("a[href^='#']").forEach(anchor => {
+        anchor.addEventListener("click", function(event) {
+          event.preventDefault();
+
+          // Scroll to the target section with an offset
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
+          const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navbarHeight;
+
+          window.scrollTo({
+            top: targetPosition,
+            behavior: "smooth"
+          });
+        });
+      });
+    });
+  </script>
 
 
 </body>
