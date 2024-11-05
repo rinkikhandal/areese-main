@@ -52,29 +52,28 @@
   bottom: auto;
 }
 
-.cards {
+/* .cards {
   min-width: 100%;
   box-sizing: border-box;
 }
 
-/* Responsive Design */
 @media (min-width: 600px) {
   .cards {
-    min-width: 50%; /* Show 2 cards on medium screens */
+    min-width: 50%;
   }
 }
 
 @media (min-width: 900px) {
   .cards {
-    min-width: 33.33%; /* Show 3 cards on large screens */
+    min-width: 33.33%; 
   }
-}
+} */
 
 .cards h4,
 .cards h5 {
   font-weight: 800;
   color: white;
-  text-shadow: 2px 2px 8px rgb(74, 74, 74);
+  text-shadow: 2px 2px 8px rgb(74, 74, 74) !important;
 }
 
 .cards p {
@@ -182,15 +181,7 @@
 }
 
 .course-features .card-holder {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 40px;
-}
-
-.course-features .card-holder {
-  row-gap: 70px;
+  margin: 0 auto;
 }
 
 .feature-card {
@@ -203,6 +194,7 @@
   transition: all 0.2s ease-in-out;
   position: relative;
   z-index: 10 !important;
+  margin-bottom: 70px;
 }
 
 .feature-card:hover {
@@ -233,9 +225,10 @@
 
 .feature-card h5 {
   font-weight: 600;
-  /* font-size: 1.6rem; */
-  word-spacing: 2px;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
   text-transform: capitalize;
+  line-height: 20px;
 }
 
 .feature-card p {
@@ -252,26 +245,37 @@
     flex-wrap: wrap;
   }
 
-  .course-features .card-holder {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    row-gap: 80px;
-    column-gap: 40px;
-    flex-wrap: wrap;
-  }
-
   .courses-offer .card-holder i {
     display: block;
   }
 }
 
-@media (min-width: 1200px) {
-  .inner-container {
-    padding: 0 120px;
+@media (min-width: 768px) {
+  .course-features .card-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 4rem;
   }
+}
 
+@media (min-width: 1000px) {
+  .inner-container {
+    padding: 0 120px !important;
+  }
   .courses-offer .card-holder i {
     display: none;
+  }
+
+  .course-features .card-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 4rem;
+  }
+
+  .course-features .card-holder .cards {
+    -ms-grid-row-span: 1fr;
+    -ms-grid-column-span: 1fr;
   }
 }

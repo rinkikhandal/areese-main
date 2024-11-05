@@ -11,6 +11,7 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/residential-batches.css">
+  <link rel="stylesheet" href="./assets/css/classroom.css">
 
 </head>
 
@@ -146,7 +147,7 @@ require_once './assets/db/config_session.inc.php';
         <h4>
           Courses Offered by AREESE Super30
         </h4>
-        <p>AREESE Super30 offers two types of courses both with students still studing in schools and those who are dropouts.</p>
+        <p>AREESE Super30 offers two types of courses both with students still studying in schools and those who are dropouts.</p>
         <span>
           <a href="#courses">read more</a>
           <i class="fa-solid fa-chevron-right"></i>
@@ -157,7 +158,9 @@ require_once './assets/db/config_session.inc.php';
         <h4>
           Why AREESE Super30
         </h4>
-        <p> AREESE Super30 provides continuous guiding and support to the students to excel in every field. By providing proper amenities to the students we ensure that the student can properly focus on his/her education.</p>
+        <p> AREESE Super30 provides continuous guiding and support to the students to excel in every field.</p>
+
+        <!--  By providing proper amenities to the students we ensure that the student can properly focus on his/her education. -->
         <span>
           <a href="#why">read more</a>
           <i class="fa-solid fa-chevron-right"></i>
@@ -169,8 +172,8 @@ require_once './assets/db/config_session.inc.php';
     <!-- end of cards=============== -->
 
     <div class="about-residential default-padding default-padding-per " id="about">
-      <h2>About Super30 Batch</h2>
-      <div style="" class="  inner-container">
+      <h2 class="headings">About Super30 Batch</h2>
+      <div class="inner-container">
         <p style="text-align: center;margin-top: -30px;">
 
           <strong>
@@ -178,7 +181,7 @@ require_once './assets/db/config_session.inc.php';
           </strong>
         </p>
 
-        <p>
+        <p style="margin-top:10px">
           In India, a strong and secure financial future often hinges on landing a well-paying job early in life. For many families, having a family member earn a good salary can turn around their economic situation, lifting them out of poverty. In this context, two career paths offer the most promising opportunities: engineering and medicine. Becoming an engineer or doctor can provide a lucrative future, but the journey to these careers begins with cracking some of India’s toughest competitive exams: JEE (Joint Entrance Examination) for engineering aspirants and NEET (National Eligibility cum Entrance Test) for medical aspirants.
         </p>
 
@@ -193,9 +196,9 @@ require_once './assets/db/config_session.inc.php';
 
     </div>
     <!-- SPONSORS ========== -->
-    <div class="about-residential default-padding default-padding-per " style="background-color: #F9F9F9;" id="sponsors">
-      <h2>Sponsors and Alumni Fueling AREESE Super30</h2>
-      <div style="" class="  inner-container">
+    <div class="about-residential default-padding default-padding-per" style="background-color: #F9F9F9;" id="sponsors">
+      <h2 class="headings" style="text-align: center;margin:none auto">Sponsors and Alumni Fueling AREESE Super30</h2>
+      <div class="inner-container">
         <p>
           The AREESE Super-30 Batch is a life-changing initiative aimed at providing top-quality education and coaching to talented, underprivileged students aspiring to crack competitive exams like JEE and NEET. However, such an ambitious project would not be possible without the support of generous sponsors:
         </p>
@@ -219,14 +222,14 @@ require_once './assets/db/config_session.inc.php';
     </div>
     <!-- courses offered======== -->
     <div class="about-residential default-padding default-padding-per courses-offer-super30 " id="courses">
-      <h2>Courses offered at AREESE Super30</h2>
-      <div style="" class="inner-container card-holder">
+      <h2 class="headings" style="">Courses offered at AREESE Super30</h2>
+      <div class="inner-container card-holder">
         <!-- Single Item -->
         <section class="cards">
-          <div class="upper-part">
+          <div class="">
             <h4>TWO YEAR TARGET COURSE</h4>
 
-            <p style="margin-top:-15px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
+            <p>(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
             <p>इस प्रोग्राम के माध्यम से AREESE Gurukulam आपको दो साल के लिए निःशुल्क रहना, खाना और कोचिंग की सुविधा प्रदान की जायेगी</p>
 
@@ -264,12 +267,12 @@ require_once './assets/db/config_session.inc.php';
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
-        <section class="cards" style="  ">
-          <div class="upper-part">
+        <section class="cards">
+          <div>
             <h4>One YEAR TARGET COURSE</h4>
             <h5>DROPPER BATCH</h5>
 
-            <p style="margin-top:-10px;">(12<sup>th</sup> Pass Students)</p>
+            <p>(12<sup>th</sup> Pass Students)</p>
 
             <p>इस प्रोग्राम के माध्यम से AREESE Gurukulam आपको एक साल के लिए निःशुल्क रहना, खाना और कोचिंग की सुविधा प्रदान की जायेगी।</p>
 
@@ -308,6 +311,215 @@ require_once './assets/db/config_session.inc.php';
 
     </div>
 
+    <!-- why areese super30 -->
+
+    <div class="about-residential default-padding default-padding-per course-features" id="why">
+      <h2 class="headings" style="margin-bottom:100px !important;">Why AREESE Super30</h2>
+      <div class="inner-container">
+        <div class="card-holder ">
+          <!-- single Item -->
+          <article class="feature-card" style="border-bottom: 2px solid #FACA4C;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/1.jpg" alt="image-icon">
+            <h5>Experienced & Best faculty team</h5>
+            <div class="description">
+              <p>Our skilled and knowledgeable faculty is committed, diligent, and driven by a passion for your success.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="border-bottom: 2px solid #FE4229;">
+            <div class=" img-back">
+            </div>
+            <img src="./assets/img/classroom-png/2.jpg" alt="image-icon">
+            <h5>Full Academic Support</h5>
+            <div class="description">
+              <p>Comprehensive academic support includes problem-solving sessions,knowledge labs,individual counseling, seminars outside of class.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #559DFF;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/3.jpg" alt="image-icon">
+            <h5>Ultimate Personal Care</h5>
+            <div class="description">
+              <p>
+                Each student receives personalized attention, ensuring you're never just another face in the crowd but a truly valued individual, who matters.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="border-bottom: 2px solid #7A49A2;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/4.jpg" alt="image-icon">
+            <h5>Result-oriented Teaching Methodology</h5>
+            <div class="description">
+              <p>
+                Engaging and interactive classes designed with a scientific, result-driven teaching methodology to maximize learning and outcomes.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="border-bottom: 2px solid #567AFF;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/5.jpg" alt="image-icon">
+            <h5>Relevant Learning Study Material</h5>
+            <div class="description">
+              <p>
+                Comprehensive, thoroughly researched, and highly relevant learning materials to support effective student learning.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="border-bottom: 2px solid #559DFF;">
+            <div class=" img-back">
+            </div>
+            <img src="./assets/img/classroom-png/6.jpg" alt="image-icon">
+            <h5>Regular Test Series & Performance Analysis</h5>
+            <div class="description">
+              <p>
+                Daily progress tracking, regular assessments, performance analysis, and feedback for continuous improvement.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 5.2px;border-bottom: 2px solid #EF9F4A;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/7.jpg" alt="image-icon">
+            <h5>best Infrastructure</h5>
+            <div class="description">
+              <p>
+                State-of-the-art infrastructure with all the necessary facilities, providing an ideal environment for focused and effective learning experiences.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 5.9px;border-bottom: 2px solid #7E4BAA;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/8.jpg" alt="image-icon">
+            <h5>Excellent Academic Control</h5>
+            <div class="description">
+              <p>
+                Academic oversight guarantees timely course completion while maintaining the highest standards of teaching quality and educational excellence.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 5px;border-bottom: 2px solid #568BFF;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/9.jpg" alt="image-icon">
+            <h5>Best Results & Reputation</h5>
+            <div class="description">
+              <p>
+                A proven track record of success spanning over 10 years, highlighting our commitment to excellence in education and student achievement.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 15px;border-bottom: 2px solid #DEA615;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/10.jpg" alt="image-icon">
+            <h5>Content Research & Development Team</h5>
+            <div class="description">
+              <p>
+                An Educational Research and Content Development Center monitors exam patterns to ensure you're ready for the latest trends.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 15px;border-bottom: 2px solid #D58D38;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/11.jpg" alt="image-icon">
+            <h5>Recorded video lectures & CBT Test</h5>
+            <div class="description">
+              <p>
+                Our institute offers recorded video lectures for flexible learning and Computer-Based Tests (CBT) to enhance readiness.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #653589;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/12.jpg" alt="image-icon">
+            <h5>Great student life</h5>
+            <div class="description">
+              <p>
+                A competitive, motivating, and supportive environment is designed to foster student success, personal growth, and a sense of achievement.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #FE4229;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/13.jpg" alt="image-icon">
+            <h5>Full Academic Support</h5>
+            <div class="description">
+              <p>Comprehensive academic support available outside of class through regular problem-solving sessions, knowledge labs, individual counseling, and seminars.</p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 5px;border-bottom: 2px solid #7A49A2;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/14.jpg" alt="image-icon">
+            <h5>Medical Assistance for Student's Wellbeing</h5>
+            <div class="description">
+              <p>
+                AREESE hostels offer medical assistance with first-aid kits and nearby hospitals for emergencies.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom:4px ;border-bottom: 2px solid #EF901E;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/15.jpg" alt="image-icon">
+            <h5>Wardens For Boys & Girls Hostel</h5>
+            <div class="description">
+              <p>
+                Wardens ensures a secure and well regulated environment in hostels.It also helps in case of emergencies and maintains a discipline necessary for a student to study properly.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+          <!-- single Item -->
+          <article class="feature-card" style="padding-bottom: 6px;border-bottom: 2px solid #8D8D8D;">
+            <div class="img-back">
+            </div>
+            <img src="./assets/img/classroom-png/16.jpg" alt="image-icon">
+            <h5>13-Hour Self Study Program</h5>
+            <div class="description">
+              <p>
+                A unique, intensive program designed to maximize productivity and enhance learning outcomes for participants, ensuring a transformative experience.
+              </p>
+            </div>
+          </article>
+          <!-- single Item -->
+
+
+        </div>
+
+      </div>
+
+    </div>
   </div>
 
   <!-- End Banner -->

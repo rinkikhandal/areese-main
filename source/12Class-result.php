@@ -48,7 +48,7 @@ require_once './assets/db/config_session.inc.php';
   <!-- Start Banner 
     ============================================= -->
   <div class="results default-padding default-padding-side">
-    <h2>12<sup>th</sup> Class Results </h2>
+    <h2 class="headings">12<sup>th</sup> Class Results </h2>
     <div id="portfolio" class="portfolio-area ">
       <div class="container">
         <div class="portfolio-items-area text-center">

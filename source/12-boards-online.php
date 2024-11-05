@@ -45,11 +45,11 @@ require_once './assets/db/config_session.inc.php';
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Online Classes > 10<sup>th</sup> Foundation </h1>
+          <h1>Online Classes > 12<sup>th</sup> Foundation </h1>
           <ul class="breadcrumb">
             <li><a href="#"><i class="fas fa-home"></i> Admission</a></li>
             <li><a href="#">Online Classes</a></li>
-            <li class="active">10<sup>th</sup> Foundation </li>
+            <li class="active">12<sup>th</sup> Foundation </li>
           </ul>
         </div>
       </div>
@@ -62,34 +62,34 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- courses offered======== -->
   <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
-    <h2>10<sup>th</sup> Foundation Course</h2>
-    <div style="" class="inner-container ">
+    <h2 class="headings">12<sup>th</sup> Online Course for School Exams</h2>
+    <div class="inner-container ">
       <!-- Single Item -->
-      <section class="cards card-foundation" style="  ">
+      <section class="cards card-foundation">
         <div class="upper-part">
 
           <h4>ONE YEAR FOUNDATION COURSE</h4>
 
-          <h5 style="margin-bottom:10px">10th CLASS ONLINE BATCH</h5>
-          <p style="margin-top:px;">(9<sup>th</sup> to 10<sup>th</sup> Moving Students)</p>
+          <h5 style="margin-bottom:10px">12th CLASS ONLINE BATCH</h5>
+          <p style="margin-top:px;">(11<sup>th</sup> to 12<sup>th</sup> Moving Students)</p>
 
 
           <h5>About the course</h5>
           <p>
-            Our one-year Course for class 10<sup>th</sup> comprehensively lays a strong foundation for higher-level scholastic and competitive exams like NEET, JEE, NTSE, NJSE/JSO, Pre-RMO, RMO, as well as Board Exams. This program sharpens analytical skills and mental ability, evolving the thinking process to make students capable of solving complex questions.</p>
+            Our one-year Course for class 12<sup>th</sup> comprehensively lays a strong foundation for higher-level scholastic and competitive exams like NEET, JEE, NTSE, NJSE/JSO, Pre-RMO, RMO, as well as Board Exams. This program sharpens analytical skills and mental ability, evolving the thinking process to make students capable of solving complex questions.</p>
 
           <h5>Subject Covers</h5>
-          <p> Maths, Science (Phy, Chem, Bio), SST, English</p>
+          <p> Phy, Chem, Bio, Maths</p>
           <h5>Syllabus Covers</h5>
-          <p>Entire Syllabus of class 10<sup>th</sup></p>
+          <p>Entire Syllabus of class 12<sup>th</sup></p>
           <h5>Course Duration</h5>
           <p> One Year</p>
           <h5>Eligibility</h5>
-          <p>9<sup>th</sup> pass</p>
+          <p>11<sup>th</sup> pass</p>
           <h5>Selection Procedure</h5>
           <p>Direct/Scholarship</p>
           <h5>Course Fee</h5>
-          <p>₹ 25,000</p>
+          <p>₹ 43,000</p>
         </div>
       </section>
       <!-- Single Item -->

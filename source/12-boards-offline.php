@@ -45,11 +45,11 @@ require_once './assets/db/config_session.inc.php';
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Online Classes > 10<sup>th</sup> Foundation </h1>
+          <h1>Online Classes > 12<sup>th</sup> School Exams</h1>
           <ul class="breadcrumb">
             <li><a href="#"><i class="fas fa-home"></i> Admission</a></li>
             <li><a href="#">Online Classes</a></li>
-            <li class="active">10<sup>th</sup> Foundation </li>
+            <li class="active">12<sup>th</sup> School Exams </li>
           </ul>
         </div>
       </div>
@@ -62,16 +62,16 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- courses offered======== -->
   <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
-    <h2>10<sup>th</sup> Foundation Course</h2>
-    <div style="" class="inner-container ">
+    <h2 class="headings">12<sup>th</sup> Offline Course for School Exams</h2>
+    <div class="inner-container ">
       <!-- Single Item -->
-      <section class="cards card-foundation" style="  ">
+      <section class="cards card-foundation">
         <div class="upper-part">
 
           <h4>ONE YEAR FOUNDATION COURSE</h4>
 
-          <h5 style="margin-bottom:10px">10th CLASS ONLINE BATCH</h5>
-          <p style="margin-top:px;">(9<sup>th</sup> to 10<sup>th</sup> Moving Students)</p>
+          <h5 style="margin-bottom:10px">12th CLASS OFFLINE BATCH</h5>
+          <p style="margin-top:px;">(11<sup>th</sup> to 12<sup>th</sup> Moving Students)</p>
 
 
           <h5>About the course</h5>

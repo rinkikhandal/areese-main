@@ -10,15 +10,17 @@
   text-align: center;
 }
 
-.about-residential h2 {
+h2.headings {
   display: inline-block;
   position: relative;
   font-weight: 700;
   margin: 0 auto 50px !important;
   padding-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
 }
 
-.about-residential h2::after {
+h2.headings::after {
   background: #f58026 none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -30,7 +32,7 @@
   z-index: 1;
 }
 
-.about-residential h2::before {
+h2.headings::before {
   background: #f58026 none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -92,30 +94,33 @@
   gap: 5rem;
 }
 
-.courses-offer-super30 div.card-holder section.cards {
+.courses-offer-super30 p {
+  color: gray !important;
+}
+
+.courses-offer-super30 h4,
+h5 {
+  text-shadow: none !important;
+}
+
+.courses-offer-super30 section.cards {
   background-color: #f9f9f9;
   box-shadow: 2px 2px 10px rgb(199, 199, 199);
   border-radius: 0.5rem;
-  padding: 30px 20px;
+  padding: 30px 20px !important;
 }
 
-.courses-offer-super30 div.card-holder:last-child {
-  padding: 30px 20px 5px;
-}
-
-section.cards h4 {
+.courses-offer-super30 section.cards h4 {
   font-weight: 700;
   color: #002147;
+  text-shadow: none !important;
 }
 
-section.cards h5 {
+.courses-offer-super30 section.cards h5 {
   color: #f58026;
   font-weight: 600;
-  margin-bottom: 30px;
-}
-
-section.cards p {
-  margin-top: -5px;
+  margin-bottom: 5px;
+  text-shadow: none !important;
 }
 
 .card-foundation {
@@ -135,12 +140,13 @@ section.cards p {
 
 .cards-with-scroll section {
   border-radius: 0.5rem;
-  box-shadow: 2px -2px 10px rgb(245, 244, 244);
+  box-shadow: -2px -2px 10px rgb(245, 244, 244);
   padding: 20px 20px;
   border-bottom: 3px solid rgb(245, 179, 138);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   width: 80%;
   margin: 0 auto;
+  background: #ffffff;
 }
 
 .cards-with-scroll section:hover {
@@ -158,11 +164,15 @@ section.cards p {
   color: rgb(168, 168, 168);
 }
 
+.cards-with-scroll section span {
+  cursor: pointer;
+}
+
 .cards-with-scroll section span a,
-i {
+.cards-with-scroll section span i {
   color: rgb(114, 114, 247);
   text-transform: capitalize;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
@@ -185,6 +195,10 @@ i {
     grid-template-columns: 1fr 1fr !important;
     justify-content: center;
     gap: 8rem;
+  }
+
+  h2.headings {
+    font-size: 3rem;
   }
 }
 
