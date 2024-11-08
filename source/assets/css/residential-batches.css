@@ -153,11 +153,21 @@ h5 {
   box-shadow: 2px -2px 15px rgb(220, 220, 220);
 }
 
+.cards-with-scroll section div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+}
+
+.cards-with-scroll section div svg {
+  margin-top: -7px;
+}
+
 .cards-with-scroll section h4 {
-  color: #f97510;
+  color: #01356f !important;
   font-weight: 700;
-  text-align: center;
   margin-bottom: 20px;
+  font-size: 1.5rem;
 }
 
 .cards-with-scroll section p {
@@ -210,6 +220,12 @@ h5 {
   .cards-with-scroll {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  .three-cards-scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
     justify-content: center;
   }
 }

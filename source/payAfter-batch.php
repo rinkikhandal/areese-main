@@ -46,6 +46,9 @@ require_once './assets/db/config_session.inc.php';
 
 
 
+
+
+
   <!-- Start Banner 
     ============================================= -->
   <div class=" ">
@@ -120,7 +123,124 @@ require_once './assets/db/config_session.inc.php';
 
     </div>
 
-    <div class="about-residential default-padding default-padding-per " style="background-color: #f9f9f9;">
+
+    <!-- Start of scroll cards=============== -->
+    <div class="default-padding default-padding-per cards-with-scroll three-cards-scroll " style="margin: 70px auto;">
+      <section>
+        <div>
+          <svg fill="#F97510" width="50px" height="50px" viewBox="0 0 52 52" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26,52A26,26,0,0,1,22.88.19,25.78,25.78,0,0,1,34.73,1.5a2,2,0,1,1-1.35,3.77,22,22,0,0,0-21,38,22,22,0,0,0,35.41-20,2,2,0,1,1,4-.48A26,26,0,0,1,26,52Z" />
+            <path d="M26,43.86a2,2,0,0,1-2-2V22.66a2,2,0,1,1,4,0v19.2A2,2,0,0,1,26,43.86Z" />
+            <circle cx="26" cy="15.71" r="2.57" />
+          </svg>
+          <h4>
+            About AREESE Pay After Selection Batch
+          </h4>
+        </div>
+        <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
+        <span>
+          <a href="#about">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+
+      <section>
+        <div>
+          <svg height="80px" width="80px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 502.665 502.665" xml:space="preserve" style="margin-top: -18px;">
+            <g>
+              <g>
+                <g>
+                  <path style="fill:#F97510;" d="M466.965,41.006H275.783c2.092-3.926,3.581-8.197,3.581-12.964C279.364,12.554,266.81,0,251.322,0
+				S223.28,12.554,223.28,28.042c0,4.767,1.488,9.017,3.581,12.964H35.744c-14.237,0-25.799,11.605-25.799,25.799v284.389
+				c0,14.194,11.562,25.82,25.777,25.82h156.28l-30.35,107.056c-2.114,7.42,2.351,14.668,9.944,16.049l12.08,2.308
+				c7.593,1.402,15.509-3.516,17.602-10.893l32.486-114.541h35.16l32.507,114.519c2.071,7.399,10.03,12.317,17.602,10.893
+				l12.015-2.308c7.593-1.381,12.058-8.628,9.944-16.049l-30.35-107.034h156.323c14.15,0,25.755-11.627,25.755-25.82V66.805
+				C492.721,52.633,481.137,41.006,466.965,41.006z M443.647,326.711H58.975V85.981h384.672V326.711z" />
+                  <path style="fill:#F97510;" d="M104.317,286.309c11.044,0,19.996-8.952,19.996-19.996c0-2.006-0.582-3.818-1.143-5.63
+				c25.54-20.6,70.687-56.925,91.244-72.758c3.257,2.286,7.01,3.926,11.282,3.926c3.538,0,6.687-1.165,9.577-2.783
+				c13.223,11.238,35.7,30.35,51.684,43.918c-0.216,1.143-0.69,2.2-0.69,3.408c0,11.066,8.973,20.018,20.018,20.018
+				c11.087,0,20.039-8.952,20.039-20.018c0-1.963-0.582-3.732-1.122-5.522l51.662-46.614c2.783,1.445,5.803,2.481,9.146,2.481
+				c11.044,0,19.975-8.952,19.975-19.996c0-11.023-8.93-19.975-19.975-19.975c-11.044,0-19.975,8.952-19.975,19.975
+				c0,2.632,0.561,5.112,1.488,7.42c-14.431,13.029-36.713,33.133-50.605,45.687c-3.128-2.006-6.644-3.494-10.634-3.494
+				c-4.702,0-8.844,1.877-12.252,4.595c-13.201-11.217-34.535-29.336-49.721-42.236c0.798-2.157,1.381-4.422,1.381-6.838
+				c0-11.044-8.952-19.975-19.975-19.975s-19.996,8.952-19.996,19.996c0,2.438,0.582,4.702,1.381,6.838l-91.719,71.356
+				c-3.192-2.2-6.881-3.775-11.066-3.775c-11.044,0-19.996,8.952-19.996,19.996C84.321,277.357,93.273,286.309,104.317,286.309z" />
+                </g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+            </g>
+          </svg>
+
+          <h4>
+            Courses Offered by Pay After Selection Batch
+          </h4>
+        </div>
+        <p>AREESE Pay After Selection Batch offers two types of courses both with students still studying in schools and those who are dropouts.</p>
+        <span>
+          <a href="#courses">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+      </section>
+      <section>
+        <div>
+          <svg fill="#ffffff" width="50px" height="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 389.933 389.934 " stroke="#F97510" xml:space="preserve" stroke-width="20" transform="matrix(1, 0, 0, 1, 0, 0)">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path d="M251.688,276.293c43.955-71.674,66.257-123.225,66.257-153.315C317.945,55.172,262.773,0,194.967,0 C127.158,0,71.989,55.172,71.989,122.978c0,30.09,22.29,81.641,66.248,153.315c-7.524,6.017-12.445,15.168-12.445,25.52v17.414 c0,11.445,6.149,21.966,15.724,27.862c5.503,24.452,27.442,42.845,53.452,42.845c26.001,0,47.942-18.393,53.442-42.845 c9.584-5.896,15.732-16.417,15.732-27.862v-17.414C264.142,291.461,259.224,282.31,251.688,276.293z M246.206,112.617 c0-21.473-17.468-38.947-38.94-38.947c-6.795,0-12.298-5.51-12.298-12.298c0-6.789,5.503-12.298,12.298-12.298 c35.031,0,63.536,28.505,63.536,63.542c0,6.789-5.506,12.298-12.298,12.298C251.712,124.915,246.206,119.411,246.206,112.617z"></path>
+              </g>
+            </g>
+          </svg>
+          <h4>
+            Why Pay After Selection Batch
+          </h4>
+        </div>
+        <p> AREESE Pay After Selection Batch provides continuous guiding and support to the students to excel in every field.</p>
+
+        <!--  By providing proper amenities to the students we ensure that the student can properly focus on his/her education. -->
+        <span>
+          <a href="#why">read more</a>
+          <i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </section>
+    </div>
+
+
+    <!-- end of scroll cards=============== -->
+
+    <div class="about-residential default-padding default-padding-per " style="background-color: #f9f9f9;" id="about">
       <h2 class="headings">About Pay After Selection Batch</h2>
       <div class="  inner-container">
         <p>
@@ -138,7 +258,7 @@ require_once './assets/db/config_session.inc.php';
     </div>
 
     <!-- courses offered======== -->
-    <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
+    <div class="about-residential default-padding default-padding-per courses-offer-super30 " id="courses">
       <h2 class="headings">Pay After Selection Batch</h2>
       <div class="inner-container card-holder">
         <!-- Single Item -->
@@ -454,6 +574,7 @@ require_once './assets/db/config_session.inc.php';
   <!-- jQuery Frameworks
     ============================================= -->
   <?php include "./jquery-links.php" ?>
+  <script src="./assets/js/cards-scroll.js"></script>
 
 
 </body>
