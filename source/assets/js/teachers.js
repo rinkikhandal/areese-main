@@ -238,7 +238,7 @@ teacherDivs.forEach((teacherDiv) => {
                         <p style="margin:-15px 0 0;color:#F58026">
                         ${University}
                         </p>
-                        <p>
+                        <p style="color:#fff">
                         ${about}.
                         </p>
                         <a href="./teachers-details.php?id=${id}" >Read More</a>
@@ -252,4 +252,40 @@ teacherDivs.forEach((teacherDiv) => {
     .join("");
 });
 
+document.querySelectorAll(".advisor-items").forEach((teacherDiv) => {
+  teacherDiv.innerHTML = teacherDetails
+    .map((teacher) => {
+      const { id, name, subject, honorific, about, image, edu, University } =
+        teacher;
+      return `<div class="advisor-item" data-id="${id}">
+              <div class="info-box">
+                <img src="assets/img/teachers/${image}" alt="Thumb" />
+                <div class="info-title">
+                  <h4>${honorific} ${name}</h4>
+                  <span>${subject} Faculty</span>
+                </div>
+                <div class="overlay">
+                  <div class="box">
+                    <div class="content">
+                      <div class="overlay-content">
+                        <h4>About ${name}</h4>
+                        <p style="color:#F58026;font-weight:600">
+                        ${edu}
+                        </p>
+                        <p style="margin:-15px 0 0;color:#F58026">
+                        ${University}
+                        </p>
+                        <p style="color:#fff">
+                        ${about}.
+                        </p>
+                        <a href="./teachers-details.php?id=${id}">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>`;
+    })
+    .join("");
+});
 export { teacherDetails };

@@ -139,7 +139,7 @@ require_once './assets/db/config_session.inc.php';
         </div>
         <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
         <span>
-          <a href="#about">read more</a>
+          <a href="#about">more details</a>
           <i class="fa-solid fa-chevron-right"></i>
         </span>
       </section>
@@ -207,7 +207,7 @@ require_once './assets/db/config_session.inc.php';
         </div>
         <p>AREESE Pay After Selection Batch offers two types of courses both with students still studying in schools and those who are dropouts.</p>
         <span>
-          <a href="#courses">read more</a>
+          <a href="#courses">more details</a>
           <i class="fa-solid fa-chevron-right"></i>
         </span>
       </section>
@@ -231,7 +231,7 @@ require_once './assets/db/config_session.inc.php';
 
         <!--  By providing proper amenities to the students we ensure that the student can properly focus on his/her education. -->
         <span>
-          <a href="#why">read more</a>
+          <a href="#why">more details</a>
           <i class="fa-solid fa-chevron-right"></i>
         </span>
       </section>

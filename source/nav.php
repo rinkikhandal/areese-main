@@ -382,12 +382,8 @@
               <li><a href="course-details.html">Course Details</a></li>
             </ul>
           </li> -->
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Faculty</a>
-            <ul class="dropdown-menu">
-              <li><a href="teachers.php">Advisor</a></li>
-              <!-- <li><a href="teachers-details.php">Advisor Details</a></li> -->
-            </ul>
+          <li>
+            <a href="teachers.php">Faculty</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Results</a>
@@ -439,7 +435,7 @@
             <a href="blog-standard.php" class="dropdown-toggle" data-toggle="dropdown">Blog </a>
             <ul class="dropdown-menu">
               <li><a href="teachers.html">Blogs</a></li>
-              <li><a href="teachers-details.html">Downloads</a></li>
+              <li><a href="latestNews.php">Latest News</a></li>
               <li><a href="gallery.php">Gallery</a></li>
             </ul>
           </li>

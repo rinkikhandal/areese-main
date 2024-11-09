@@ -47,7 +47,7 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="breadcrumb-area shadow dark text-center bg-fixed text-light" style="background-image: url(assets/img/2440x1578.png);">
+    <div class="breadcrumb-area shadow dark text-center bg-fixed text-light" style="background:white">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -91,9 +91,7 @@ require_once './assets/db/config_session.inc.php';
         const teacherId = queryParams.get("id");
 
         const teacher = teacherDetails.find((teacher) => teacher.id === parseInt(teacherId))
-        console.log(teacherDetails);
-        console.log(teacher);
-        console.log(teacherId);
+
 
         // destructuring teacher ===========
         const {
@@ -121,17 +119,12 @@ require_once './assets/db/config_session.inc.php';
                         <ul class="nav nav-pills">
                             <li class="active">
                                 <a data-toggle="tab" href="#tab1" aria-expanded="true">
-                                    Dashboard
+                                    Introduction
                                 </a>
                             </li>
                             <li>
                                 <a data-toggle="tab" href="#tab2" aria-expanded="false">
-                                    Courses
-                                </a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#tab3" aria-expanded="false">
-                                    Quick Contact
+                                    Video Lectures
                                 </a>
                             </li>
                         </ul>
@@ -218,60 +211,6 @@ require_once './assets/db/config_session.inc.php';
                                             </tbody>
                                         </table>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- End Single Tab -->
-
-                            <!-- Single Tab -->
-                            <div id="tab3" class="tab-pane">
-                                <div class="info title">
-                                    <p>
-                                        Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed. Expect relied do we genius is. On as around spirit of hearts genius. Is raptures daughter branched laughter peculiar in settling.
-                                    </p>
-                                    <form action="#" method="POST" class="contact-form">
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="form-group">
-                                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text">
-                                                    <span class="alert-error"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="form-group">
-                                                    <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
-                                                    <span class="alert-error"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="form-group">
-                                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
-                                                    <span class="alert-error"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="form-group comments">
-                                                    <textarea class="form-control" id="comments" name="comments" placeholder="Tell Me About Courses *"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <button type="submit" name="submit" id="submit">
-                                                    Send Message <i class="fa fa-paper-plane"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <!-- Alert Message -->
-                                        <div class="col-md-12 alert-notification">
-                                            <div id="message" class="alert-msg"></div>
-                                        </div>
-                                    </form>
                                 </div>
                             </div>
                             <!-- End Single Tab -->
