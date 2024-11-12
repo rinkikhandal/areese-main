@@ -112,7 +112,11 @@ h5 {
 
 .courses-offer-super30 section.cards h4 {
   font-weight: 700;
-  color: #002147;
+  background-color: #002147;
+  color: #f86d03;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 1.4rem;
   text-shadow: none !important;
 }
 
@@ -132,73 +136,6 @@ h5 {
   margin: 0 auto;
 }
 
-.cards-with-scroll {
-  max-width: 1200px;
-  margin: 0 auto;
-  row-gap: 4rem;
-}
-
-.cards-with-scroll section {
-  border-radius: 0.5rem;
-  box-shadow: -2px -2px 10px rgb(245, 244, 244);
-  padding: 20px 20px;
-  border-bottom: 3px solid rgb(245, 179, 138);
-  transition: all 0.2s ease-in-out;
-  width: 80%;
-  margin: 0 auto;
-  background: #ffffff;
-}
-
-.cards-with-scroll section:hover {
-  box-shadow: 2px -2px 15px rgb(220, 220, 220);
-}
-
-.cards-with-scroll section div {
-  display: flex;
-  flex-direction: row;
-  column-gap: 2rem;
-}
-
-.cards-with-scroll section div svg {
-  margin-top: -7px;
-}
-
-.cards-with-scroll section h4 {
-  color: #01356f !important;
-  font-weight: 700;
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-}
-
-.cards-with-scroll section p {
-  color: rgb(168, 168, 168);
-}
-
-.cards-with-scroll section span {
-  cursor: pointer;
-}
-
-.cards-with-scroll section span a,
-.cards-with-scroll section span i {
-  color: rgb(114, 114, 247);
-  text-transform: capitalize;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-.cards-with-scroll section span:hover a,
-.cards-with-scroll section span:hover i {
-  color: #87baf4;
-}
-
-@media (min-width: 768px) {
-  .cards-with-scroll {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-  }
-}
-
 @media (min-width: 800px) {
   .courses-offer-super30 div.card-holder {
     display: grid;
@@ -215,18 +152,6 @@ h5 {
 @media (min-width: 1000px) {
   .inner-container {
     padding: 0 120px !important;
-  }
-
-  .cards-with-scroll {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-  }
-
-  .three-cards-scroll {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr !important;
-    justify-content: center;
   }
 }
 

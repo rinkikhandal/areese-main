@@ -11,9 +11,20 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/residential-batches.css">
-  <link rel="stylesheet" href="./assets/css/classroom.css">
+  <link rel="stylesheet" href="./assets/css/scroll-cards.css">
+  <link rel="stylesheet" href="./assets/css/card-features.css">
 
 </head>
+<style>
+  @media (min-width: 1000px) {
+    .cards-with-scroll {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      column-gap: 2rem !important;
+    }
+  }
+</style>
 
 <body>
 
@@ -125,39 +136,41 @@ require_once './assets/db/config_session.inc.php';
 
 
     <!-- Start of scroll cards=============== -->
-    <div class="default-padding default-padding-per cards-with-scroll three-cards-scroll " style="margin: 70px auto;">
+    <div class="default-padding default-padding-per cards-with-scroll three-cards-scroll " style="margin: 50px auto;">
       <section>
         <div>
-          <svg fill="#F97510" width="50px" height="50px" viewBox="0 0 52 52" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
+          <svg fill="#fff" width="60px" height="60px" viewBox="0 0 52 52" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
             <path d="M26,52A26,26,0,0,1,22.88.19,25.78,25.78,0,0,1,34.73,1.5a2,2,0,1,1-1.35,3.77,22,22,0,0,0-21,38,22,22,0,0,0,35.41-20,2,2,0,1,1,4-.48A26,26,0,0,1,26,52Z" />
             <path d="M26,43.86a2,2,0,0,1-2-2V22.66a2,2,0,1,1,4,0v19.2A2,2,0,0,1,26,43.86Z" />
             <circle cx="26" cy="15.71" r="2.57" />
           </svg>
+        </div>
+        <div>
+
           <h4>
             About AREESE Pay After Selection Batch
           </h4>
+          <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
+          <span>
+            <a href="#about">more details</a>
+          </span>
         </div>
-        <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
-        <span>
-          <a href="#about">more details</a>
-          <i class="fa-solid fa-chevron-right"></i>
-        </span>
       </section>
 
       <section>
         <div>
-          <svg height="80px" width="80px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 502.665 502.665" xml:space="preserve" style="margin-top: -18px;">
+          <svg height="60px" width="60px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 502.665 502.665" xml:space="preserve">
             <g>
               <g>
                 <g>
-                  <path style="fill:#F97510;" d="M466.965,41.006H275.783c2.092-3.926,3.581-8.197,3.581-12.964C279.364,12.554,266.81,0,251.322,0
+                  <path style="fill:#fff;" d="M466.965,41.006H275.783c2.092-3.926,3.581-8.197,3.581-12.964C279.364,12.554,266.81,0,251.322,0
 				S223.28,12.554,223.28,28.042c0,4.767,1.488,9.017,3.581,12.964H35.744c-14.237,0-25.799,11.605-25.799,25.799v284.389
 				c0,14.194,11.562,25.82,25.777,25.82h156.28l-30.35,107.056c-2.114,7.42,2.351,14.668,9.944,16.049l12.08,2.308
 				c7.593,1.402,15.509-3.516,17.602-10.893l32.486-114.541h35.16l32.507,114.519c2.071,7.399,10.03,12.317,17.602,10.893
 				l12.015-2.308c7.593-1.381,12.058-8.628,9.944-16.049l-30.35-107.034h156.323c14.15,0,25.755-11.627,25.755-25.82V66.805
 				C492.721,52.633,481.137,41.006,466.965,41.006z M443.647,326.711H58.975V85.981h384.672V326.711z" />
-                  <path style="fill:#F97510;" d="M104.317,286.309c11.044,0,19.996-8.952,19.996-19.996c0-2.006-0.582-3.818-1.143-5.63
+                  <path style="fill:#fff;" d="M104.317,286.309c11.044,0,19.996-8.952,19.996-19.996c0-2.006-0.582-3.818-1.143-5.63
 				c25.54-20.6,70.687-56.925,91.244-72.758c3.257,2.286,7.01,3.926,11.282,3.926c3.538,0,6.687-1.165,9.577-2.783
 				c13.223,11.238,35.7,30.35,51.684,43.918c-0.216,1.143-0.69,2.2-0.69,3.408c0,11.066,8.973,20.018,20.018,20.018
 				c11.087,0,20.039-8.952,20.039-20.018c0-1.963-0.582-3.732-1.122-5.522l51.662-46.614c2.783,1.445,5.803,2.481,9.146,2.481
@@ -201,20 +214,22 @@ require_once './assets/db/config_session.inc.php';
             </g>
           </svg>
 
+        </div>
+        <div>
+
           <h4>
             Courses Offered by Pay After Selection Batch
           </h4>
+          <p>AREESE Pay After Selection Batch offers two types of courses both with students still studying in schools and those who are dropouts.</p>
+          <span>
+            <a href="#courses">more details</a>
+          </span>
         </div>
-        <p>AREESE Pay After Selection Batch offers two types of courses both with students still studying in schools and those who are dropouts.</p>
-        <span>
-          <a href="#courses">more details</a>
-          <i class="fa-solid fa-chevron-right"></i>
-        </span>
       </section>
       </section>
       <section>
         <div>
-          <svg fill="#ffffff" width="50px" height="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 389.933 389.934 " stroke="#F97510" xml:space="preserve" stroke-width="20" transform="matrix(1, 0, 0, 1, 0, 0)">
+          <svg fill="#002147" version="1.1" width="60px" height="60px" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 390" xml:space="preserve" stroke="#fff" stroke-width="20">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
             <g id="SVGRepo_iconCarrier">
@@ -223,17 +238,20 @@ require_once './assets/db/config_session.inc.php';
               </g>
             </g>
           </svg>
+        </div>
+        <div>
+
           <h4>
             Why Pay After Selection Batch
           </h4>
-        </div>
-        <p> AREESE Pay After Selection Batch provides continuous guiding and support to the students to excel in every field.</p>
+          <p> AREESE Pay After Selection Batch provides continuous guiding and support to the students to excel in every field.</p>
 
-        <!--  By providing proper amenities to the students we ensure that the student can properly focus on his/her education. -->
-        <span>
-          <a href="#why">more details</a>
-          <i class="fa-solid fa-chevron-right"></i>
-        </span>
+          <!--  By providing proper amenities to the students we ensure that the student can properly focus on his/her education. -->
+          <span>
+            <a href="#why">more details</a>
+            <!-- <i class="fa-solid fa-chevron-right"></i> -->
+          </span>
+        </div>
       </section>
     </div>
 
@@ -266,7 +284,7 @@ require_once './assets/db/config_session.inc.php';
           <div>
             <h4>TWO YEAR TARGET COURSE(for 11<sup>th</sup> class)</h4>
 
-            <p style="margin-top:-15px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
+            <p>(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
             <p>इस प्रोग्राम के माध्यम से के छात्रों को भारत के किसी भी सरकारी मेडिकल कॉलेज में MBBS की सीट मिलने के बाद और JEE के छात्रों को IIT/NIT/Reputed कॉलेजों में सीट मिलने के बाद ही फीस का भुगतान करना होगा।/p>
 
@@ -299,17 +317,17 @@ require_once './assets/db/config_session.inc.php';
             </ol>
             </p>
             <h5>Course Fee</h5>
-            <p>₹ 2,60,000 (Pay only if you get selected)</p>
+            <p><strong>₹ 2,60,000 </strong>(Pay only if you get selected)</p>
           </div>
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
-        <section class="cards" style="  ">
+        <section class="cards">
           <div>
             <h4>One YEAR TARGET COURSE(for 12<sup>th</sup>pass Students)</h4>
             <h5>DROPPER BATCH</h5>
 
-            <p style="margin-top:-10px;">(12<sup>th</sup> Pass Students)</p>
+            <p>(12<sup>th</sup> Pass Students)</p>
 
             <p>इस प्रोग्राम के माध्यम से के छात्रों को भारत के किसी भी सरकारी मेडिकल कॉलेज में MBBS की सीट मिलने के बाद और JEE के छात्रों को IIT/NIT/Reputed कॉलेजों में सीट मिलने के बाद ही फीस का भुगतान करना होगा।</p>
 
@@ -342,7 +360,7 @@ require_once './assets/db/config_session.inc.php';
             </ol>
             </p>
             <h5>Course Fee</h5>
-            <p>₹ 1,30,000 (Pay only if you get selected)</p>
+            <p> <strong>₹ 1,30,000 </strong>(Pay only if you get selected)</p>
           </div>
         </section>
         <!-- Single Item -->

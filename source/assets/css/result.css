@@ -6,6 +6,10 @@ lg	1024px	@media (min-width: 1024px) { ... }
 xl	1280px	@media (min-width: 1280px) { ... }
 2xl	1536px	@media (min-width: 1536px) { ... } */
 
+.default-padding-per {
+  padding: 50px 0 !important;
+}
+
 .results {
   padding: 50px 120px;
   background-color: #f9f9f9;
@@ -15,7 +19,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
   align-items: center;
 }
 
-.results h2 {
+h2.headings {
   display: inline-block;
   position: relative;
   font-weight: 700;
@@ -23,7 +27,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
   padding-bottom: 20px;
 }
 
-.results h2::after {
+h2.headings::after {
   background: #f58026 none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -35,7 +39,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
   z-index: 1;
 }
 
-.results h2::before {
+h2.headings::before {
   background: #f58026 none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -47,78 +51,17 @@ xl	1280px	@media (min-width: 1280px) { ... }
   z-index: 1;
 }
 
-.stu-res-div {
-  display: grid;
-  grid-template-columns: auto;
-  column-gap: 50px;
-  row-gap: 50px;
-  margin: 0 auto;
-  max-width: 1100px;
-}
-
-.stu-res-div .single-res-stu {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-.stu-res-div .single-res-stu img {
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  width: 400px;
-  z-index: 0;
-}
-
-.stu-res-div .single-res-stu img:hover {
-  box-shadow: 1px 5px 20px #dedcdc;
-}
-
-.stu-res-div .single-res-stu .overlay {
-  background: #fff none repeat scroll 0 0;
-  position: absolute;
-  bottom: 8px;
-  left: 8px;
-  right: 8px;
-  padding: 2px 10px;
-  text-align: center;
-}
-
-.single-res-stu .overlay p {
-  margin: 0px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.single-res-stu .overlay h4 {
-  font-weight: 700;
-  margin: -5px 0;
-  color: #f58026;
-}
-
-@media (min-width: 640px) {
-  .stu-res-div {
-    display: grid;
-    grid-template-columns: auto auto;
+@media (min-width: 800px) {
+  h2.headings {
+    font-size: 3rem;
   }
 }
 
-@media (min-width: 768px) {
-  .stu-res-div {
-    display: grid;
-    grid-template-columns: auto auto auto;
+@media (min-width: 1000px) {
+  .inner-container {
+    padding: 0 120px !important;
   }
 }
 
-@media (min-width: 1024px) {
-  .stu-res-div {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-  }
+@media (min-width: 1200px) {
 }
-/* @media (min-width: 1280px) {
-  .stu-res-div {
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-} */
