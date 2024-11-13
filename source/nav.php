@@ -81,7 +81,7 @@
                 </ul> -->
           </li>
           <li class="dropdown megamenu-fw">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission</a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
             <ul class="dropdown-menu megamenu-content" role="menu">
               <li>
                 <div class="row">

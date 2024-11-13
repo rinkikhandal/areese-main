@@ -9,7 +9,7 @@ require_once './assets/db/config_session.inc.php';
   <?php
   include './links.php';
   ?>
-  <link rel="stylesheet" href="./assets/css/residential-batches.css">
+  <link rel="stylesheet" href="./assets/css/classroom.css">
 </head>
 
 <body>
@@ -61,59 +61,90 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
 
   <!-- courses offered======== -->
-  <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
-    <h2 class="headings">11<sup>th</sup> Online Course for School Exams</h2>
-    <div style="" class="inner-container card-holder ">
+  <div class="courses-offer default-padding-per  ">
+    <div class="inner-container  " style="padding-bottom: 0px !important;">
+      <!-- <h2 class=" headings">11<sup>th</sup> Online Course for School Exams</h2> -->
       <!-- Single Item -->
-      <section class="cards" style="  ">
-        <div class="upper-part">
-          <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
+    </div>
+    <div class="course-holder">
 
-          <h5 style="margin-bottom:10px">11TH CLASS ONLINE BATCH SCIENCE STREAM</h5>
-          <p style="margin-top:px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
+      <section class="cards" style="padding-top: 30px;">
+        <div class="inner-container">
+
+          <div class="upper-part">
+            <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
+
+            <h5 style="margin-bottom:10px">11TH CLASS ONLINE BATCH SCIENCE STREAM</h5>
+            <p style="margin-top:px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
 
-          <h5>About the course</h5>
-          <p>
-            Class 11<sup>th</sup> syllabus lays a solid foundation for the Class 12th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
+            <h5>About the course</h5>
+            <p>
+              Class 11<sup>th</sup> syllabus lays a solid foundation for the Class 12th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
+          </div>
+          <div class="lower-part">
+            <div>
+              <h5>Subject Covers</h5>
+              <p> Phy, Chem, Bio, Maths</p>
+            </div>
+            <div>
+              <h5>Syllabus Covers</h5>
+              <p>Entire Syllabus of class 11<sup>th</sup></p>
+            </div>
+            <div>
+              <h5>Course Duration</h5>
+              <p> One Year</p>
+            </div>
+            <div>
+              <h5>Eligibility</h5>
+              <p>10<sup>th</sup> pass</p>
+            </div>
+            <div>
 
-          <h5>Subject Covers</h5>
-          <p> Phy, Chem, Bio, Maths</p>
-          <h5>Syllabus Covers</h5>
-          <p>Entire Syllabus of class 11<sup>th</sup></p>
-          <h5>Course Duration</h5>
-          <p> One Year</p>
-          <h5>Eligibility</h5>
-          <p>10<sup>th</sup> pass</p>
-          <h5>Course Fee</h5>
-          <p>₹ 5,000</p>
+              <h5>Course Fee</h5>
+              <p>₹ 5,000</p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Single Item -->
       <!-- Single Item -->
-      <section class="cards " style="  ">
-        <div class="upper-part">
+      <section class="cards left">
+        <div class="inner-container">
+          <div class="upper-part">
 
-          <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
+            <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
 
-          <h5 style="margin-bottom:10px">11TH CLASS ONLINE BATCH COMMERCE STREAM</h5>
-          <p style="margin-top:px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
+            <h5 style="margin-bottom:10px">11TH CLASS ONLINE BATCH COMMERCE STREAM</h5>
+            <p style="margin-top:px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
 
-          <h5>About the course</h5>
-          <p>
-            Class 11<sup>th</sup> syllabus lays a solid foundation for the Class 12th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
-
-          <h5>Subject Covers</h5>
-          <p>Accounts, Eco, BST, Maths</p>
-          <h5>Syllabus Covers</h5>
-          <p>Entire Syllabus of class 11<sup>th</sup></p>
-          <h5>Course Duration</h5>
-          <p> One Year</p>
-          <h5>Eligibility</h5>
-          <p>10<sup>th</sup> pass</p>
-          <h5>Course Fee</h5>
-          <p>₹ 4,000</p>
+            <h5>About the course</h5>
+            <p>
+              Class 11<sup>th</sup> syllabus lays a solid foundation for the Class 12th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
+          </div>
+          <div class="lower-part">
+            <div>
+              <h5>Subject Covers</h5>
+              <p>Accounts, Eco, BST, Maths</p>
+            </div>
+            <div>
+              <h5>Syllabus Covers</h5>
+              <p>Entire Syllabus of class 11<sup>th</sup></p>
+            </div>
+            <div>
+              <h5>Course Duration</h5>
+              <p> One Year</p>
+            </div>
+            <div>
+              <h5>Eligibility</h5>
+              <p>10<sup>th</sup> pass</p>
+            </div>
+            <div>
+              <h5>Course Fee</h5>
+              <p>₹ 4,000</p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Single Item -->

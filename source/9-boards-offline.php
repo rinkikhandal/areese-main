@@ -61,40 +61,64 @@ require_once './assets/db/config_session.inc.php';
     ============================================= -->
 
   <!-- courses offered======== -->
-  <div class="about-residential default-padding default-padding-per courses-offer-super30 ">
-    <h2 class="headings">9<sup>th</sup> Offline Course for School Exams</h2>
-    <div style="" class="inner-container ">
+  <div class=" default-padding-per  courses-offer ">
+    <div class="inner-container" style="padding-bottom: 0px !important;">
+
+      <!-- <h2 class="headings">9<sup>th</sup> Offline Course for School Exams</h2> -->
+    </div>
+    <div class="course-holder">
+
       <!-- Single Item -->
-      <section class="cards card-foundation" style="  ">
-        <div class="upper-part">
+      <section class="cards " style="padding-top: 30px;">
+        <div class="inner-container">
 
-          <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
+          <div class="upper-part">
 
-          <h5 style="margin-bottom:10px">9th CLASS OFFLINE BATCH</h5>
-          <p style="margin-top:px;">(8<sup>th</sup> to 9<sup>th</sup> Moving Students)</p>
+            <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
+
+            <h5>9th CLASS OFFLINE BATCH</h5>
+            <p style="margin-top:px;">(8<sup>th</sup> to 9<sup>th</sup> Moving Students)</p>
 
 
-          <h5>About the course</h5>
-          <p>
-            Class 9<sup>th</sup> syllabus lays a solid foundation for the Class 10th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
+            <h5>About the course</h5>
+            <p>
+              Class 9<sup>th</sup> syllabus lays a solid foundation for the Class 10th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
 
-          <h5>Subject Covers</h5>
-          <p> Maths, Science (Phy, Chem, Bio), SST, English</p>
-          <h5>Syllabus Covers</h5>
-          <p>Entire Syllabus of class 9<sup>th</sup></p>
-          <h5>Course Duration</h5>
-          <p> One Year</p>
-          <h5>Eligibility</h5>
-          <p>8<sup>th</sup> pass</p>
-          <h5>Course Fee</h5>
-          <p>₹ 18,000</p>
+          </div>
+          <div class="lower-part">
+            <div>
+
+              <h5>Subject Covers</h5>
+              <p> Maths, Science (Phy, Chem, Bio), SST, English</p>
+            </div>
+            <div>
+
+              <h5>Syllabus Covers</h5>
+              <p>Entire Syllabus of class 9<sup>th</sup></p>
+            </div>
+            <div>
+
+              <h5>Course Duration</h5>
+              <p> One Year</p>
+            </div>
+            <div>
+
+              <h5>Eligibility</h5>
+              <p>8<sup>th</sup> pass</p>
+            </div>
+            <div>
+
+              <h5>Course Fee</h5>
+              <p>₹ 18,000</p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Single Item -->
-
     </div>
 
   </div>
+
 
   <!-- End Banner -->
 
