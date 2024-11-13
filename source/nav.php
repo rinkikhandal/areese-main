@@ -1,28 +1,6 @@
 <header id="home">
   <!-- Start Navigation -->
   <nav class="navbar navbar-default attr-border navbar-sticky bootsnav">
-    <!-- Start Top Search -->
-    <!-- <div class="container">
-          <div class="row">
-            <div class="top-search">
-              <div class="input-group">
-                <form action="#">
-                  <input
-                    type="text"
-                    name="text"
-                    class="form-control"
-                    placeholder="Search"
-                  />
-                  <button type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div> -->
-    <!-- End Top Search -->
-
     <div class="container">
       <!-- Start Atribute Navigation -->
       <div class="attr-nav">
@@ -50,35 +28,6 @@
         <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
           <li class="dropdown">
             <a href="./index-2.php" class="active" data-toggle="">Home</a>
-            <!-- <ul class="dropdown-menu">
-                  <li><a href="index.html">Home Version One</a></li>
-                  <li><a href="index-2.html">Home Version Two</a></li>
-                  <li><a href="index-3.html">Home Version Three</a></li>
-                  <li><a href="index-4.html">Home Version Four</a></li>
-                  <li><a href="index-5.html">Home Version Five</a></li>
-                  <li><a href="index-6.html">Home Version Six</a></li>
-                  <li>
-                    <a href="index-7.html"
-                      >Home Version Serven <span class="badge">New</span></a
-                    >
-                  </li>
-                  <li><a href="index-onepage.html">Onepage Version One</a></li>
-                  <li>
-                    <a href="index-2-onepage.html">Onepage Version Two</a>
-                  </li>
-                  <li>
-                    <a href="index-3-onepage.html">Onepage Version Three</a>
-                  </li>
-                  <li>
-                    <a href="index-4-onepage.html">Onepage Version Four</a>
-                  </li>
-                  <li>
-                    <a href="index-5-onepage.html">Onepage Version Five</a>
-                  </li>
-                  <li>
-                    <a href="index-6-onepage.html">Onepage Version Six</a>
-                  </li>
-                </ul> -->
           </li>
           <li class="dropdown megamenu-fw">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
@@ -198,22 +147,10 @@
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="gallery-2-colum.html">NEET</a>
+                          <a href="NEET-Online.php">NEET</a>
                         </li>
-                        <li class="dropdown">
-                          <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
-                          <!-- need changes======== -->
-                          <ul class="dropdown-menu  menu-personal" role="menu" style="position:absolute;left:150px;">
-                            <li>
-                              <a href="#">JEE (Main) + BITSAT</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">JEE (Advance) + BITSAT</a>
-                            </li>
-
-                          </ul>
+                        <li>
+                          <a href="JEE-Online.php">JEE</a>
 
                         </li>
                         <li class="dropdown">
@@ -288,100 +225,14 @@
                     </div>
                   </div>
 
-                  <!-- <div class="col-menu col-md-3">
-                    <h6 class="title">Gallery</h6>
-                    <div class="content">
-                      <ul class="menu-col">
-                        <li>
-                          <a href="gallery-2-colum.html">NEET (Pre-Medical)</a>
-                        </li>
-                        <li class="dropdown">
-                          <a href="gallery-3-colum.html" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
-                          need changes========
-                          <ul class="dropdown-menu  menu-personal" role="menu" style="position:absolute;left:150px;">
-                            <li>
-                              <a href="#">JEE (Main) + BITSAT</a>
-                            </li>
-                            <hr>
 
-                            <li>
-                              <a href="#">JEE (Advance) + BITSAT</a>
-                            </li>
-
-                          </ul>
-
-                        </li>
-                        <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation</a>
-                          <ul class="dropdown-menu w-less " role="menu" style="position:absolute;left:150px;">
-                            <li>
-                              <a href="#">9<sup>th</sup> Class</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">10<sup>th</sup> Class</a>
-                            </li>
-
-                          </ul>
-
-                        </li>
-                        <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Boards</a>
-                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
-                            <li>
-                              <a href="#">9<sup>th</sup> Class</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">10<sup>th</sup> Class</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">11<sup>th</sup> Class</a>
-                            </li>
-                            <hr>
-
-                            <li>
-                              <a href="#">12<sup>th</sup> Class</a>
-                            </li>
-
-                          </ul>
-
-                        </li>
-                        <li class="dropdown">
-                          <a href="gallery-4-colum.html" class="dropdown-toggle" data-toggle="dropdown">Commerce</a>
-                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
-                            <li><a href="teachers.html">11<sup>th</sup> Class</a></li>
-                            <hr>
-
-                            <li><a href="teachers-details.html">12<sup>th</sup> Class</a></li>
-                          </ul>
-
-                        </li>
-                        <li> <a href="#">Subject wise </a></li>
-                        <li> <a href="#">Chapter wise </a></li>
-                      </ul>
-                    </div>
-                  </div> -->
                   <!-- end col-3 -->
                 </div>
                 <!-- end row -->
               </li>
             </ul>
           </li>
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Courses</a>
-            <ul class="dropdown-menu">
-              <li><a href="courses.html">Courses Carousel One</a></li>
-              <li><a href="courses-2.html">Courses Grid One</a></li>
-              <li><a href="courses-3.html">Courses Grid Two</a></li>
-              <li><a href="courses-4.html">Courses Carousel Two</a></li>
-              <li><a href="course-details.html">Course Details</a></li>
-            </ul>
-          </li> -->
+
           <li>
             <a href="teachers.php">Faculty</a>
           </li>
@@ -401,38 +252,11 @@
               <li><a href="12Class-result.php">12<sup>th</sup> Class</a></li>
             </ul>
           </li>
-          <!-- <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                  >Blog</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a href="blog-standard.html">Blog Standard</a></li>
-                  <li>
-                    <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                  </li>
-                  <li>
-                    <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                  </li>
-                  <li>
-                    <a href="blog-single-standard.html">Single Standard</a>
-                  </li>
-                  <li>
-                    <a href="blog-single-left-sidebar.html"
-                      >Single Left Sidebar</a
-                    >
-                  </li>
-                  <li>
-                    <a href="blog-single-right-sidebar.html"
-                      >Single Right Sidebar</a
-                    >
-                  </li>
-                </ul>
-              </li> -->
           <li>
             <a href="contact.php">contact</a>
           </li>
           <li class="dropdown">
-            <a href="blog-standard.php" class="dropdown-toggle" data-toggle="dropdown">Blog </a>
+            <a href="blog-standard.php" class="dropdown-toggle" data-toggle="dropdown">Latest News </a>
             <ul class="dropdown-menu">
               <li><a href="teachers.html">Blogs</a></li>
               <li><a href="latestNews.php">Latest News</a></li>

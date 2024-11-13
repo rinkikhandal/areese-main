@@ -47,10 +47,10 @@ require_once './assets/db/config_session.inc.php';
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Classroom > JEE</h1>
+          <h1>Online Classes > JEE</h1>
           <ul class="breadcrumb">
-            <li><a href="#"><i class="fas fa-home"></i> Admission</a></li>
-            <li><a href="#">Classroom</a></li>
+            <li><a href="#"><i class="fas fa-home"></i> Courses</a></li>
+            <li><a href="#">Online Classes</a></li>
             <li class="active">JEE</li>
           </ul>
         </div>
@@ -66,13 +66,12 @@ require_once './assets/db/config_session.inc.php';
         11
       </div>
       <div>
-
         <h4>
-          Two Year Target Course for 11<sup>th</sup> Class Students
+          Two Year Course for 11<sup>th</sup> Class Students
         </h4>
-        <button>CLASSROOM COURSE</button>
+        <button style="width:140px">ONLINE COURSE</button>
 
-        <p>This course is for students wanting to prepare for competitive exams while studying in 11<sup>th</sup> class.</p>
+        <p>This course is for students wanting to prepare for JEEwhile studying in 11<sup>th</sup> class.</p>
         <span>
           <a href="#11class">more details</a>
         </span>
@@ -86,7 +85,8 @@ require_once './assets/db/config_session.inc.php';
         <h4>
           One Year Course for 12<sup>th</sup> Class Students
         </h4>
-        <button>CLASSROOM COURSE</button>
+        <button style="width:140px">ONLINE COURSE</button>
+
         <p>This course is for students studying in 12<sup>th</sup> class and wants to prepare for competitive exams. It covers entire 11 and 12 class syllabus.</p>
         <span>
           <a href="#12class">more details</a>
@@ -95,20 +95,16 @@ require_once './assets/db/config_session.inc.php';
     </section>
     <section>
       <div class="colored-div">
-
         12 <span>PASS</span>
       </div>
       <div>
-
-        <h4>
-          Dropper Batch
-        </h4>
+        <h4>Dropper Batch</h4>
         <h5>
           One Year Target course for 12<sup>th</sup> pass students
         </h5>
-        <button>CLASSROOM COURSE</button>
+        <button style="width:140px">ONLINE COURSE</button>
 
-        <p>A course designed for those who wants to take a gap of a year to prepare for competitive exams.</p>
+        <p>A course designed for those who wants to take a drop of a year to prepare for competitive exams.</p>
         <span>
           <a href="#dropper">more details</a>
         </span>
@@ -116,17 +112,14 @@ require_once './assets/db/config_session.inc.php';
     </section>
     <section>
       <div class="colored-div">
-
         12 <span>PASS</span>
       </div>
       <div>
-
-        <h4>
-          Dropper Plus
-        </h4>
-        <h5>One Year Target course for 12<sup>th</sup> pass students</h5>
-
-        <button>CLASSROOM COURSE</button>
+        <h4>DROPPER PLUS</h4>
+        <h5>
+          Dropper Plus Batch for Second Time Droppers
+        </h5>
+        <button style="width:140px">ONLINE COURSE</button>
 
         <p>Dropping another year after already spending one year for exams is a risky decision but we at AREESE are prepared to constantly motivate our students and achieve great results.</p>
 
@@ -159,7 +152,8 @@ require_once './assets/db/config_session.inc.php';
             <h4>Two year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
             <h5>About the course</h5>
-            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), BITSAT, VITEEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
+            <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), CBSE, and State Boards. It builds a solid foundation for
+              these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
             <!-- Enquiry form popup -->
             <button><a href="#">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
@@ -190,7 +184,7 @@ require_once './assets/db/config_session.inc.php';
             <div>
 
               <h5>Course Fee</h5>
-              <p>₹ 1,00,000</p>
+              <p>₹ 4,999</p>
             </div>
           </div>
         </div>
@@ -204,7 +198,7 @@ require_once './assets/db/config_session.inc.php';
             <h4>One year Target Course</h4>
             <p>(10th to 11th Moving Students)</p>
             <h5>About the course</h5>
-            <p>Our One-Year Programme covers the entire syllabus of class 12th according to latest syllabus of JEE(Main + Advance), CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
+            <p>Our One-Year Programme covers the entire syllabus of class 12th according to latest syllabus of JEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
             <!-- Enquiry form popup -->
             <button><a href="#">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
@@ -233,7 +227,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
             <div>
               <h5>Course Fee</h5>
-              <p>₹ 50,000</p>
+              <p>₹ 6,999</p>
             </div>
           </div>
         </div>
@@ -246,9 +240,10 @@ require_once './assets/db/config_session.inc.php';
           <div class="upper-part">
             <h4>Dropper Batch</h4>
             <p>ONE YEAR TARGET COURSE</p>
-            <p style="margin-top:-15px;">(12th Pass Students)</p>
+            <p>(12th Pass Students)</p>
             <h5>About the course</h5>
-            <p>Our one-year course for class 12th pass thoroughly covers the syllabus for JEE (Main & Advanced). We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE and to lend you a helping hand and guide you to clear JEE with very good rank.</p>
+            <p>Our one-year course for class 12th passed
+              thoroughly covers the syllabus for JEE (Main & Advanced). We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE and to lend you a helping hand and guide you to clear JEE with very good rank.</p>
             <!-- Enquiry form popup -->
             <button><a href="#">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
@@ -280,7 +275,7 @@ require_once './assets/db/config_session.inc.php';
             <div>
 
               <h5>Course Fee</h5>
-              <p>₹ 65,000</p>
+              <p>₹ 8,999</p>
             </div>
           </div>
         </div>
@@ -293,9 +288,9 @@ require_once './assets/db/config_session.inc.php';
           <div class="upper-part">
             <h4>Dropper Plus</h4>
             <p>ONE YEAR TARGET COURSE</p>
-            <p style="margin-top:-15px;">(12th Pass Students)</p>
+            <p>(12th Pass Students)</p>
             <h5>About the course</h5>
-            <p>Our One year course is designed for Ex-AREESE students or those who have qualified for JEE (Main)/JEE (Advanced), our one-year course is designed to elevate your Rank to next level and helping you achieve what you aspire.</p>
+            <p>Our One year course is designed for Ex-AREESE students or those who have qualified for JEE (Main)/JEE (Advanced), our one-year course is designed to elevate your Rank to next level.</p>
             <!-- Enquiry form popup -->
             <button><a href="#">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
@@ -319,13 +314,12 @@ require_once './assets/db/config_session.inc.php';
               <p>Direct</p>
             </div>
             <div>
-
               <h5>Targeted Exams</h5>
               <p>JEE, Board Exams & CUET</p>
             </div>
             <div>
               <h5>Course Fee</h5>
-              <p>₹ 65,000</p>
+              <p>₹ 9,999</p>
             </div>
           </div>
         </div>
@@ -336,10 +330,11 @@ require_once './assets/db/config_session.inc.php';
   </div>
 
   <!--End Description   =============================================-->
+
+
   <!--Start of Course Features   =============================================-->
   <?php include "./course-features-normal.php" ?>
   <!--End of Course Features   =============================================-->
-
 
   <!-- Start Footer 
     ============================================= -->

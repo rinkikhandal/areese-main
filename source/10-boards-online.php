@@ -10,6 +10,7 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/classroom.css">
+  <link rel="stylesheet" href="./assets/css/card-features.css">
 </head>
 
 <body>
@@ -75,13 +76,15 @@ require_once './assets/db/config_session.inc.php';
             <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
 
             <h5>10th CLASS ONLINE BATCH</h5>
-            <p style="margin-top:px;">(9<sup>th</sup> to 10<sup>th</sup> Moving Students)</p>
+            <p>(9<sup>th</sup> to 10<sup>th</sup> Moving Students)</p>
 
 
             <h5>About the course</h5>
             <p>
               Class 9<sup>th</sup> syllabus lays a solid foundation for the Class 10th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
-
+            <!-- Enquiry form popup -->
+            <button><a href="#">ENROLL NOW</a></button>
+            <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
             <div>
@@ -107,9 +110,9 @@ require_once './assets/db/config_session.inc.php';
               <h5>Selection Procedure</h5>
               <p>Direct/Scholarship</p>
             </div>
-            <div style="grid-column-start: 2;grid-column-end: 3;">
+            <div>
               <h5>Course Fee</h5>
-              <p>₹ 25,000</p>
+              <p>₹ 2,999</p>
             </div>
           </div>
         </div>
@@ -121,7 +124,9 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- End Banner -->
 
-
+  <!--Start of Course Features   =============================================-->
+  <?php include "./course-features-normal.php" ?>
+  <!--End of Course Features   =============================================-->
 
   <!-- Start Footer 
     ============================================= -->
@@ -133,6 +138,8 @@ require_once './assets/db/config_session.inc.php';
   <?php include "./jquery-links.php" ?>
   <script src="assets/js/teachers.js" type="module"></script>
   <script src="assets/js/enquiry.js"></script>
+  <script src="./assets/js/cards-scroll.js"></script>
+
 
 
 </body>

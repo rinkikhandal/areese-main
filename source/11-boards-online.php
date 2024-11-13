@@ -10,6 +10,7 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/classroom.css">
+  <link rel="stylesheet" href="./assets/css/card-features.css">
 </head>
 
 <body>
@@ -74,13 +75,16 @@ require_once './assets/db/config_session.inc.php';
           <div class="upper-part">
             <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
 
-            <h5 style="margin-bottom:10px">11TH CLASS ONLINE BATCH SCIENCE STREAM</h5>
+            <h5>11TH CLASS ONLINE BATCH SCIENCE STREAM</h5>
             <p style="margin-top:px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
 
             <h5>About the course</h5>
             <p>
               Class 11<sup>th</sup> syllabus lays a solid foundation for the Class 12th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
+            <!-- Enquiry form popup -->
+            <button><a href="#">ENROLL NOW</a></button>
+            <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
             <div>
@@ -95,33 +99,41 @@ require_once './assets/db/config_session.inc.php';
               <h5>Course Duration</h5>
               <p> One Year</p>
             </div>
+
             <div>
               <h5>Eligibility</h5>
               <p>10<sup>th</sup> pass</p>
             </div>
             <div>
+              <h5>Targeted Exams</h5>
+              <p>School Exams, CUET</p>
+            </div>
+            <div>
 
               <h5>Course Fee</h5>
-              <p>₹ 5,000</p>
+              <p>₹ 3,999</p>
             </div>
           </div>
         </div>
       </section>
       <!-- Single Item -->
       <!-- Single Item -->
-      <section class="cards left">
+      <section class="cards ">
         <div class="inner-container">
           <div class="upper-part">
 
             <h4>ONE YEAR COURSE FOR SCHOOL EXAMS</h4>
 
-            <h5 style="margin-bottom:10px">11TH CLASS ONLINE BATCH COMMERCE STREAM</h5>
+            <h5>11TH CLASS ONLINE BATCH COMMERCE STREAM</h5>
             <p style="margin-top:px;">(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
 
             <h5>About the course</h5>
             <p>
               Class 11<sup>th</sup> syllabus lays a solid foundation for the Class 12th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
+            <!-- Enquiry form popup -->
+            <button><a href="#">ENROLL NOW</a></button>
+            <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
             <div>
@@ -141,8 +153,12 @@ require_once './assets/db/config_session.inc.php';
               <p>10<sup>th</sup> pass</p>
             </div>
             <div>
+              <h5>Targeted Exams</h5>
+              <p>School Exams, CUET</p>
+            </div>
+            <div>
               <h5>Course Fee</h5>
-              <p>₹ 4,000</p>
+              <p>₹ 3,999</p>
             </div>
           </div>
         </div>
@@ -155,7 +171,9 @@ require_once './assets/db/config_session.inc.php';
   </div>
 
   <!-- End Banner -->
-
+  <!--Start of Course Features   =============================================-->
+  <?php include "./course-features-normal.php" ?>
+  <!--End of Course Features   =============================================-->
 
 
   <!-- Start Footer 
@@ -168,6 +186,8 @@ require_once './assets/db/config_session.inc.php';
   <?php include "./jquery-links.php" ?>
   <script src="assets/js/teachers.js" type="module"></script>
   <script src="assets/js/enquiry.js"></script>
+  <script src="./assets/js/cards-scroll.js"></script>
+
 
 
 </body>

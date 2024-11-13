@@ -1,7 +1,8 @@
 .cards-with-scroll {
+  display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  row-gap: 4rem;
+  row-gap: 4rem !important;
 }
 
 .cards-with-scroll section {
@@ -56,9 +57,28 @@
 .cards-with-scroll section h4 {
   color: #01356f !important;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1.8rem;
   line-height: 25px;
+  /* text-align: center; */
+}
+
+.cards-with-scroll section h5 {
+  color: #01356f;
+  margin: 0 0 20px;
+  font-weight: 600;
+}
+
+.cards-with-scroll button {
+  background: #002147;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 35px;
+  border-radius: 0.2rem;
+  letter-spacing: 0.4px;
 }
 
 .cards-with-scroll section p {
@@ -74,7 +94,7 @@
 .cards-with-scroll section span a {
   color: #ffffff;
   text-transform: capitalize;
-  background: #f58026;
+  background: #002147;
   padding: 5px 10px;
   border-radius: 0.2rem;
   transition: all 0.2s ease-in-out;
@@ -83,7 +103,19 @@
 }
 
 .cards-with-scroll section span a:hover {
-  background-color: #ffb606;
+  background-color: #01356f;
+}
+
+.colored-div {
+  color: #f58026;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.colored-div span {
+  font-size: 2.5rem;
 }
 
 @media (min-width: 768px) {
@@ -91,6 +123,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    justify-content: center;
+    /* justify-content: center; */
   }
 }

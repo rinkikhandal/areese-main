@@ -10,6 +10,7 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/classroom.css">
+  <link rel="stylesheet" href="./assets/css/card-features.css">
 </head>
 
 <body>
@@ -85,6 +86,9 @@ require_once './assets/db/config_session.inc.php';
             <h5>About the course</h5>
             <p>
               Our one-year Course for class 9<sup>th</sup> comprehensively lays a strong foundation for higher-level scholastic and competitive exams like NEET, JEE, NTSE, NJSE/JSO, Pre-RMO, RMO, as well as School Exams. This program sharpens analytical skills and mental ability, evolving the thinking process to make students capable of solving complex questions.</p>
+            <!-- Enquiry form popup -->
+            <button><a href="#">ENROLL NOW</a></button>
+            <button><a href="#course-features">COURSE FEATURES</a></button>
 
           </div>
           <div class="lower-part">
@@ -108,10 +112,10 @@ require_once './assets/db/config_session.inc.php';
               <h5>Eligibility</h5>
               <p>8<sup>th</sup> pass</p>
             </div>
-            <div>
+            <div style="grid-column-start: 1;grid-column-end: 3;">
 
               <h5>Course Fee</h5>
-              <p>₹ 20,000</p>
+              <p>₹ 18,000</p>
             </div>
           </div>
         </div>
@@ -119,22 +123,26 @@ require_once './assets/db/config_session.inc.php';
       <!-- Single Item -->
     </div>
 
+  </div>
+
+  <!-- End Banner -->
+
+  <!--Start of Course Features   =============================================-->
+  <?php include "./course-features-normal.php" ?>
+  <!--End of Course Features   =============================================-->
 
 
-    <!-- End Banner -->
-
-
-
-    <!-- Start Footer 
+  <!-- Start Footer 
     ============================================= -->
-    <?php include 'footer_dark.php' ?>
-    <!-- End Footer -->
+  <?php include 'footer_dark.php' ?>
+  <!-- End Footer -->
 
-    <!-- jQuery Frameworks
+  <!-- jQuery Frameworks
     ============================================= -->
-    <?php include "./jquery-links.php" ?>
-    <script src="assets/js/teachers.js" type="module"></script>
-    <script src="assets/js/enquiry.js"></script>
+  <?php include "./jquery-links.php" ?>
+  <script src="assets/js/teachers.js" type="module"></script>
+  <script src="assets/js/enquiry.js"></script>
+  <script src="./assets/js/cards-scroll.js"></script>
 
 
 </body>

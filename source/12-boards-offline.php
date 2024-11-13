@@ -10,6 +10,7 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/classroom.css">
+  <link rel="stylesheet" href="./assets/css/card-features.css">
 </head>
 
 <body>
@@ -45,11 +46,11 @@ require_once './assets/db/config_session.inc.php';
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Online Classes > 12<sup>th</sup> School Exams</h1>
+          <h1>Classroom > 12<sup>th</sup> Board Exams</h1>
           <ul class="breadcrumb">
             <li><a href="#"><i class="fas fa-home"></i> Admission</a></li>
-            <li><a href="#">Online Classes</a></li>
-            <li class="active">12<sup>th</sup> School Exams </li>
+            <li><a href="#">Classroom</a></li>
+            <li class="active">12<sup>th</sup> Board Exams </li>
           </ul>
         </div>
       </div>
@@ -80,30 +81,39 @@ require_once './assets/db/config_session.inc.php';
 
             <h5>About the course</h5>
             <p>
-              Our one-year Course for class 10<sup>th</sup> comprehensively lays a strong foundation for higher-level scholastic and competitive exams like NEET, JEE, NTSE, NJSE/JSO, Pre-RMO, RMO, as well as Board Exams. This program sharpens analytical skills and mental ability, evolving the thinking process to make students capable of solving complex questions.</p>
-
+              This batch is intended to help students prepare for their Class 12<sup>th</sup> CBSE Board Exams in the Science stream, covering both objective and subjective portions. Special attention is given to subjective exams due to the specific writing skills required.</p>
+            <!-- Enquiry form popup -->
+            <button><a href="#">ENROLL NOW</a></button>
+            <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
             <div>
               <h5>Subject Covers</h5>
-              <p> Maths, Science (Phy, Chem, Bio), SST, English</p>
+              <p>Physics, Chemistry, Biology, Maths</p>
             </div>
             <div>
               <h5>Syllabus Covers</h5>
-              <p>Entire Syllabus of class 10<sup>th</sup></p>
+              <p>Entire Syllabus of class 12<sup>th</sup></p>
             </div>
             <div>
               <h5>Course Duration</h5>
               <p> One Year</p>
             </div>
             <div>
-
               <h5>Eligibility</h5>
-              <p>9<sup>th</sup> pass</p>
+              <p>11<sup>th</sup> pass</p>
             </div>
             <div>
+              <h5>Selection Procedure</h5>
+              <p>Direct/Scholarship</p>
+            </div>
+            <div>
+              <h5>Targeted Exams</h5>
+              <p>Board Exams, CUET</p>
+            </div>
+            <div style="grid-column-start: 1;grid-column-end: 3;">
               <h5>Course Fee</h5>
-              <p>₹ 25,000</p>
+              <p>₹ 43,000</p>
             </div>
 
 
@@ -123,7 +133,9 @@ require_once './assets/db/config_session.inc.php';
   <!-- End Banner -->
 
 
-
+  <!--Start of Course Features   =============================================-->
+  <?php include "./course-features-normal.php" ?>
+  <!--End of Course Features   =============================================-->
   <!-- Start Footer 
     ============================================= -->
   <?php include 'footer_dark.php' ?>
@@ -134,6 +146,7 @@ require_once './assets/db/config_session.inc.php';
   <?php include "./jquery-links.php" ?>
   <script src="assets/js/teachers.js" type="module"></script>
   <script src="assets/js/enquiry.js"></script>
+  <script src="./assets/js/cards-scroll.js"></script>
 
 
 </body>

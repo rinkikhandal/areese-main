@@ -35,7 +35,7 @@
 }
 
 .courses-offer .left {
-  background: #f9f9f9 !important;
+  background: #f3f3f3 !important;
 }
 
 .courses-offer .cards .upper-part h4 {
@@ -50,6 +50,26 @@
 
 .courses-offer .cards .upper-part h5 {
   font-weight: 700;
+}
+
+.courses-offer .cards .upper-part button {
+  background-color: #002647;
+  border: none;
+  padding: 5px 15px;
+  font-size: 1.4rem;
+  margin-right: 10px;
+  border-radius: 0.2rem;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.courses-offer .cards .upper-part button:hover {
+  background: #01356f;
+}
+
+.courses-offer .cards .upper-part button a {
+  color: #ffffff !important;
 }
 
 .courses-offer .cards .lower-part {
@@ -75,12 +95,12 @@
   place-content: center;
 }
 
-.courses-offer .cards .lower-part div:nth-last-child(1) {
+/* .courses-offer .cards .lower-part div:nth-last-child(1) {
   column-span: 2 !important;
   column-count: 2;
   grid-column-start: 1;
   grid-column-end: 3 !important;
-}
+} */
 
 .courses-offer .cards .lower-part h5 {
   /* font-size: larger; */

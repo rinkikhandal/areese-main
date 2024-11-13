@@ -10,6 +10,7 @@ require_once './assets/db/config_session.inc.php';
   include './links.php';
   ?>
   <link rel="stylesheet" href="./assets/css/classroom.css">
+  <link rel="stylesheet" href="./assets/css/card-features.css">
 </head>
 
 <body>
@@ -75,12 +76,15 @@ require_once './assets/db/config_session.inc.php';
             <h4>ONE YEAR FOUNDATION COURSE</h4>
 
             <h5>10th CLASS OFFLINE BATCH</h5>
-            <p style="margin-top:px;">(9<sup>th</sup> to 10<sup>th</sup> Moving Students)</p>
+            <p>(9<sup>th</sup> to 10<sup>th</sup> Moving Students)</p>
 
 
             <h5>About the course</h5>
             <p>
               Our one-year Course for class 10<sup>th</sup> comprehensively lays a strong foundation for higher-level scholastic and competitive exams like NEET, JEE, NTSE, NJSE/JSO, Pre-RMO, RMO, as well as Board Exams. This program sharpens analytical skills and mental ability, evolving the thinking process to make students capable of solving complex questions.</p>
+            <!-- Enquiry form popup -->
+            <button><a href="#">ENROLL NOW</a></button>
+            <button><a href="#course-features">COURSE FEATURES</a></button>
 
           </div>
 
@@ -112,7 +116,7 @@ require_once './assets/db/config_session.inc.php';
               <h5>Selection Procedure</h5>
               <p>Direct/Scholarship</p>
             </div>
-            <div style="grid-column-start: 2;grid-column-end: 3;">
+            <div>
 
               <h5>Course Fee</h5>
               <p>₹ 25,000</p>
@@ -127,7 +131,9 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- End Banner -->
 
-
+  <!--Start of Course Features   =============================================-->
+  <?php include "./course-features-normal.php" ?>
+  <!--End of Course Features   =============================================-->
 
   <!-- Start Footer 
     ============================================= -->
@@ -139,6 +145,8 @@ require_once './assets/db/config_session.inc.php';
   <?php include "./jquery-links.php" ?>
   <script src="assets/js/teachers.js" type="module"></script>
   <script src="assets/js/enquiry.js"></script>
+  <script src="./assets/js/cards-scroll.js"></script>
+
 
 
 </body>
