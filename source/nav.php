@@ -40,20 +40,17 @@
                     <div class="content">
                       <ul class="menu-col">
                         <li>
-                          <a href="super30-batch.php" class="bold-nav-res">AREESE Super30 Batch</a>
+                          <a href="super30-batch.php" class="">AREESE Super30 Batch</a>
                         </li>
                         <li>
-                          <a href="payAfter-batch.php" class="bold-nav-res">Pay After Selection Batch</a>
+                          <a href="payAfter-batch.php" class="">Pay After Selection Batch</a>
                         </li>
-                        <!-- <li>
-                          <a href=" advisor-3-colum.html">FAQ</a>
-                        </li> -->
-
                       </ul>
                     </div>
                   </div>
 
                   <!-- end col-3 -->
+
                   <!-- end col-3 -->
 
                   <div class="col-menu col-md-4">
@@ -122,22 +119,7 @@
                           </ul>
 
                         </li>
-                        <li class="dropdown">
-                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Test Series</a>
-                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:100px;">
-                            <li>
-                              <a href="#">NEET</a>
-                            </li>
-                            <li>
-                              <a href="#">JEE</a>
-                            </li>
 
-                            <li>
-                              <a href="#">Boards</a>
-
-                            </li>
-                          </ul>
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -203,28 +185,44 @@
                           </ul>
 
                         </li>
-                        <li> <a href="#">Subject wise </a></li>
-                        <li> <a href="#">Chapter wise </a></li>
-                        <li class="dropdown">
-                          <a href="gallery-2-colum.html" data-toggle="dropdown" class="dropdown-toggle">Test Series</a>
-                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:100px;">
-                            <li>
-                              <a href="#">NEET</a>
-                            </li>
-                            <li>
-                              <a href="#">JEE</a>
-                            </li>
 
-                            <li>
-                              <a href="#">Boards</a>
 
-                            </li>
-                          </ul>
-                        </li>
                       </ul>
                     </div>
                   </div>
 
+
+                  <!-- end col-3 -->
+                  <!-- end col-3 -->
+                  <div class="col-menu col-md-4" style="margin-top:-70px">
+                    <h6 class="title">Test Series</h6>
+                    <div class="content">
+                      <ul class="menu-col">
+                        <li class="dropdown">
+                          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Test Series</a>
+                          <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:100px;">
+                            <li>
+                              <a href="./NEET-Test.php">NEET</a>
+                            </li>
+                            <li class="dropdown">
+                              <a href="#" data-toggle="dropdown" class="dropdown-toggle">JEE</a>
+                              <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:100px;">
+                                <li><a href="JEE-11-test.php">11<sup>th</sup> class</a></li>
+                                <li><a href="JEE-12-test.php">12<sup>th</sup> class</a></li>
+                                <li><a href="JEE-12pass-test.php">12<sup>th</sup> pass students</a></li>
+                              </ul>
+                            </li>
+
+                            <li>
+                              <a href="boards-Test.php">Boards</a>
+
+                            </li>
+                          </ul>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
 
                   <!-- end col-3 -->
                 </div>

@@ -72,11 +72,10 @@
 .cards-with-scroll button {
   background: #002147;
   border: none;
+  display: inline-block !important;
   color: #fff;
   font-weight: 500;
   margin-bottom: 10px;
-  width: 180px;
-  height: 35px;
   border-radius: 0.2rem;
   letter-spacing: 0.4px;
 }
@@ -111,7 +110,7 @@
   font-size: 6rem;
   font-weight: 700;
   line-height: 50px;
-  text-align: center;
+  text-align: center !important;
 }
 
 .colored-div span {
