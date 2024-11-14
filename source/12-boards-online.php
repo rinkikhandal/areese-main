@@ -85,7 +85,7 @@ require_once './assets/db/config_session.inc.php';
               Class 12<sup>th</sup> CBSE Board Exams are considered very
               important in career. Board exams require preparation for both objective and subjective sections. Mastering subjective exams needs specific writing skills, so extra preparation is necessary.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
 
           </div>
@@ -133,6 +133,10 @@ require_once './assets/db/config_session.inc.php';
   </div>
 
   <!-- End Banner -->
+
+  <!--Start Apply Form   =============================================-->
+  <?php include "./apply-course-form.php" ?>
+  <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
   <?php include "./course-features-normal.php" ?>

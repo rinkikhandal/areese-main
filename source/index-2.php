@@ -161,7 +161,7 @@ require_once './assets/db/config_session.inc.php';
         <!-- End Our Features -->
 
         <!-- End Home Sidebar -->
-        <div class="col-md-4 home-sidebar for_margin">
+        <div class="col-md-4 home-sidebar for_margin" style="margin-top: 40px;">
           <!-- Start Online Registration -->
           <div class="sidebar-item online-registration">
             <h4>Enquiry Form</h4>

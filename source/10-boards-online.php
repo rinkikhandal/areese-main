@@ -83,7 +83,7 @@ require_once './assets/db/config_session.inc.php';
             <p>
               Class 9<sup>th</sup> syllabus lays a solid foundation for the Class 10th board exams. Preparing for school exams requires both objective and subjective skills. Mastering subjective exams involves specific writing skills, needing extra preparation.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
@@ -123,6 +123,10 @@ require_once './assets/db/config_session.inc.php';
   </div>
 
   <!-- End Banner -->
+
+  <!--Start Apply Form   =============================================-->
+  <?php include "./apply-course-form.php" ?>
+  <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
   <?php include "./course-features-normal.php" ?>

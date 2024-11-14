@@ -155,7 +155,7 @@ require_once './assets/db/config_session.inc.php';
             <p>Our Two-Year Programme covers the entire syllabus of class 11th and 12th according to latest syllabus of JEE (Main & Advanced), CBSE, and State Boards. It builds a solid foundation for
               these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
@@ -200,7 +200,7 @@ require_once './assets/db/config_session.inc.php';
             <h5>About the course</h5>
             <p>Our One-Year Programme covers the entire syllabus of class 12th according to latest syllabus of JEE, CBSE, and State Boards. It builds a solid foundation for these competitive exams. We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
@@ -245,7 +245,7 @@ require_once './assets/db/config_session.inc.php';
             <p>Our one-year course for class 12th passed
               thoroughly covers the syllabus for JEE (Main & Advanced). We train students to think analytically and adopt a systematic approach to problem-solving, essential for JEE and to lend you a helping hand and guide you to clear JEE with very good rank.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
@@ -292,7 +292,7 @@ require_once './assets/db/config_session.inc.php';
             <h5>About the course</h5>
             <p>Our One year course is designed for Ex-AREESE students or those who have qualified for JEE (Main)/JEE (Advanced), our one-year course is designed to elevate your Rank to next level.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
 
@@ -331,6 +331,9 @@ require_once './assets/db/config_session.inc.php';
 
   <!--End Description   =============================================-->
 
+  <!--Start Apply Form   =============================================-->
+  <?php include "./apply-course-form.php" ?>
+  <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
   <?php include "./course-features-normal.php" ?>

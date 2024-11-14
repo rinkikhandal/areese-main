@@ -16,6 +16,27 @@ require_once './assets/db/config_session.inc.php';
 
 
 </head>
+<style>
+  section.cards button {
+    background-color: #002647;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    border-radius: 0.2rem;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+
+  section.cards button:hover {
+    background: #01356f;
+  }
+
+  section.cards button a {
+    color: #ffffff !important;
+  }
+</style>
 
 <body>
 
@@ -370,6 +391,7 @@ require_once './assets/db/config_session.inc.php';
             </ol>
             </p>
           </div>
+          <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
@@ -411,11 +433,17 @@ require_once './assets/db/config_session.inc.php';
             </ol>
             </p>
           </div>
+          <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
         </section>
         <!-- Single Item -->
       </div>
 
     </div>
+    <!-- End of courses offered======== -->
+
+    <!--Start Apply Form   =============================================-->
+    <?php include "./apply-course-form.php" ?>
+    <!--End Apply Form   =============================================-->
 
     <!-- why areese super30 -->
 

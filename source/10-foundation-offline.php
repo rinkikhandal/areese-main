@@ -83,7 +83,7 @@ require_once './assets/db/config_session.inc.php';
             <p>
               Our one-year Course for class 10<sup>th</sup> comprehensively lays a strong foundation for higher-level scholastic and competitive exams like NEET, JEE, NTSE, NJSE/JSO, Pre-RMO, RMO, as well as Board Exams. This program sharpens analytical skills and mental ability, evolving the thinking process to make students capable of solving complex questions.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
 
           </div>
@@ -130,6 +130,10 @@ require_once './assets/db/config_session.inc.php';
   </div>
 
   <!-- End Banner -->
+
+  <!--Start Apply Form   =============================================-->
+  <?php include "./apply-course-form.php" ?>
+  <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
   <?php include "./course-features-normal.php" ?>

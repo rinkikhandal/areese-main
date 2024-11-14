@@ -83,7 +83,7 @@ require_once './assets/db/config_session.inc.php';
             <p>
               This batch is intended to help students prepare for their Class 12<sup>th</sup> CBSE Board Exams in the Science stream, covering both objective and subjective portions. Special attention is given to subjective exams due to the specific writing skills required.</p>
             <!-- Enquiry form popup -->
-            <button><a href="#">ENROLL NOW</a></button>
+            <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
             <button><a href="#course-features">COURSE FEATURES</a></button>
           </div>
           <div class="lower-part">
@@ -132,6 +132,9 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- End Banner -->
 
+  <!--Start Apply Form   =============================================-->
+  <?php include "./apply-course-form.php" ?>
+  <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
   <?php include "./course-features-normal.php" ?>

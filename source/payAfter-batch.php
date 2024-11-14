@@ -16,6 +16,28 @@ require_once './assets/db/config_session.inc.php';
 
 </head>
 <style>
+  section.cards button {
+    background-color: #002647;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    border-radius: 0.2rem;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+  }
+
+  section.cards button:hover {
+    background: #01356f;
+  }
+
+  section.cards button a {
+    color: #ffffff !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+
   @media (min-width: 1000px) {
     .cards-with-scroll {
       display: grid;
@@ -325,6 +347,7 @@ require_once './assets/db/config_session.inc.php';
             <h5>Course Fee</h5>
             <p><strong>₹ 2,60,000 </strong>(Pay only if you get selected)</p>
           </div>
+          <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
         </section>
         <!-- Single Item -->
         <!-- Single Item -->
@@ -368,6 +391,7 @@ require_once './assets/db/config_session.inc.php';
             <h5>Course Fee</h5>
             <p> <strong>₹ 1,30,000 </strong>(Pay only if you get selected)</p>
           </div>
+          <button><a class="popup-with-form" href="#apply-course-form">ENROLL NOW</a></button>
         </section>
         <!-- Single Item -->
       </div>
@@ -375,6 +399,10 @@ require_once './assets/db/config_session.inc.php';
     </div>
 
   </div>
+
+  <!--Start Apply Form   =============================================-->
+  <?php include "./apply-course-form.php" ?>
+  <!--End Apply Form   =============================================-->
 
   <!-- why pay after selection batch -->
 
