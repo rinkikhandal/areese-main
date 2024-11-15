@@ -35,7 +35,7 @@
               <li>
                 <div class="row">
                   <!-- end col-3 -->
-                  <div class="col-menu col-md-4">
+                  <div class="col-menu col-md-3">
                     <h6 class="title">Residential Program</h6>
                     <div class="content">
                       <ul class="menu-col">
@@ -53,7 +53,7 @@
 
                   <!-- end col-3 -->
 
-                  <div class="col-menu col-md-4">
+                  <div class="col-menu col-md-3">
                     <h6 class="title">Classroom</h6>
                     <div class="content">
                       <ul class="menu-col">
@@ -124,7 +124,7 @@
                     </div>
                   </div>
                   <!-- end col-3 -->
-                  <div class="col-menu col-md-4">
+                  <div class="col-menu col-md-3">
                     <h6 class="title">Online Classes</h6>
                     <div class="content">
                       <ul class="menu-col">
@@ -194,7 +194,7 @@
 
                   <!-- end col-3 -->
                   <!-- end col-3 -->
-                  <div class="col-menu col-md-4" style="margin-top:-70px">
+                  <div class="col-menu col-md-3">
                     <h6 class="title">Test Series</h6>
                     <div class="content">
                       <ul class="menu-col">

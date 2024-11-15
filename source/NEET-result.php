@@ -14,6 +14,17 @@ require_once './assets/db/config_session.inc.php';
     <link rel="stylesheet" href="./assets/css/scroll-cards.css">
 
 </head>
+<style>
+    @media (min-width: 768px) {
+        .cards-with-scroll {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            /* justify-content: center; */
+        }
+    }
+</style>
+
 
 <body>
 
@@ -66,7 +77,7 @@ require_once './assets/db/config_session.inc.php';
     <div class="default-padding default-padding-per cards-with-scroll " style="margin: 50px auto;">
         <section>
             <div>
-                <svg fill="#fff" height="60px" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 311.027 311.027" xml:space="preserve">
+                <svg fill="#f58026" height="60px" width="60px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 311.027 311.027" xml:space="preserve">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -80,11 +91,11 @@ require_once './assets/db/config_session.inc.php';
             </div>
             <div>
                 <h4>
-                    AREESE NEET RESULTS
+                    Our Yearly Growth
                 </h4>
-                <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
+                <p>We at AREESE only have one motto ,i.e., to grow every day and do better than the last. You can see for yourself</p>
                 <span>
-                    <a href="#about">more details</a>
+                    <a href="#growth">more details</a>
                     <!-- <i class="fa-solid fa-chevron-right"></i> -->
                 </span>
             </div>
@@ -97,13 +108,13 @@ require_once './assets/db/config_session.inc.php';
                     <g>
                         <g>
                             <g>
-                                <path style="fill:#fff;" d="M466.965,41.006H275.783c2.092-3.926,3.581-8.197,3.581-12.964C279.364,12.554,266.81,0,251.322,0
+                                <path style="fill:#f58026;" d="M466.965,41.006H275.783c2.092-3.926,3.581-8.197,3.581-12.964C279.364,12.554,266.81,0,251.322,0
 				S223.28,12.554,223.28,28.042c0,4.767,1.488,9.017,3.581,12.964H35.744c-14.237,0-25.799,11.605-25.799,25.799v284.389
 				c0,14.194,11.562,25.82,25.777,25.82h156.28l-30.35,107.056c-2.114,7.42,2.351,14.668,9.944,16.049l12.08,2.308
 				c7.593,1.402,15.509-3.516,17.602-10.893l32.486-114.541h35.16l32.507,114.519c2.071,7.399,10.03,12.317,17.602,10.893
 				l12.015-2.308c7.593-1.381,12.058-8.628,9.944-16.049l-30.35-107.034h156.323c14.15,0,25.755-11.627,25.755-25.82V66.805
 				C492.721,52.633,481.137,41.006,466.965,41.006z M443.647,326.711H58.975V85.981h384.672V326.711z" />
-                                <path style="fill:#fff;" d="M104.317,286.309c11.044,0,19.996-8.952,19.996-19.996c0-2.006-0.582-3.818-1.143-5.63
+                                <path style="fill:#f58026;" d="M104.317,286.309c11.044,0,19.996-8.952,19.996-19.996c0-2.006-0.582-3.818-1.143-5.63
 				c25.54-20.6,70.687-56.925,91.244-72.758c3.257,2.286,7.01,3.926,11.282,3.926c3.538,0,6.687-1.165,9.577-2.783
 				c13.223,11.238,35.7,30.35,51.684,43.918c-0.216,1.143-0.69,2.2-0.69,3.408c0,11.066,8.973,20.018,20.018,20.018
 				c11.087,0,20.039-8.952,20.039-20.018c0-1.963-0.582-3.732-1.122-5.522l51.662-46.614c2.783,1.445,5.803,2.481,9.146,2.481
@@ -149,11 +160,11 @@ require_once './assets/db/config_session.inc.php';
             </div>
             <div>
                 <h4>
-                    Courses Offered by Pay After Selection Batch
+                    NEET Results
                 </h4>
-                <p>AREESE Pay After Selection Batch offers two types of courses both with students still studying in schools and those who are dropouts.</p>
+                <p>Over Years AREESE has succeeded in helping many students achieve their dreams and aspirations. We are proud of them. Take a look. </p>
                 <span>
-                    <a href="#courses">more details</a>
+                    <a href="#result">more details</a>
                     <!-- <i class="fa-solid fa-chevron-right"></i> -->
                 </span>
             </div>
@@ -168,11 +179,14 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Banner 
     ============================================= -->
-    <div class="results default-padding default-padding-side">
-        <h2 class="headings">NEET Results </h2>
+    <div class="results default-padding ">
+        <h2 class="headings" style="text-align: center;">NEET Results </h2>
         <div class="inner-container">
-            <Article>
-
+            <Article style="margin-bottom: 70px;" id="growth">
+                <img src="./assets/img/NEET-result.png" alt="growth">
+            </Article>
+            <Article id="result">
+                <img src="./assets/img/result-poster.jpg" alt="results">
             </Article>
 
         </div>
@@ -193,6 +207,7 @@ require_once './assets/db/config_session.inc.php';
     <!-- jQuery Frameworks
     ============================================= -->
     <?php include "./jquery-links.php" ?>
+    <script src="./assets/js/cards-scroll.js"></script>
 
 
 </body>

@@ -171,7 +171,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             About AREESE Pay After Selection Batch
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
 
           <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
           <span>
@@ -243,7 +243,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             Courses Offered by Pay After Selection Batch
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
 
           <p>AREESE Pay After Selection Batch offers two types of courses both with students still studying in schools and those who are dropouts.</p>
           <span>
@@ -269,7 +269,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             Why Pay After Selection Batch
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
 
 
           <p> AREESE Pay After Selection Batch provides continuous guiding and support to the students to excel in every field.</p>

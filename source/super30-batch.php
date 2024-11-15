@@ -158,7 +158,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             About AREESE Super30
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
           <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
           <span>
             <a href="#about">more details</a>
@@ -188,7 +188,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             Sponsors of AREESE super30
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
 
           <p>The AREESE Super-30 Batch is a life-changing initiative aimed at providing top-quality education</p>
           <span>
@@ -259,7 +259,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             Courses Offered by AREESE Super30
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
 
           <p>AREESE Super30 offers two types of courses both with students still studying in schools and those who are dropouts.</p>
           <span>
@@ -283,7 +283,7 @@ require_once './assets/db/config_session.inc.php';
           <h4>
             Why AREESE Super30
           </h4>
-          <button style="width:130px">ON CAMPUS</button>
+          <button>ON CAMPUS</button>
 
           <p> AREESE Super30 provides continuous guiding and support to the students to excel in every field.</p>
 
