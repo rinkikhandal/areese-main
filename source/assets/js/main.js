@@ -308,7 +308,7 @@
                     # Event Carousel
                  ===============================================*/
     $(".event-carousel").owlCarousel({
-      loop: true,
+      loop: false,
       margin: 30,
       nav: true,
       navText: [
@@ -316,7 +316,7 @@
         "<i class='fa fa-angle-right'></i>",
       ],
       dots: false,
-      autoplay: true,
+      autoplay: false,
       responsive: {
         0: {
           items: 1,

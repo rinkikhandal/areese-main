@@ -4823,8 +4823,10 @@ body,
   border-radius: 5px;
 }
 
+/* =======changed====== */
 .event-area .event-items .item {
   margin-bottom: 30px;
+  /* width: 500px; */
 }
 
 .event-area .event-items.event-carousel .item {

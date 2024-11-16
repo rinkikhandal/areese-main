@@ -12,7 +12,7 @@
 
 </head>
 <style>
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     .cards-with-scroll {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -84,6 +84,7 @@
         <span>
           <a href="#11class">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -99,6 +100,7 @@
         <span>
           <a href="#12class">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
   </div>
@@ -225,7 +227,7 @@
   <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
-  <?php include "./course-features-normal.php" ?>
+  <?php include "./Test-series-features.php" ?>
   <!--End of Course Features   =============================================-->
 
 

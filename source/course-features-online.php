@@ -5,6 +5,32 @@
     </h2>
     <p class="main-des">At AREESE our students get the benefit of variety of facilities with best faculty to best infrastructure. Our goal is to provide a suitable environment for the students enabling them to study more diligently and with proper discipline. Let's take a look on some of these features </p>
     <div class="card-holder ">
+
+      <!-- single Item -->
+      <article class="feature-card" style="border-bottom: 2px solid #D58D38;">
+        <div class="img-back">
+        </div>
+        <img src="./assets/img/classroom-png/11.jpg" alt="image-icon">
+        <h5>Recorded video lectures & CBT Test</h5>
+        <div class="description">
+          <p>
+            Our institute offers recorded video lectures for flexible learning and Computer-Based Tests (CBT) to enhance readiness.
+          </p>
+        </div>
+      </article>
+      <!-- single Item -->
+      <!-- single Item -->
+      <article class="feature-card" style="border-bottom: 2px solid #567AFF;">
+        <div class="img-back">
+        </div>
+        <img src="./assets/img/classroom-png/5.jpg" alt="image-icon">
+        <h5>Relevant Learning Study Material</h5>
+        <div class="description">
+          <p>
+            Comprehensive, thoroughly researched, and highly relevant learning materials to support effective student learning.</p>
+        </div>
+      </article>
+      <!-- single Item -->
       <!-- single Item -->
       <article class="feature-card" style="border-bottom: 2px solid #FACA4C;">
         <div class="img-back">
@@ -13,6 +39,18 @@
         <h5>Experienced & Best faculty team</h5>
         <div class="description">
           <p>Our skilled and knowledgeable faculty is committed, diligent, and driven by a passion for your success.</p>
+        </div>
+      </article>
+      <!-- single Item -->
+      <!-- single Item -->
+      <article class="feature-card" style="border-bottom: 2px solid #DEA615;">
+        <div class="img-back">
+        </div>
+        <img src="./assets/img/classroom-png/10.jpg" alt="image-icon">
+        <h5>Content Research & Development Team</h5>
+        <div class="description">
+          <p>
+            An Educational Research and Content Development Center monitors exam patterns to ensure you're ready for the latest trends.</p>
         </div>
       </article>
       <!-- single Item -->
@@ -28,6 +66,7 @@
         </div>
       </article>
       <!-- single Item -->
+
       <!-- single Item -->
       <article class="feature-card" style="border-bottom: 2px solid #559DFF;">
         <div class="img-back">
@@ -54,18 +93,6 @@
       </article>
       <!-- single Item -->
       <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #567AFF;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/5.jpg" alt="image-icon">
-        <h5>Relevant Learning Study Material</h5>
-        <div class="description">
-          <p>
-            Comprehensive, thoroughly researched, and highly relevant learning materials to support effective student learning.</p>
-        </div>
-      </article>
-      <!-- single Item -->
-      <!-- single Item -->
       <article class="feature-card" style="border-bottom: 2px solid #559DFF;">
         <div class=" img-back">
         </div>
@@ -74,18 +101,6 @@
         <div class="description">
           <p>
             Daily progress tracking, regular assessments, performance analysis, and feedback for continuous improvement.</p>
-        </div>
-      </article>
-      <!-- single Item -->
-      <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #EF9F4A;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/7.jpg" alt="image-icon">
-        <h5>best Infrastructure</h5>
-        <div class="description">
-          <p>
-            State-of-the-art infrastructure with all the necessary facilities, providing an ideal environment for focused and effective learning experiences.</p>
         </div>
       </article>
       <!-- single Item -->
@@ -115,44 +130,6 @@
       </article>
       <!-- single Item -->
       <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #DEA615;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/10.jpg" alt="image-icon">
-        <h5>Content Research & Development Team</h5>
-        <div class="description">
-          <p>
-            An Educational Research and Content Development Center monitors exam patterns to ensure you're ready for the latest trends.</p>
-        </div>
-      </article>
-      <!-- single Item -->
-      <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #D58D38;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/11.jpg" alt="image-icon">
-        <h5>Recorded video lectures & CBT Test</h5>
-        <div class="description">
-          <p>
-            Our institute offers recorded video lectures for flexible learning and Computer-Based Tests (CBT) to enhance readiness.
-          </p>
-        </div>
-      </article>
-      <!-- single Item -->
-      <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #653589;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/12.jpg" alt="image-icon">
-        <h5>Great student life</h5>
-        <div class="description">
-          <p>
-            A competitive, motivating, and supportive environment is designed to foster student success, personal growth, and a sense of achievement.
-          </p>
-        </div>
-      </article>
-      <!-- single Item -->
-      <!-- single Item -->
       <article class="feature-card" style="border-bottom: 2px solid #FE4229;">
         <div class="img-back">
         </div>
@@ -160,19 +137,6 @@
         <h5>Full Academic Support</h5>
         <div class="description">
           <p>Comprehensive academic support available outside of class through regular problem-solving sessions, knowledge labs, individual counseling, and seminars.</p>
-        </div>
-      </article>
-      <!-- single Item -->
-      <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #7A49A2;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/14.jpg" alt="image-icon">
-        <h5>Residential Facility</h5>
-        <div class="description">
-          <p>
-            Our coaching institute offers a well-equipped residential facility with mess services, providing students with a comfortable and focused learning environment.
-          </p>
         </div>
       </article>
       <!-- single Item -->
@@ -189,19 +153,7 @@
         </div>
       </article>
       <!-- single Item -->
-      <!-- single Item -->
-      <article class="feature-card" style="border-bottom: 2px solid #8D8D8D;">
-        <div class="img-back">
-        </div>
-        <img src="./assets/img/classroom-png/16.jpg" alt="image-icon">
-        <h5>13-Hour Self Study Program</h5>
-        <div class="description">
-          <p>
-            A unique, intensive program designed to maximize productivity and enhance learning outcomes for participants, ensuring a transformative experience.
-          </p>
-        </div>
-      </article>
-      <!-- single Item -->
+
 
 
     </div>

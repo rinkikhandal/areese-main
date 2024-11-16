@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   row-gap: 4rem !important;
-  padding: 0 40px;
+  padding: 0 40px !important;
 }
 
 .cards-with-scroll section {
@@ -118,7 +118,7 @@
 
 @media (min-width: 401px) and (max-width: 899px) {
   .cards-with-scroll section {
-    width: 70%;
+    width: 90%;
   }
 }
 

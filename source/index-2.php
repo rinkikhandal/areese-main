@@ -355,12 +355,13 @@ require_once './assets/db/config_session.inc.php';
       <div class="row">
         <div class="top-cat-items">
           <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="padding:0 0;">
-              <a href="#" style="height: 100%;width: 100%;display: block;padding: 0 0;">
-
-                <h4 style="background-color:#002147;text-align: center;border-top-left-radius: 5px;border-top-right-radius: 5px;padding:10px 0">AREESE Super 30 Batch</h4>
-                <div class="info" style="text-align: center;">
-                  <span style="color: gray;display: block; width: 100%;">Free accommodation and food</span>
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-1.jpg)">
+              <a href="#">
+                <!-- <i class="flaticon-feature"></i> -->
+                <!-- <img src="assets/img/1.png" alt="" style="width:40px"> -->
+                <div class="info">
+                  <h4>AREESE Super 30 Batch</h4>
+                  <span>(Free accommodation and food)</span>
                 </div>
               </a>
             </div>
@@ -785,29 +786,15 @@ require_once './assets/db/config_session.inc.php';
             <div class="item vertical">
               <div class="thumb">
                 <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                <div class="date">
-                  <h4><span>27</span> Feb, 2019</h4>
-                </div>
               </div>
               <div class="info">
                 <h4>
-                  <a href="#">Social Science Humanities</a>
+                  <a href="#">AREESE ANDROID APP</a>
                 </h4>
-                <div class="meta">
-                  <ul>
-                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
-                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
-                  </ul>
-                </div>
-                <p>
-                  Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides.
-                </p>
-                <a href="#" class="btn btn-dark effect btn-xsm">
-                  <i class="fas fa-chart-bar"></i> Book Now
+                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank">
+                  INSTALL NOW
                 </a>
-                <a href="#" class="btn btn-gray btn-xsm">
-                  <i class="fas fa-ticket-alt"></i> 23 Available
-                </a>
+
               </div>
             </div>
             <!-- Single Item -->
@@ -816,121 +803,16 @@ require_once './assets/db/config_session.inc.php';
             <div class="item vertical">
               <div class="thumb">
                 <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                <div class="date">
-                  <h4><span>12</span> Nov, 2018</h4>
-                </div>
-              </div>
-              <div class="info">
-                <h4>
-                  <a href="#">Schools United Nations</a>
-                </h4>
-                <div class="meta">
-                  <ul>
-                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
-                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
-                  </ul>
-                </div>
-                <p>
-                  Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides.
-                </p>
-                <a href="#" class="btn btn-dark effect btn-xsm">
-                  <i class="fas fa-chart-bar"></i> Book Now
-                </a>
-                <a href="#" class="btn btn-gray btn-xsm">
-                  <i class="fas fa-ticket-alt"></i> 5 Available
-                </a>
-              </div>
-            </div>
-            <!-- Single Item -->
 
-            <!-- Single Item -->
-            <div class="item vertical">
-              <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                <div class="date">
-                  <h4><span>14</span> Feb, 2019</h4>
-                </div>
               </div>
               <div class="info">
                 <h4>
-                  <a href="#">Actualized Leadership Network</a>
+                  <a href="#">AREESE APPLE APP</a>
                 </h4>
-                <div class="meta">
-                  <ul>
-                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
-                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
-                  </ul>
-                </div>
-                <p>
-                  Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides.
-                </p>
-                <a href="#" class="btn btn-dark effect btn-xsm">
-                  <i class="fas fa-chart-bar"></i> Book Now
-                </a>
-                <a href="#" class="btn btn-gray btn-xsm">
-                  <i class="fas fa-ticket-alt"></i> 34 Available
-                </a>
-              </div>
-            </div>
-            <!-- Single Item -->
 
-            <!-- Single Item -->
-            <div class="item vertical">
-              <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                <div class="date">
-                  <h4><span>18</span> Dec, 2018</h4>
-                </div>
-              </div>
-              <div class="info">
-                <h4>
-                  <a href="#">Conference on Art Business</a>
-                </h4>
-                <div class="meta">
-                  <ul>
-                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
-                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
-                  </ul>
-                </div>
-                <p>
-                  Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides.
-                </p>
-                <a href="#" class="btn btn-dark effect btn-xsm">
-                  <i class="fas fa-chart-bar"></i> Book Now
-                </a>
-                <a href="#" class="btn btn-gray btn-xsm">
-                  <i class="fas fa-ticket-alt"></i> 19 Available
-                </a>
-              </div>
-            </div>
-            <!-- Single Item -->
 
-            <!-- Single Item -->
-            <div class="item vertical">
-              <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
-                <div class="date">
-                  <h4><span>22</span> Mar, 2019</h4>
-                </div>
-              </div>
-              <div class="info">
-                <h4>
-                  <a href="#">Digital Learning Method</a>
-                </h4>
-                <div class="meta">
-                  <ul>
-                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
-                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
-                  </ul>
-                </div>
-                <p>
-                  Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides.
-                </p>
-                <a href="#" class="btn btn-dark effect btn-xsm">
-                  <i class="fas fa-chart-bar"></i> Book Now
-                </a>
-                <a href="#" class="btn btn-gray btn-xsm">
-                  <i class="fas fa-ticket-alt"></i> 32 Available
+                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank">
+                  INSTALL NOW
                 </a>
               </div>
             </div>

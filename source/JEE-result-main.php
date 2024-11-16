@@ -15,7 +15,7 @@ require_once './assets/db/config_session.inc.php';
 
 </head>
 <style>
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     .cards-with-scroll {
       display: grid;
       grid-template-columns: 1fr 1fr;

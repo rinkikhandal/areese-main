@@ -177,7 +177,7 @@ require_once './assets/db/config_session.inc.php';
   <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
-  <?php include "./course-features-normal.php" ?>
+  <?php include "./course-features-online.php" ?>
   <!--End of Course Features   =============================================-->
 
 

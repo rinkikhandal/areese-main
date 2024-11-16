@@ -76,6 +76,7 @@ require_once './assets/db/config_session.inc.php';
         <span>
           <a href="#11class">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -92,6 +93,7 @@ require_once './assets/db/config_session.inc.php';
         <span>
           <a href="#12class">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -109,6 +111,7 @@ require_once './assets/db/config_session.inc.php';
         <span>
           <a href="#dropper">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -130,6 +133,7 @@ require_once './assets/db/config_session.inc.php';
         <span>
           <a href="#dropperPlus">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
   </div>
@@ -338,7 +342,7 @@ require_once './assets/db/config_session.inc.php';
   <!--End Description   =============================================-->
 
   <!--Start of Course Features   =============================================-->
-  <?php include "./course-features-normal.php" ?>
+  <?php include "./course-features-online.php" ?>
   <!--End of Course Features   =============================================-->
 
 

@@ -69,12 +69,14 @@ require_once './assets/db/config_session.inc.php';
         <h4>
           Two Year Course for 11<sup>th</sup> Class Students
         </h4>
-        <button style="width:140px">ONLINE COURSE</button>
+        <button>ONLINE COURSE</button>
 
-        <p>This course is for students wanting to prepare for JEEwhile studying in 11<sup>th</sup> class.</p>
+        <p>This course is for students wanting to prepare for JEE while studying in 11<sup>th</sup> class.</p>
         <span>
           <a href="#11class">more details</a>
+
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -85,12 +87,13 @@ require_once './assets/db/config_session.inc.php';
         <h4>
           One Year Course for 12<sup>th</sup> Class Students
         </h4>
-        <button style="width:140px">ONLINE COURSE</button>
+        <button>ONLINE COURSE</button>
 
         <p>This course is for students studying in 12<sup>th</sup> class and wants to prepare for competitive exams. It covers entire 11 and 12 class syllabus.</p>
         <span>
           <a href="#12class">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -102,12 +105,13 @@ require_once './assets/db/config_session.inc.php';
         <h5>
           One Year Target course for 12<sup>th</sup> pass students
         </h5>
-        <button style="width:140px">ONLINE COURSE</button>
+        <button>ONLINE COURSE</button>
 
         <p>A course designed for those who wants to take a drop of a year to prepare for competitive exams.</p>
         <span>
           <a href="#dropper">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>
@@ -119,7 +123,7 @@ require_once './assets/db/config_session.inc.php';
         <h5>
           Dropper Plus Batch for Second Time Droppers
         </h5>
-        <button style="width:140px">ONLINE COURSE</button>
+        <button>ONLINE COURSE</button>
 
         <p>Dropping another year after already spending one year for exams is a risky decision but we at AREESE are prepared to constantly motivate our students and achieve great results.</p>
 
@@ -127,6 +131,7 @@ require_once './assets/db/config_session.inc.php';
         <span>
           <a href="#dropperPlus">more details</a>
         </span>
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
   </div>
@@ -336,7 +341,7 @@ require_once './assets/db/config_session.inc.php';
   <!--End Apply Form   =============================================-->
 
   <!--Start of Course Features   =============================================-->
-  <?php include "./course-features-normal.php" ?>
+  <?php include "./course-features-online.php" ?>
   <!--End of Course Features   =============================================-->
 
   <!-- Start Footer 
