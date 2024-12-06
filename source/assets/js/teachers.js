@@ -96,7 +96,7 @@ const teacherDetails = [
     University: "R.T.U ",
     about:
       "Senior Faculty of Physics and Mathematics with 15+ Years of experience in Reputed National Level Institutes",
-    image: "",
+    image: "Lakhan-Vaishnav.png",
   },
   {
     id: 9,

@@ -154,7 +154,8 @@ require_once './assets/db/config_session.inc.php';
               <p>
                 In today's competitive landscape, many institutes focus solely on their top students to produce top ranks, leaving average students behind. This, combined with large batch sizes, makes it nearly impossible to provide personal care and attention, resulting in lower overall selection percentages.
               </p>
-              <p> Inspired by the legendary Super-30 model, where 30 students are rigorously prepared with a 100% success rate, AREESE adopts a unique approach to ensure every student excels. Adopting this proven approach, AREESE strives to ensure that each student, regardless of their starting point, receives the attention, resources, and mentorship they need to excel. By fostering an environment of rigorous academic training, individualized support, and unwavering commitment to student success, we maximize every learner's potential, ensuring that no one is left behind. At AREESE, every student matters, and every student succeeds.</p>
+              <p> Inspired by the legendary Super-30 model, where 30 students are rigorously prepared with a 100% success rate, AREESE adopts a unique approach to ensure every student excels. Adopting this proven approach, AREESE strives to ensure that each student, regardless of their starting point, receives the attention, resources, and mentorship they need to excel. By fostering an environment of rigorous academic training, individualized support, and unwavering commitment to student success, we maximize every learner's potential, ensuring that no one is left behind. At AREESE, every student matters, and every student succeeds... <a href="about-us.php">READ MORE<i class="fas fa-angle-double-right"></i></a></p>
+
             </div>
           </div>
         </div>
@@ -208,9 +209,22 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <!-- End Online Registration -->
+
         </div>
         <!-- End Home Sidebar -->
       </div>
+      <!-- <span>
+        <a href="about-us.php" style=" color: #ffffff;
+  text-transform: capitalize;
+  background: #002147;
+  padding: 5px 10px;
+  border-radius: 0.2rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #002147;
+  font-weight: 500;">more details</a>
+      </span> -->
     </div>
   </div>
   <!-- End Our Features & Latest Post -->
@@ -252,8 +266,9 @@ require_once './assets/db/config_session.inc.php';
                   <p class="card-text">Offline Class</p>
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
-                  <p class="">Foundation ∣ Pre-Foundation</p>
-                  <p class="">NTSE ∣ Olympiad ∣ Boards</p>
+                  <p class="">Target Batches ∣ Foundation ∣ </p>
+                  <p>Pre-Foundation</p>
+                  <p class="">NTSE ∣ Olympiads ∣ Boards</p>
                   <p class=" mb-2">( Science ∣ Commerce )</p>
                   <a href="http://www.bestinstituteforboardexam.com/" target="blank" class="btn btn-outline">More details</a>
               </div>
@@ -273,8 +288,9 @@ require_once './assets/db/config_session.inc.php';
 
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
-                  <p class="">Foundation ∣ Pre-Foundation</p>
-                  <p>NTSE ∣ Olympiad ∣ Board</p>
+                  <p class="">Target Batches ∣ Foundation ∣ </p>
+                  <p>Pre-Foundation</p>
+                  <p>NTSE ∣ Olympiads ∣ Boards</p>
                   <p class=" mb-2">( Science ∣ Commerce )</p>
                   <a href="https://areese.courses.store/" target="blank" class="btn btn-outline">More details</a>
               </div>
@@ -298,7 +314,10 @@ require_once './assets/db/config_session.inc.php';
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
 
-                  <p class="">Foundation ∣ Olympiad</p>
+                  <p class="">Foundation ∣ Target Batches ∣ </p>
+                  <p>
+                    Olympiads
+                  </p>
                   <p>Fully Residential Program</p>
                   <a href="http://www.areesegurukulam.com/" target="blank" class="btn btn-outline">More details</a>
               </div>
@@ -317,13 +336,14 @@ require_once './assets/db/config_session.inc.php';
                 <h3 class="card-title">AREESE Super30</h4>
 
                   <p class="card-text">
-                    Pay after Selection Batch <br />
+                    Free Coaching & Stay <br />
                     for
                   </p>
                   <h5 class="card-text">NEET ∣ JEE</h5>
                   <hr />
 
-                  <p class="">Foundation ∣ Olympiad</p>
+                  <p class="">Foundation ∣ Target Batches ∣ </p>
+                  <p>Olympiads </p>
                   <p>Fully Residential Program</p>
                   <a href="http://www.areesegurukulam.com/" target="blank" class="btn btn-outline">More details</a>
               </div>
@@ -356,31 +376,31 @@ require_once './assets/db/config_session.inc.php';
         <div class="top-cat-items">
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-1.jpg)">
-              <a href="#">
+              <a href="super30-batch.php">
                 <!-- <i class="flaticon-feature"></i> -->
                 <!-- <img src="assets/img/1.png" alt="" style="width:40px"> -->
                 <div class="info">
                   <h4>AREESE Super 30 Batch</h4>
-                  <span>(Free accommodation and food)</span>
+                  <span>(Free Stay, food & Coaching)</span>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-2.jpg)">
-              <a href="#">
+          <div class=" col-md-4 col-sm-6 equal-height ">
+            <div class=" item" style="background-image: url(assets/img/bg-batch/bg-batch-2.jpg)">
+              <a href="payAfter-batch.php">
                 <!-- <i class="flaticon-interaction"></i> -->
                 <!-- <img src="assets/img/1.png" alt=""> -->
                 <div class="info">
                   <h4>Pay after Selection Batch</h4>
-                  <span>(Pay Fee after selection)</span>
+                  <span>(Pay Fee after selection in JEE/NEET)</span>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-3.jpg)">
-              <a href="#">
+              <a href="11-boards-offline.php">
                 <!-- <i class="flaticon-conveyor"></i> -->
                 <div class="info">
                   <h4>11<sup>th</sup> Academic Batch</h4>
@@ -391,7 +411,7 @@ require_once './assets/db/config_session.inc.php';
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-4.jpg)">
-              <a href="#">
+              <a href="NEET-classroom.php">
                 <!-- <i class="flaticon-education"></i> -->
                 <div class="info">
                   <h4>11<sup>th</sup> NEET Batch</h4>
@@ -400,31 +420,11 @@ require_once './assets/db/config_session.inc.php';
               </a>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-11.jpg)">
-              <a href="#">
-                <!-- <i class="flaticon-potential"></i> -->
-                <div class="info">
-                  <h4>11<sup>th</sup> JEE Main Batch</h4>
-                  <span>(11<sup>th</sup> academics + JEE Main Syllabus)</span>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-6.jpg)">
-              <a href="#">
-                <!-- <i class="flaticon-print"></i> -->
-                <div class="info">
-                  <h4>11<sup>th</sup> JEE Adv. Batch</h4>
-                  <span>(11<sup>th</sup> academics + JEE Adv. Syllabus)</span>
-                </div>
-              </a>
-            </div>
-          </div>
+
+
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-14.jpg)">
-              <a href="#">
+              <a href="12-boards-offline.php">
                 <!-- <i class="flaticon-translate"></i> -->
                 <div class="info">
                   <h4>12<sup>th</sup> Board Only Batch</h4>
@@ -435,7 +435,7 @@ require_once './assets/db/config_session.inc.php';
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-8.png)">
-              <a href="#">
+              <a href="NEET-classroom.php">
                 <!-- <i class=</a></div>"flaticon-firewall"></i> -->
                 <div class="info">
                   <h4>12<sup>th</sup> NEET Batch</h4>
@@ -445,30 +445,31 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-11.jpg)">
+              <a href="JEE-classroom.php">
+                <!-- <i class="flaticon-potential"></i> -->
+                <div class="info">
+                  <h4 style="margin-bottom: 3px;">11<sup>th</sup> JEE (Main+Adv.) Batch</h4>
+                  <span>(11<sup>th</sup> academics + JEE (Main + Advance) Syllabus)</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-9.png)">
-              <a href="#">
+              <a href="JEE-classroom.php">
                 <!-- <i class="flaticon-artificial-intelligence"></i> -->
                 <div class="info">
-                  <h4>12<sup>th</sup> JEE Main Batch</h4>
-                  <span>12<sup>th</sup> Board + JEE Main Syllabus</span>
+                  <h4 style="margin-bottom: 3px;">12<sup>th</sup> JEE (Main+Adv.) Batch</h4>
+                  <span>(12<sup>th</sup> Board + JEE (Main + Advance) Syllabus)</span>
                 </div>
               </a>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 equal-height  ">
-            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-16.jpg)">
-              <a href="#">
-                <!-- <i class="flaticon-firewall"></i> -->
-                <div class="info">
-                  <h4>12<sup>th</sup> JEE Adv. Batch</h4>
-                  <span>12<sup>th</sup> Board + JEE Adv. Syllabus</span>
-                </div>
-              </a>
-            </div>
-          </div>
+
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-18.jpg)">
-              <a href="#">
+              <a href="JEE-classroom.php">
                 <!-- <i class="flaticon-firewall"></i> -->
                 <div class="info">
                   <h4 style="margin-bottom: 2px">Dropper JEE Batch</h4>
@@ -481,7 +482,7 @@ require_once './assets/db/config_session.inc.php';
           </div>
           <div class="col-md-4 col-sm-6 equal-height  ">
             <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-12.jpg)">
-              <a href="#">
+              <a href="NEET-classroom.php">
                 <!-- <i class="flaticon-firewall"></i> -->
                 <div class="info">
                   <h4 style="margin-bottom: 2px">Dropper NEET Batch</h4>
@@ -489,6 +490,28 @@ require_once './assets/db/config_session.inc.php';
                   <div></div>
 
                   <span>(NEET Preparation)</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 equal-height  ">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-6.jpg)">
+              <a href="9-foundation-offline.php">
+                <!-- <i class="flaticon-print"></i> -->
+                <div class="info">
+                  <h4 style="margin-bottom: 3px;">9<sup>th</sup> Pre-Foundation Batch</h4>
+                  <span>(9<sup>th</sup> academics + Competitive Exam Syllabus)</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 equal-height  ">
+            <div class="item" style="background-image: url(assets/img/bg-batch/bg-batch-16.jpg)">
+              <a href="10-foundation-offline.php">
+                <!-- <i class="flaticon-firewall"></i> -->
+                <div class="info">
+                  <h4 style="margin-bottom: 3px;">10<sup>th</sup> Pre-Foundation Batch</h4>
+                  <span>(10<sup>th</sup> academics + Competitive Exam Syllabus)</span>
                 </div>
               </a>
             </div>
@@ -568,9 +591,9 @@ require_once './assets/db/config_session.inc.php';
   <div id="blog" class="blog-area circle default-padding bottom-less">
     <div class="container">
       <div class="row">
-        <div class="site-heading text-center">
+        <div class="site-heading text-center" style="margin-bottom: 0px;padding-bottom: 60px; display: flex; flex-direction: column;">
           <div class="col-md-8 col-md-offset-2">
-            <h2>Latest News</h2>
+            <h2>Latest News & Blogs</h2>
             <p>
               Able an hope of body. Any nay shyness article matters own
               removal nothing his forming. Gay own additions education
@@ -578,6 +601,10 @@ require_once './assets/db/config_session.inc.php';
               farther she exposed saw man led. Along on happy could cease
               green oh.
             </p>
+          </div>
+          <div class="latestNews">
+            <span> <a href="latestNews.php">Explore latest News</a></span>
+            <span> <a href="blog-standard.php">Explore Blogs</a></span>
           </div>
         </div>
       </div>
@@ -594,7 +621,7 @@ require_once './assets/db/config_session.inc.php';
               </div>
               <div class="info">
                 <h4>
-                  <a href="#">Objection happiness something</a>
+                  <a href="#">AREESE Test Series For JEE & NEET</a>
                 </h4>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
@@ -607,9 +634,7 @@ require_once './assets/db/config_session.inc.php';
                     <li>
                       <a href="#"><i class="fas fa-user"></i> Author</a>
                     </li>
-                    <li>
-                      <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -627,7 +652,7 @@ require_once './assets/db/config_session.inc.php';
               </div>
               <div class="info">
                 <h4>
-                  <a href="#">Meant to learn of vexed</a>
+                  <a href="#">How To Be productive while studying</a>
                 </h4>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
@@ -640,9 +665,7 @@ require_once './assets/db/config_session.inc.php';
                     <li>
                       <a href="#"><i class="fas fa-user"></i> Author</a>
                     </li>
-                    <li>
-                      <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -660,7 +683,7 @@ require_once './assets/db/config_session.inc.php';
               </div>
               <div class="info">
                 <h4>
-                  <a href="#">Delightful up dissimilar</a>
+                  <a href="#">Admissions Open</a>
                 </h4>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
@@ -673,9 +696,7 @@ require_once './assets/db/config_session.inc.php';
                     <li>
                       <a href="#"><i class="fas fa-user"></i> Author</a>
                     </li>
-                    <li>
-                      <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -753,6 +774,21 @@ require_once './assets/db/config_session.inc.php';
               </div>
             </div>
             <!-- Single Item -->
+            <!-- Single Item -->
+            <div class="item item-personal ">
+              <div class="image-div  box-table bg-fixed shadow " style="background-image: url(assets/img/manish-kumar-student.jpg); height:220px;width:350px">
+
+                <div class="video-info">
+                  <div class="overlay-video">
+                    <a class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=rRGalLl1evM">
+                      <i class="fa-solid fa-play fa-2xs"></i>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- Single Item -->
           </div>
         </div>
       </div>
@@ -787,11 +823,11 @@ require_once './assets/db/config_session.inc.php';
               <div class="thumb">
                 <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
               </div>
-              <div class="info">
+              <div class="info" style="display:flex; align-items: center;justify-content: space-between;">
                 <h4>
-                  <a href="#">AREESE ANDROID APP</a>
+                  <a href="#" style="display: block;height: 100;">AREESE ANDROID APP</a>
                 </h4>
-                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank">
+                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank" style="margin-top: 0;">
                   INSTALL NOW
                 </a>
 
@@ -800,18 +836,18 @@ require_once './assets/db/config_session.inc.php';
             <!-- Single Item -->
 
             <!-- Single Item -->
-            <div class="item vertical">
+            <div class=" item vertical">
               <div class="thumb">
                 <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
 
               </div>
-              <div class="info">
-                <h4>
-                  <a href="#">AREESE APPLE APP</a>
+              <div class="info" style="display:flex; align-items: center;justify-content: space-between;">
+                <h4 style="display:flex;align-items: center;">
+                  <a href="#" style="display: block;height: 100;">AREESE IOS APP</a>
                 </h4>
 
 
-                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank">
+                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank" style="margin-top: 0;">
                   INSTALL NOW
                 </a>
               </div>

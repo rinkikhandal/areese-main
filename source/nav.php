@@ -66,7 +66,7 @@
 
                         </li>
                         <li class="dropdown">
-                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Foundation </a>
+                          <a href="" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation </a>
                           <ul class="dropdown-menu w-less" role="menu" style="position:absolute;left:150px;">
                             <li>
                               <a href="9-foundation-offline.php">9<sup>th</sup> Class</a>
@@ -136,7 +136,7 @@
 
                         </li>
                         <li class="dropdown">
-                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Foundation</a>
+                          <a href="gallery-4-colum.html" data-toggle="dropdown" class="dropdown-toggle">Pre-Foundation</a>
                           <ul class="dropdown-menu w-less " role="menu" style="position:absolute;left:150px;">
                             <li>
                               <a href="9-foundation-online.php">9<sup>th</sup> Class</a>
@@ -256,7 +256,7 @@
           <li class="dropdown">
             <a href="blog-standard.php" class="dropdown-toggle" data-toggle="dropdown">Latest News </a>
             <ul class="dropdown-menu">
-              <li><a href="teachers.html">Blogs</a></li>
+              <li><a href="blog-standard.php">Blogs</a></li>
               <li><a href="latestNews.php">Latest News</a></li>
               <li><a href="gallery.php">Gallery</a></li>
             </ul>
@@ -338,19 +338,19 @@
         <h4 class="title">Connect With Us</h4>
         <ul class="link">
           <li class="facebook">
-            <a href="https://www.facebook.com/AreeseCareerInstitute"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/AreeseCareerInstitute" target="blank"><i class="fab fa-facebook-f"></i></a>
           </li>
           <li class="linkedin">
-            <a href="https://www.linkedin.com/company/areese/"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            <a href="https://www.linkedin.com/company/areese/" target="blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
           </li>
           <li class="instagram">
             <a href="https://www.instagram.com/areesecareerinstitute/" style="
               background-color: #E43187;
-              color: #ffffff;"><i class="fa-brands fa-instagram fa-lg"></i></a>
+              color: #ffffff;" target="blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
           </li>
           <li class="youtube">
             <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" style="background-color: #f70f1b;
-              color: #ffffff;"><i class="fa-brands fa-youtube fa-lg"></i></a>
+              color: #ffffff;" target="blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
           </li>
         </ul>
       </div>

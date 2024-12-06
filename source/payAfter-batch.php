@@ -628,6 +628,7 @@ require_once './assets/db/config_session.inc.php';
   <?php include "./jquery-links.php" ?>
   <script src="./assets/js/cards-scroll.js"></script>
 
+  <script src="assets/js/enquiry.js"></script>
 
 </body>
 

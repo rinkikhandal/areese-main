@@ -1,8 +1,7 @@
 // enquiry form handling=================================
 
-document
-  .querySelector(".enquiry-form")
-  .addEventListener("submit", function (event) {
+document.querySelectorAll(".enquiry-form").forEach((form) => {
+  form.addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent default form submission
 
     var action = this.getAttribute("action");
@@ -61,3 +60,4 @@ document
 
     submitData(action, formData);
   });
+});

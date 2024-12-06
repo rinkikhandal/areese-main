@@ -74,7 +74,7 @@ require_once './assets/db/config_session.inc.php';
 
 
   <div class=" ">
-    <div class="bg-img default-padding box-table bg-fixed shadow dark" style="background-image:url(assets/img/areese-hostel.jpg) ;">
+    <div class="bg-img default-padding box-table bg-fixed shadow dark" style="background-image:url(assets/img/areese-hostel.jpg);height:auto ;">
       <div class="box-cell">
         <div class="container">
           <div class="row">
@@ -145,7 +145,7 @@ require_once './assets/db/config_session.inc.php';
 
     </div>
     <!-- Start of scroll cards=============== -->
-    <div class="default-padding default-padding-per cards-with-scroll" style="margin-top: 50px;">
+    <div class="default-padding default-padding-per cards-with-scroll" style="margin: 50px auto;">
       <section>
         <div>
           <svg fill="#f58026" width="60px" height="60px" viewBox="0 0 52 52" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
@@ -159,7 +159,7 @@ require_once './assets/db/config_session.inc.php';
             About AREESE Super30
           </h4>
           <!-- <button>ON CAMPUS</button> -->
-          <p> In India, a strong and secure financial future often hinges on landing a well-paying job early in life.</p>
+          <p> The AREESE Super-30 Batch is a life-changing initiative that aims to provide top-quality education to underprivileged students.</p>
           <span>
             <a href="#about">more details</a>
           </span>
@@ -190,7 +190,9 @@ require_once './assets/db/config_session.inc.php';
           </h4>
           <!-- <button>ON CAMPUS</button> -->
 
-          <p>The AREESE Super-30 Batch is a life-changing initiative aimed at providing top-quality education</p>
+          <p>
+            Our sponsors are the backbone of this mission, empowering deserving students to achieve their dreams and build a brighter future.
+          </p>
           <span>
             <a href="#sponsors">more details</a>
           </span>
@@ -261,7 +263,7 @@ require_once './assets/db/config_session.inc.php';
           </h4>
           <!-- <button>ON CAMPUS</button> -->
 
-          <p>AREESE Super30 offers two types of courses both with students still studying in schools and those who are dropouts.</p>
+          <p>AREESE Super30 offers a two-year program for 10<sup>th</sup> pass students and a one-year program for 12<sup>th</sup> pass students, tailored to their specific timelines.</p>
           <span>
             <a href="#courses">more details</a>
           </span>
@@ -285,7 +287,8 @@ require_once './assets/db/config_session.inc.php';
           </h4>
           <!-- <button>ON CAMPUS</button> -->
 
-          <p> AREESE Super30 provides continuous guiding and support to the students to excel in every field.</p>
+          <p>
+            AREESE Super30 boasts an exceptional student success ratio in recent years, empowering our students to turn their dreams into reality.</p>
 
           <!--  By providing proper amenities to the students we ensure that the student can properly focus on his/her education. -->
           <span>
@@ -355,6 +358,7 @@ require_once './assets/db/config_session.inc.php';
         <section class="cards">
           <div class="">
             <h4>TWO YEAR TARGET COURSE</h4>
+            <h5>FOUNDATION BATCH</h5>
 
             <p>(10<sup>th</sup> to 11<sup>th</sup> Moving Students)</p>
 
@@ -397,7 +401,7 @@ require_once './assets/db/config_session.inc.php';
         <!-- Single Item -->
         <section class="cards">
           <div>
-            <h4>One YEAR TARGET COURSE</h4>
+            <h4>ONE YEAR TARGET COURSE</h4>
             <h5>DROPPER BATCH</h5>
 
             <p>(12<sup>th</sup> Pass Students)</p>
@@ -669,6 +673,7 @@ require_once './assets/db/config_session.inc.php';
   <script src="./assets/js/cards-scroll.js">
 
   </script>
+  <script src="assets/js/enquiry.js"></script>
 
 
 </body>

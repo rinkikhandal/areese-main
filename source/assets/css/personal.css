@@ -48,6 +48,16 @@
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+/* why areese button */
+.inc-trending-courses .less-bar a {
+  font-weight: 600;
+}
+
+.inc-trending-courses .less-bar a:hover {
+  color: rgb(127, 175, 242);
+}
+
 /* for the ntse ones======= */
 
 /* online registration ======= in index-2 */
@@ -525,4 +535,47 @@ hr {
 
 .bold-nav-res:hover {
   color: #feb506 !important;
+}
+
+/* enquiry===== */
+
+.box-cell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.box-table {
+  display: table;
+  width: 100%;
+}
+
+.box-cell,
+.box-cell div {
+  height: auto;
+}
+
+/* latest new btns */
+.latestNews {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.latestNews span a {
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #002147;
+  padding: 5px 10px;
+  border-radius: 0.2rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #002147;
+}
+
+.latestNews span a:hover {
+  background-color: transparent;
+  color: #002147;
+  /* border: 2px solid #f58026; */
 }

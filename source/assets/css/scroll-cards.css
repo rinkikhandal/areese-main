@@ -98,10 +98,13 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  border: 2px solid #002147;
 }
 
 .cards-with-scroll section span a:hover {
-  background-color: #01356f;
+  background-color: transparent;
+  color: #002147;
+  /* border: 2px solid #f58026; */
 }
 
 .colored-div {

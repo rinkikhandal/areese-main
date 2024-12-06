@@ -139,7 +139,7 @@
   <!--Start Description   =============================================-->
   <div class=" default-padding-per  courses-offer">
     <div class="inner-container">
-      <h2 class="headings"> Courses We Offer</h2>
+      <h2 class="headings" style="margin-top:40px"> Courses We Offer</h2>
       <p class="main-des">
         AREESE offers a diverse range of tailored courses designed to meet each student's unique needs. This personalized approach ensures focused, goal-oriented learning, helping students sharpen their skills and significantly boost their performance. By providing specialized attention, AREESE empowers students to excel in their academic journey and achieve their full potential
       </p>
