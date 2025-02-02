@@ -6,6 +6,7 @@ declare(strict_types=1);
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
   $email = trim($_POST["email"]);
   $pass = trim($_POST["password"]);
+  $remember = $_POST["remember_me"];
 
 
   try {
@@ -57,6 +58,17 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     $_SESSION["admin"] = $admin;
 
+    if (!headers_sent()) {
+      if ($remember) {
+        setcookie('admin_email', $email, time() + (60 * 60 * 24), "/", "", false, true);
+        // setcookie('user_token', hash('sha256', $email . time()), time() + (60 * 60 * 24), "/", "", false, true);
+        setcookie('admin_password', $pass, time() + (60 * 60 * 24), "/", "", false, true);
+      } else {
+        setcookie('admin_email', '', time() - 3600, "/", "", false, true);
+        // setcookie('user_token', '', time() - 3600, "/", "", false, true);
+        setcookie('admin_password', '', time() + (60 * 60 * 24), "/", "", false, true);
+      }
+    }
     $_SESSION["last_regeneration"] = time();
 
     $pdo = null;

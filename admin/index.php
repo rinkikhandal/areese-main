@@ -1,8 +1,8 @@
 <?php
 require_once '../source/assets/db/config_session_admin.inc.php';
-?>
 
-<?php if (isset($_SESSION["admin"])) {
+
+if (isset($_SESSION["admin"])) {
 
 ?>
 
@@ -136,7 +136,7 @@ require_once '../source/assets/db/config_session_admin.inc.php';
     </html>
 <?php } else { ?>
     <script>
-        window.location.replace("./index.php")
+        window.location.replace("./login.php")
     </script>
 <?php
     // header("Location:./index-2.php");

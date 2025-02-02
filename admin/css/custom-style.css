@@ -51,6 +51,10 @@ form {
 .rem .custom-control {
   justify-self: start;
   margin-left: 5px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .form-group.pass {
