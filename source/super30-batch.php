@@ -97,7 +97,7 @@ require_once './assets/db/config_session.inc.php';
         </div>
       </div>
       <!-- Start Online Registration -->
-      <div class="sidebar-item online-registration">
+      <!-- <div class="sidebar-item online-registration">
         <h4>Enquiry Form</h4>
         <div class="reg-form">
           <form action="./assets/db/query.inc.php" class="enquiry-form" method="POST">
@@ -122,14 +122,14 @@ require_once './assets/db/config_session.inc.php';
                   <textarea class="form-control" placeholder="Enter your query*" type="text" name="query"></textarea>
                 </div>
               </div>
-              <!-- Alert Message -->
+              Alert Message
               <div class="col-md-12 alert-notification" style="display:flex;justify-content:center">
                 <div class="form-group" style="width:90%">
                   <div id="enquiry-message" class="alert-msg">
                   </div>
                 </div>
               </div>
-              <!-- End Alert Message -->
+              End Alert Message
 
 
               <div class="col-md-12">
@@ -140,7 +140,7 @@ require_once './assets/db/config_session.inc.php';
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
       <!-- End Online Registration -->
 
     </div>

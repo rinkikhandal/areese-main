@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     $_SESSION["last_regeneration"] = time();
 
-    $pd = null;
+    $pdo = null;
     $stmt = null;
 
     die();

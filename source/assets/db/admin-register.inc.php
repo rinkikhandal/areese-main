@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       exit();
     };
 
-    createAdmin($pdo, $name, $pass, $email, $role);
+    createAdmin($pdo, $name, $email, $pass, $role);
 
     $data["errors"] = null;
     $data["success"] = ["successfully_registered" => "Registered  Successfully!"];

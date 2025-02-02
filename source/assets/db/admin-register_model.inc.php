@@ -17,7 +17,7 @@ function getEmail(object $pdo, string $email)
 
 function registerAdmin(object $pdo, string $name, string $email, string $pass, string $role)
 {
-  $query = "INSERT INTO admin (adminName,email,pass, adminRole) Values (:adminName,:email,:pass, :adminRole);";
+  $query = "INSERT INTO admin (adminName,email,pass, adminRole) Values (:adminName,:email,:pass,:adminRole);";
 
   $options = [
     'cost' => 12,

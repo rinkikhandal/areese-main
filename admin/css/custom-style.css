@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Young+Serif&display=swap");
+
+:root {
+  --font-ibm: "IBM Plex Sans", serif;
+  --font-young: "Young Serif", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-ibm);
+  align-items: center;
+  background-color: rgb(231, 242, 249);
+}
+
+.container-1 {
+  padding: 20px 30px;
+  border-radius: 0.5rem;
+  background-color: rgb(247, 247, 248);
+  width: min(400px, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1em;
+  color: rgb(49, 49, 49);
+}
+
+form {
+  width: 100%;
+  margin: auto;
+}
+
+.form-group {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.rem .custom-control {
+  justify-self: start;
+  margin-left: 5px;
+}
+
+.form-group.pass {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.form-group.role {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.form-group.pass div {
+  width: 100%;
+}
+
+.form-group.role label {
+  color: gray;
+}
+
+.form-control {
+  height: 2.5rem;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 1.5rem;
+  border: 0.5px solid rgb(132, 132, 132);
+  padding: 5px 20px;
+  outline: 3px solid rgb(252, 253, 253);
+  outline-offset: 0;
+}
+
+.form-control:focus {
+  outline: 3px solid rgb(188, 225, 252);
+  outline-offset: 0;
+  border: none;
+}
+
+.btn-block {
+  color: white;
+  width: 50%;
+  background-color: #4674fc;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  margin: 30px 10px 20px 0px;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.loader {
+  display: inline;
+}
+
+.btn-block:hover {
+  background-color: #2e59d9;
+}
+
+.alert {
+  background-color: rgb(191, 190, 190);
+  padding: 10px 10px;
+  border-radius: 0.3em;
+  margin-bottom: 10px;
+  /* letter-spacing: 1px; */
+  width: 100%;
+}
+
+.alert-error-p {
+  color: red;
+}
+
+.alert-success-p {
+  color: green;
+}
+
+hr {
+  color: rgb(182, 181, 181);
+  margin-bottom: 20px;
+}
+
+a.small {
+  color: #4674fc;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.small:hover {
+  color: #2e59d9;
+  text-decoration: underline;
+}
