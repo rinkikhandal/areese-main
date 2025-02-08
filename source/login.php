@@ -1,3 +1,15 @@
+<?php
+
+if (isset($_COOKIE["user_phone"]) && isset($_COOKIE["user_password"])) {
+  $phone = $_COOKIE["user_phone"];
+  $password = $_COOKIE["user_password"];
+} else {
+  $phone = "";
+  $password = "";
+}
+
+?>
+
 <form action="./assets/db/login.inc.php" id="login-form" class="mfp-hide white-popup-block login-form" method="POST">
   <div class="col-md-4 login-social">
     <h4>Login with social</h4>
@@ -24,32 +36,32 @@
     <div class="col-md-12">
       <div class="row">
         <div class="form-group">
-          <input class="form-control" placeholder="Phone*" type="tel" name="phone" />
+          <input class="form-control" placeholder="Phone*" type="tel" name="phone" value="<?php echo $phone ?>" />
         </div>
       </div>
     </div>
     <div class="col-md-12">
       <div class="row">
         <div class="form-group " style="position:relative;">
-          <input class="form-control" placeholder="Password*" type="password" name="password" />
+          <input class="form-control" placeholder="Password*" type="password" name="password" value="<?php echo $password ?>" />
           <i class="fa-solid  fa-eye-slash  eye-icon"></i>
         </div>
       </div>
     </div>
 
-    <div class="col-md-12">
+    <!-- <div class="col-md-12">
       <div class="row">
         <div class="forgo-pass">
           <a href="#">forgot password ?</a>
         </div>
       </div>
-    </div>
-    <!-- <div class="col-md-12">
+    </div> -->
+    <div class="col-md-12">
       <div class="row">
-        <label for="login-remember"><input type="checkbox" id="login-remember" />Remember Me</label>
+        <label for="login-remember"><input type="checkbox" id="login-remember" name="remember_me" />Remember Me</label>
         <a title="Lost Password" href="#" class="lost-pass-link">Lost your password?</a>
       </div>
-    </div> -->
+    </div>
     <div class="col-md-12">
       <div class="row">
         <button type="submit" id="login-submit" name="login">Login</button>

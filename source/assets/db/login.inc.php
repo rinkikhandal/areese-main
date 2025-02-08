@@ -6,6 +6,7 @@ declare(strict_types=1);
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
   $phone = trim($_POST["phone"]);
   $pass = trim($_POST["password"]);
+  $remember = $_POST["remember_me"];
 
 
   try {
@@ -58,6 +59,18 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $user_credentials = ["id" => $result["id"], "username" => htmlspecialchars($result["username"]), "email" => htmlspecialchars($result["email"]), "phone" => htmlspecialchars($result["phone"]), "image" => $result["profilePic"]];
 
     $_SESSION["user"] = $user_credentials;
+
+    if (!headers_sent()) {
+      if ($remember) {
+        setcookie('user_phone', $phone, time() + (60 * 60 * 24), "/", "", false, true);
+        // setcookie('user_token', hash('sha256', $email . time()), time() + (60 * 60 * 24), "/", "", false, true);
+        setcookie('user_password', $pass, time() + (60 * 60 * 24), "/", "", false, true);
+      } else {
+        setcookie('user_phone', '', time() - 3600, "/", "", false, true);
+        // setcookie('user_token', '', time() - 3600, "/", "", false, true);
+        setcookie('user_password', '', time() + (60 * 60 * 24), "/", "", false, true);
+      }
+    }
 
     $_SESSION["last_regeneration"] = time();
 
