@@ -34,14 +34,14 @@ document
     submitButton.disabled = true;
 
     // Send form data using Axios
-    console.log("hi");
+    // console.log("hi");
 
     const submitData = async (url, data) => {
       try {
-        console.log("hi");
+        // console.log("hi");
 
         let response = await axios.post(url, data);
-        console.log(response);
+        // console.log(response);
 
         const responseData = response.data;
         // Determine whether to show errors or success messages

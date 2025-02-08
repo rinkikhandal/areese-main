@@ -3,7 +3,8 @@ require_once '../source/assets/db/config_session_admin.inc.php';
 
 
 if (isset($_SESSION["admin"])) {
-
+  require_once "../source/assets/db/connection.inc.php";
+  require_once "../source/assets/db/fetch-Tables/fetch-enquiry-table.php"
 ?>
 
   <!DOCTYPE html>
@@ -18,6 +19,9 @@ if (isset($_SESSION["admin"])) {
 
 
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
   </head>
 
@@ -43,33 +47,57 @@ if (isset($_SESSION["admin"])) {
           <!-- Begin Page Content -->
           <div class="container-fluid">
 
+
             <!-- Page Heading -->
-            <div class="d-sm-flex align-items-center justify-content-between mb-4">
-              <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <h1 class="h3 mb-2 text-gray-800">Student Enquiry Details Table</h1>
+            <!-- <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
+              For more information about DataTables, please visit the <a target="_blank"
+                href="https://datatables.net">official DataTables documentation</a>.</p> -->
 
-            </div>
+            <!-- DataTales Example -->
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Student's Enquiry Details</h6>
+              </div>
+              <div class="card-body">
+                <div class="table-responsive">
+                  <?php  ?>
+                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                      <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Query</th>
 
-            <!-- Content Row -->
-            <div class="row">
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Query</th>
+                      </tr>
+                    </tfoot>
+                    <tbody>
+                      <?php
+                      foreach ($result as $row) { ?>
+                        <tr>
+                          <td><?php echo htmlspecialchars($row["id"]) ?></td>
+                          <td><?php echo htmlspecialchars($row["username"]) ?></td>
+                          <td><?php echo htmlspecialchars($row["email"]) ?></td>
+                          <td><?php echo htmlspecialchars($row["phone"]) ?></td>
+                          <td><?php echo htmlspecialchars($row["query"]) ?></td>
+                        </tr>
+                      <?php  } ?>
 
-
-
-              <!-- Pending Requests Card Example -->
-
-            </div>
-
-            <!-- Content Row -->
-
-            <div class="row">
-
-
-            </div>
-
-            <!-- Content Row -->
-            <div class="row">
-
-              <!-- Content Column -->
-
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -111,11 +139,11 @@ if (isset($_SESSION["admin"])) {
     <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
+    <script src="js/demo/datatables-demo.js"></script>
 
   </body>
 
