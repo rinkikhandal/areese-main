@@ -1,0 +1,2 @@
+ RewriteEngine On
+ ErrorDocument 404 /template_AREESE/admin/404.php
