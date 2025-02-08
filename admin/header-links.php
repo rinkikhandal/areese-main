@@ -9,7 +9,6 @@
    href="../source/assets/img/favicon.png"
    type="image/x-icon" />
 
- <title>Admin Register</title>
 
  <!-- Custom fonts for this template-->
  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
