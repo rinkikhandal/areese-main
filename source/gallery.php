@@ -74,69 +74,68 @@ require_once './assets/db/config_session.inc.php';
               <button class="active" data-filter="*">All</button>
               <button data-filter=".campus">Campus</button>
               <button data-filter=".teachers">Teachers</button>
-              <button data-filter=".education">Education</button>
               <button data-filter=".ceremony">Ceremony</button>
               <button data-filter=".students">Students</button>
             </div>
             <!-- End Mixitup Nav-->
 
             <div class="row magnific-mix-gallery masonary text-light">
-              <div id="portfolio-grid" class="portfolio-items col-4">
+              <div id="portfolio-grid" class="portfolio-items col-3">
                 <div class="pf-item ceremony students">
                   <div class="item-effect">
-                    <img src="assets/img/800x800.png" alt="thumb" />
+                    <img src="assets/img/gallery/pic-1.jpg" alt="thumb" />
                     <div class="overlay">
-                      <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                      <a href="assets/img/gallery/pic-1.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="pf-item teachers ceremony">
                   <div class="item-effect">
-                    <img src="assets/img/800x800.png" alt="thumb" />
+                    <img src="assets/img/gallery/pic-2.jpg" alt="thumb" />
                     <div class="overlay">
-                      <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                      <a href="assets/img/gallery/pic-2.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="pf-item campus education">
                   <div class="item-effect">
-                    <img src="assets/img/800x800.png" alt="thumb" />
+                    <img src="assets/img/gallery/pic-3.jpg" alt="thumb" />
                     <div class="overlay">
-                      <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                      <a href="assets/img/gallery/pic-3.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="pf-item education students">
                   <div class="item-effect">
-                    <img src="assets/img/800x800.png" alt="thumb" />
+                    <img src="assets/img/gallery/pic-4.jpg" alt="thumb" />
                     <div class="overlay">
-                      <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                      <a href="assets/img/gallery/pic-4.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
                 <div class="pf-item campus">
                   <div class="item-effect">
-                    <img src="assets/img/800x800.png" alt="thumb" />
+                    <img src="assets/img/gallery/pic-5.jpg" alt="thumb" />
                     <div class="overlay">
-                      <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                      <a href="assets/img/gallery/pic-5.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
-                <div class="pf-item ceremony teachres">
+                <div class="pf-item ceremony teachers">
                   <div class="item-effect">
-                    <img src="assets/img/800x800.png" alt="thumb" />
+                    <img src="assets/img/gallery/pic-6.jpg" alt="thumb" />
                     <div class="overlay">
-                      <a href="assets/img/800x800.png" class="item popup-link"><i class="fa fa-expand"></i></a>
+                      <a href="assets/img/gallery/pic-6.jpg" class="item popup-link"><i class="fa fa-expand"></i></a>
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
                 </div>
-                <div class="pf-item teachres">
+                <!-- <div class="pf-item teachres">
                   <div class="item-effect">
                     <img src="assets/img/800x800.png" alt="thumb" />
                     <div class="overlay">
@@ -153,7 +152,7 @@ require_once './assets/db/config_session.inc.php';
                       <a href="#"><i class="fas fa-link"></i></a>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

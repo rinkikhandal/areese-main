@@ -185,7 +185,7 @@
             </div>
             <div>
 
-              <h5>Targeted Exams & Year& Year</h5>
+              <h5>Targeted Exams </h5>
               <p>JEE & CUET</p>
             </div>
             <div>

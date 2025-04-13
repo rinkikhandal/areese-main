@@ -86,9 +86,10 @@
                 </div>
               </div>
               <div class="info">
-                <h4>
-                  <a href="#">Objection happiness something</a>
+                <h4 style="line-height: 30px;">
+                  <a href="#">NEET Crash Course 2025 - started from 11 <sup>th</sup> April</a>
                 </h4>
+                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
                   two rapturous six depending objection happiness something
@@ -119,9 +120,14 @@
                 </div>
               </div>
               <div class="info">
-                <h4>
-                  <a href="#">Meant to learn of vexed</a>
+                <h4 style="line-height: 30px;">
+                  <a href="#">New Batches Started</a>
                 </h4>
+                <h6 style="margin-block:20px;font-size:1.5rem">
+                  <p style="margin-bottom:4px;color:#F58026;font-weight:400">9<sup>th</sup> & 11<sup>th</sup> - from 7<sup>th</sup> April </p>
+                  <hr>
+                  <p style="margin-top:4px;color:#F58026;font-weight:400"> 10<sup>th</sup> & 12<sup>th</sup> - from 3<sup>th</sup> April</p>
+                </h6>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
                   two rapturous six depending objection happiness something
@@ -152,9 +158,10 @@
                 </div>
               </div>
               <div class="info">
-                <h4>
-                  <a href="#">Delightful up dissimilar</a>
+                <h4 style="line-height: 30px;">
+                  <a href="#">NEET Dropper Batch 2026 - started from 12 <sup>th</sup> April</a>
                 </h4>
+                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
                   two rapturous six depending objection happiness something

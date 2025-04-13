@@ -67,6 +67,18 @@ const teacherDetails = [
   },
   {
     id: 7,
+    name: "Ayush Jain",
+    subject: "Physics",
+    honorific: "Mr.",
+    edu: "B.Tech",
+    University: "IIT Dhanbad ",
+    about:
+      "Senior Faculty of Physics 7+ Years of Teaching Experience in Reputed National Level Institutes",
+    image: "ayush-jain.jpg",
+  },
+
+  {
+    id: 8,
     name: "Kavita Agarwal",
     subject: "Biology",
     honorific: "Ms.",
@@ -77,7 +89,7 @@ const teacherDetails = [
     image: "Kavita-Agarwal.png",
   },
   {
-    id: 8,
+    id: 9,
     name: "Mukesh Kumar",
     subject: "Mathematics",
     honorific: "Mr.",
@@ -88,7 +100,7 @@ const teacherDetails = [
     image: "Mukesh-Sir.png",
   },
   {
-    id: 8,
+    id: 10,
     name: "Lakhan Vaishnav",
     subject: "Physics and Mathematics",
     honorific: "Mr.",
@@ -99,7 +111,7 @@ const teacherDetails = [
     image: "Lakhan-Vaishnav.png",
   },
   {
-    id: 9,
+    id: 11,
     name: "Prashant Bharadwaj",
     subject: "Biology",
     honorific: "Mr.",
@@ -110,7 +122,7 @@ const teacherDetails = [
     image: "Prashant-Bharadwaj.png",
   },
   {
-    id: 10,
+    id: 12,
     name: "Bhupendra Sharma",
     subject: "Biology",
     honorific: "Mr.",
@@ -121,7 +133,7 @@ const teacherDetails = [
     image: "Bhupendra-Sharma.png",
   },
   {
-    id: 11,
+    id: 13,
     name: "Gaurav Sharma",
     subject: "Mathematics",
     honorific: "Mr.",
@@ -132,7 +144,7 @@ const teacherDetails = [
     image: "gaurav-sharma.png",
   },
   {
-    id: 12,
+    id: 14,
     name: "Govind Kumar",
     subject: "Mathematics",
     honorific: "Mr.",
@@ -143,7 +155,7 @@ const teacherDetails = [
     image: "Govind-Kumar.png",
   },
   {
-    id: 13,
+    id: 15,
     name: "Anushka",
     subject: "Social Studies",
     honorific: "Ms.",
@@ -154,7 +166,7 @@ const teacherDetails = [
     image: "Anushka-ma'am.jpg",
   },
   {
-    id: 14,
+    id: 16,
     name: "Shekhar Ravindra Ghodeswar",
     subject: "English",
     honorific: "Mr.",
@@ -165,7 +177,7 @@ const teacherDetails = [
     image: "Shekhar-Sir.png",
   },
   {
-    id: 15,
+    id: 17,
     name: "Rahul Kumar Singh",
     subject: "Physics",
     honorific: "Mr.",
@@ -176,7 +188,7 @@ const teacherDetails = [
     image: "Rahul-Kumar-Singh.png",
   },
   {
-    id: 16,
+    id: 18,
     name: " Mohit Sharma",
     subject: "Chemistry",
     honorific: "Mr.",
@@ -188,7 +200,7 @@ const teacherDetails = [
   },
 
   {
-    id: 17,
+    id: 19,
     name: "Akhil Saxena",
     subject: "Mathematics",
     honorific: "Mr.",
@@ -200,7 +212,7 @@ const teacherDetails = [
   },
 
   {
-    id: 18,
+    id: 20,
     name: "Chetanya Kumar",
     subject: "Biology",
     honorific: "Mr.",
@@ -212,7 +224,7 @@ const teacherDetails = [
   },
 
   {
-    id: 19,
+    id: 21,
     name: "Manish Kumar",
     subject: "Physics",
     honorific: "Mr.",

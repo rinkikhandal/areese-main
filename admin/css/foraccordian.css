@@ -1,0 +1,32 @@
+#accordionSidebar {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.btn {
+  padding: 5px 15px;
+  color: white;
+  margin-right: 10px;
+  transition: 300ms ease;
+}
+
+.btn.btn-edit {
+  background: blue;
+}
+
+.btn.btn-edit:hover {
+  background: #4a4aff;
+  color: white;
+}
+
+.btn.btn-del {
+  background: red;
+  margin-right: 0px;
+}
+
+.btn.btn-del:hover {
+  background: #fa554f;
+  color: white;
+}

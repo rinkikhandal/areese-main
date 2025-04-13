@@ -74,7 +74,7 @@
      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
        aria-expanded="true" aria-controls="collapsePages">
        <i class="fas fa-fw fa-folder"></i>
-       <span>Pages</span>
+       <span>Tables</span>
      </a>
      <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
        <div class="bg-white py-2 collapse-inner rounded">
@@ -91,18 +91,18 @@
    </li>
 
    <!-- Nav Item - Charts -->
-   <li class="nav-item">
+   <!-- <li class="nav-item">
      <a class="nav-link" href="charts.html">
        <i class="fas fa-fw fa-chart-area"></i>
        <span>Charts</span></a>
-   </li>
+   </li> -->
 
    <!-- Nav Item - Tables -->
-   <li class="nav-item">
+   <!-- <li class="nav-item">
      <a class="nav-link" href="tables.php">
        <i class="fas fa-fw fa-table"></i>
        <span>Tables</span></a>
-   </li>
+   </li> -->
 
    <!-- Divider -->
    <hr class="sidebar-divider d-none d-md-block">

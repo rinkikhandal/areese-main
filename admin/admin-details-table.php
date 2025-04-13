@@ -15,6 +15,8 @@ if (isset($_SESSION["admin"])) {
     <title>Admin Details</title>
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/foraccordian.css">
+
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
@@ -64,6 +66,8 @@ if (isset($_SESSION["admin"])) {
                         <th>Admin Name</th>
                         <th>Email</th>
                         <th>Role</th>
+                        <th>Operations</th>
+
                       </tr>
                     </thead>
                     <tfoot>
@@ -72,16 +76,20 @@ if (isset($_SESSION["admin"])) {
                         <th>Admin Name</th>
                         <th>Email</th>
                         <th>Role</th>
+                        <th>Operations</th>
+
                       </tr>
                     </tfoot>
                     <tbody>
                       <?php
-                      foreach ($result as $row) { ?>
+                      foreach ($result as $row) {
+                        $id = htmlspecialchars($row["id"]) ?>
                         <tr>
                           <td><?php echo htmlspecialchars($row["id"]) ?></td>
                           <td><?php echo htmlspecialchars($row["adminName"]) ?></td>
                           <td><?php echo htmlspecialchars($row["email"]) ?></td>
                           <td><?php echo htmlspecialchars($row["adminRole"]) ?></td>
+                          <td><a class="btn btn-edit" href=<?php echo "./admin/edit?id={$id}" ?>>Edit</a><a class="btn btn-del" href=<?php echo "./admin/delete?id={$id}" ?>>Delete</a></td>
                         </tr>
                       <?php  } ?>
 

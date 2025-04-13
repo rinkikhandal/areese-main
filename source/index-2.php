@@ -44,97 +44,48 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Banner 
     ============================================= -->
-  <div class="banner-area content-top-heading text-normal heading-weight-600 auto-height">
-    <div id="bootcarousel" class="carousel slide animate_text" data-ride="carousel">
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner text-light">
-        <div class="item active">
-          <div class="box-table bg-fixed shadow dark" style="background-image: url(assets/img/students.jpg)">
-            <div class="box-cell">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="content">
-                      <h1 data-animation="animated fadeInUp">
-                        Learn from the bigest online <span>courses</span>
-                      </h1>
-                      <p data-animation="animated fadeInUp">
-                        Supposing breakfast day fulfilled off depending
-                        questions. Whatever boy her exertion his extended.
-                        Ecstatic followed handsome drawings entirely mrs one
-                        yet outweigh. Of acceptance insipidity remarkably is
-                        invitation.
-                      </p>
-                      <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="box-table shadow bg-fixed dark" style="background-image: url(assets/img/teaching.jpg)">
-            <div class="box-cell">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="content">
-                      <h1 data-animation="animated fadeInUp">
-                        Let's explore our <span>brilliant</span> graduates
-                      </h1>
-                      <p data-animation="animated fadeInUp">
-                        Supposing breakfast day fulfilled off depending
-                        questions. Whatever boy her exertion his extended.
-                        Ecstatic followed handsome drawings entirely mrs one
-                        yet outweigh. Of acceptance insipidity remarkably is
-                        invitation.
-                      </p>
-                      <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="box-table bg-fixed shadow dark" style="background-image: url(assets/img/students.jpg)">
-            <div class="box-cell">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="content">
-                      <h1 data-animation="animated fadeInUp">
-                        Join the biggest online <span>free resources</span>
-                      </h1>
-                      <p data-animation="animated fadeInUp">
-                        Supposing breakfast day fulfilled off depending
-                        questions. Whatever boy her exertion his extended.
-                        Ecstatic followed handsome drawings entirely mrs one
-                        yet outweigh. Of acceptance insipidity remarkably is
-                        invitation.
-                      </p>
-                      <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Wrapper for slides -->
 
-      <!-- Left and right controls -->
-      <a class="left carousel-control shadow" href="#bootcarousel" data-slide="prev">
-        <i class="fa fa-angle-left"></i>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control shadow" href="#bootcarousel" data-slide="next">
-        <i class="fa fa-angle-right"></i>
-        <span class="sr-only">Next</span>
-      </a>
+  <div class="banner-personal">
+    <div class="banner-wrapper">
+      <div data-index="0">
+        <img src="./assets/img/home-hero-img/hero-31.jpg" alt="pic-1">
+      </div>
+
+      <div data-index="1">
+        <img src="./assets/img/home-hero-img/hero-41.jpg" alt="pic-2">
+      </div>
+      <div data-index="2">
+        <img src="./assets/img/home-hero-img/hero-5.jpg" alt="pic-3">
+      </div>
+      <div data-index="3">
+        <img src="./assets/img/home-hero-img/hero-6.jpg" alt="pic-4">
+      </div>
+      <div data-index="4">
+        <img src="./assets/img/home-hero-img/students.jpg" alt="pic-5">
+      </div>
+      <div data-index="5">
+        <img src="./assets/img/home-hero-img/teaching.jpg" alt="pic-6">
+      </div>
+      <div>
+        <img src="./assets/img/home-hero-img/hero-31.jpg" alt="pic-1">
+      </div>
+
+    </div>
+
+    <div class="check-wrapper">
+      <div class="checkbox-div active" tabindex="0" data-index="0">
+      </div>
+      <div class="checkbox-div" tabindex="0" data-index="1">
+      </div>
+      <div class="checkbox-div" tabindex="0" data-index="2">
+      </div>
+      <div class="checkbox-div" tabindex="0" data-index="3">
+      </div>
+      <div class="checkbox-div" tabindex="0" data-index="4">
+      </div>
+      <div class="checkbox-div" tabindex="0" data-index="5">
+      </div>
+
     </div>
   </div>
   <!-- End Banner -->
@@ -579,7 +530,7 @@ require_once './assets/db/config_session.inc.php';
       <div class="row">
         <div class="video-info">
           <div class="overlay-video">
-            <a class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=8GQTt50izkg">
+            <a class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=NPKgcC9gmPA">
               <i class="fa fa-play"></i>
             </a>
           </div>
@@ -622,9 +573,10 @@ require_once './assets/db/config_session.inc.php';
                 </div>
               </div>
               <div class="info">
-                <h4>
-                  <a href="#">AREESE Test Series For JEE & NEET</a>
+                <h4 style="line-height: 30px;">
+                  NEET Crash Course 2025 - started from 11 <sup>th</sup> April
                 </h4>
+                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
                   two rapturous six depending objection happiness something
@@ -653,9 +605,14 @@ require_once './assets/db/config_session.inc.php';
                 </div>
               </div>
               <div class="info">
-                <h4>
-                  <a href="#">How To Be productive while studying</a>
+                <h4 style="line-height: 30px;">
+                  New Batches Started
                 </h4>
+                <h6 style="margin-block:20px;font-size:1.5rem">
+                  <p style="margin-bottom:4px;color:#F58026;font-weight:400">9<sup>th</sup> & 11<sup>th</sup> - from 7<sup>th</sup> April </p>
+                  <hr style="border-top: 1px solid #CCCCCC;">
+                  <p style="margin-top:4px;color:#F58026;font-weight:400"> 10<sup>th</sup> & 12<sup>th</sup> - from 3<sup>th</sup> April</p>
+                </h6>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
                   two rapturous six depending objection happiness something
@@ -684,9 +641,10 @@ require_once './assets/db/config_session.inc.php';
                 </div>
               </div>
               <div class="info">
-                <h4>
-                  <a href="#">Admissions Open</a>
+                <h4 style="line-height: 30px;">
+                  NEET Dropper Batch 2026 - started from 12 <sup>th</sup> April
                 </h4>
+                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
                   Sitting mistake towards his few country ask. You delighted
                   two rapturous six depending objection happiness something
@@ -876,7 +834,7 @@ require_once './assets/db/config_session.inc.php';
   <?php include "./jquery-links.php" ?>
   <script src="assets/js/teachers.js" type="module"></script>
   <script src="assets/js/enquiry.js"></script>
-
+  <script src="assets/js/home-banner.js"></script>
 
 </body>
 

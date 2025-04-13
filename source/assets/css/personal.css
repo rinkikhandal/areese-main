@@ -371,8 +371,6 @@ form .alert-notification .alert-success-p {
   margin-right: 1rem !important;
 }
 
-/* PASSWORD INPUT */
-/* 
 .form-control-pass {
   display: flex;
   height: 100%;
@@ -414,9 +412,8 @@ form .alert-notification .alert-success-p {
   display: block;
   color: #6b6a6a;
   cursor: pointer;
-}*/
-
-.form-control:focus-within,
+}
+*/ .form-control:focus-within,
 .form-control:focus-visible {
   border-color: #66afe9 !important;
   outline: 0;
@@ -578,4 +575,51 @@ hr {
   background-color: transparent;
   color: #002147;
   /* border: 2px solid #f58026; */
+}
+
+/* ======home page banner====== */
+
+.banner-personal .banner-wrapper {
+  margin-inline: auto;
+  width: 80%;
+  /* height: 100%; */
+  aspect-ratio: 25/10;
+  display: flex;
+  overflow-x: hidden;
+  border-radius: 1.5rem;
+  /* scroll-snap-type: x mandatory; */
+}
+
+.banner-personal .banner-wrapper div {
+  width: 100% !important;
+  height: 100%;
+  flex-shrink: 0;
+
+  /* scroll-snap-align: center; */
+}
+
+.banner-wrapper div img {
+  width: 100% !important;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.check-wrapper {
+  /* margin-inline: auto !important; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.checkbox-div {
+  width: 3.2rem;
+  height: 0.7rem;
+  background-color: #979696;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.checkbox-div.active {
+  background-color: #0a66c2;
 }

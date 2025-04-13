@@ -23,6 +23,7 @@ if (isset($_SESSION["admin"])) {
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/foraccordian.css">
 
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -75,6 +76,8 @@ if (isset($_SESSION["admin"])) {
                         <th>Phone Number</th>
                         <th>About</th>
                         <th>Profile Pic</th>
+                        <th>Operations</th>
+
 
                       </tr>
                     </thead>
@@ -86,11 +89,13 @@ if (isset($_SESSION["admin"])) {
                         <th>Phone Number</th>
                         <th>About</th>
                         <th>Profile Pic</th>
+                        <th>Operations</th>
                       </tr>
                     </tfoot>
                     <tbody>
                       <?php
-                      foreach ($result as $row) { ?>
+                      foreach ($result as $row) {
+                        $id = htmlspecialchars($row["id"])  ?>
                         <tr>
                           <td><?php echo htmlspecialchars($row["id"]) ?></td>
                           <td><?php echo htmlspecialchars($row["username"]) ?></td>
@@ -98,6 +103,7 @@ if (isset($_SESSION["admin"])) {
                           <td><?php echo htmlspecialchars($row["phone"]) ?></td>
                           <td><?php echo htmlspecialchars($row["about"]) ?></td>
                           <td><?php echo htmlspecialchars($row["profilePic"]) ?></td>
+                          <td><a class="btn btn-edit" href=<?php echo "./students/edit.php?id={$id}" ?>>Edit</a><a class="btn btn-del" href=<?php echo "./students/delete.php?id={$id}" ?>>Delete</a></td>
                         </tr>
                       <?php  } ?>
                     </tbody>
