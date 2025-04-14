@@ -581,7 +581,7 @@ hr {
 
 .banner-personal .banner-wrapper {
   margin-inline: auto;
-  width: 80%;
+  width: 95%;
   /* height: 100%; */
   aspect-ratio: 25/10;
   display: flex;
@@ -622,4 +622,10 @@ hr {
 
 .checkbox-div.active {
   background-color: #0a66c2;
+}
+
+@media screen and (min-width: 800px) {
+  .banner-personal .banner-wrapper {
+    width: 80%;
+  }
 }
