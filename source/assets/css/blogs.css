@@ -1,0 +1,53 @@
+.blog-heading {
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.blog-heading-2 {
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.blog-heading-3 {
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+ul {
+}
+
+li {
+  list-style: disc inside;
+}
+
+.blog-heading.after {
+  position: relative;
+}
+
+.blog-heading.after::after {
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 109%;
+  width: 50px;
+  height: 4px;
+  background-color: #f58026;
+}
+.blog-heading.after::before {
+  content: "";
+  position: absolute;
+  left: 51%;
+  top: 109%;
+  width: 20px;
+  height: 4px;
+  background-color: #f58026;
+}
+
+.counter h4::before {
+  counter-increment: count;
+  content: counter(count) ".  ";
+}

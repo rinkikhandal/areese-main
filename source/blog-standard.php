@@ -74,20 +74,18 @@ require_once './assets/db/config_session.inc.php';
                                 </div>
                                 <div class="info">
                                     <h3>
-                                        <a href="#">Objection happiness something</a>
+                                        <a href="blog-areeseSuper30.php">AREESE Super30 Batch: Free JEE & NEET Coaching for Underprivileged Students in India</a>
                                     </h3>
                                     <p>
-                                        Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
+                                        Unlike school board exams that emphasize rote learning, cracking JEE and NEET demands deep conceptual understanding, problem-solving ability, and critical thinking. To secure admission into premier institutes like IITs and top medical colleges, students need strategic preparation under expert guidance.
                                     </p>
-                                    <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+                                    <a href="blog-areeseSuper30.php">Read More<i class="fas fa-angle-double-right"></i></a>
                                     <div class="meta">
                                         <ul>
                                             <li>
-                                                <a href="#"><i class="fas fa-user"></i> Author</a>
+                                                <a href="#"><i class="fas fa-user"></i> Author: <strong>Pradeep Kumar</strong></a>
                                             </li>
-                                            <li>
-                                                <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -110,15 +108,13 @@ require_once './assets/db/config_session.inc.php';
                                     <p>
                                         Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
                                     </p>
-                                    <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+                                    <a href="blog-page-singleItem.php">Read More <i class="fas fa-angle-double-right"></i></a>
                                     <div class="meta">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="fas fa-user"></i> Author</a>
                                             </li>
-                                            <li>
-                                                <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                            </li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -141,7 +137,7 @@ require_once './assets/db/config_session.inc.php';
                                     <p>
                                         Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
                                     </p>
-                                    <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+                                    <a href="blog-page-singleItem.php">Read More <i class="fas fa-angle-double-right"></i></a>
                                     <div class="meta">
                                         <ul>
                                             <li>

@@ -48,22 +48,24 @@ require_once './assets/db/config_session.inc.php';
   <div class="banner-personal">
     <div class="banner-wrapper">
       <div data-index="0">
-        <img src="./assets/img/home-hero-img/hero-31.jpg" alt="pic-1">
+        <img src="./assets/img/home-hero-img/hero-31.jpg" alt="pic-0">
       </div>
-
       <div data-index="1">
-        <img src="./assets/img/home-hero-img/hero-41.jpg" alt="pic-2">
+        <img src="./assets/img/home-hero-img/hero-41.jpg" alt="pic-1">
       </div>
       <div data-index="2">
-        <img src="./assets/img/home-hero-img/hero-5.jpg" alt="pic-3">
+        <img src="./assets/img/home-hero-img/hero-1.jpg" alt="pic-2">
       </div>
       <div data-index="3">
-        <img src="./assets/img/home-hero-img/hero-6.jpg" alt="pic-4">
+        <img src="./assets/img/home-hero-img/hero-5.jpg" alt="pic-3">
       </div>
       <div data-index="4">
-        <img src="./assets/img/home-hero-img/students.jpg" alt="pic-5">
+        <img src="./assets/img/home-hero-img/hero-6.jpg" alt="pic-4">
       </div>
       <div data-index="5">
+        <img src="./assets/img/home-hero-img/students.jpg" alt="pic-5">
+      </div>
+      <div data-index="6">
         <img src="./assets/img/home-hero-img/teaching.jpg" alt="pic-6">
       </div>
       <div>
@@ -84,6 +86,8 @@ require_once './assets/db/config_session.inc.php';
       <div class="checkbox-div" tabindex="0" data-index="4">
       </div>
       <div class="checkbox-div" tabindex="0" data-index="5">
+      </div>
+      <div class="checkbox-div" tabindex="0" data-index="6">
       </div>
 
     </div>

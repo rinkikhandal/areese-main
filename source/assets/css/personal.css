@@ -583,7 +583,7 @@ hr {
   margin-inline: auto;
   width: 95%;
   /* height: 100%; */
-  aspect-ratio: 25/10;
+  aspect-ratio: 20/9;
   display: flex;
   overflow-x: hidden;
   border-radius: 1.5rem;
@@ -626,6 +626,6 @@ hr {
 
 @media screen and (min-width: 800px) {
   .banner-personal .banner-wrapper {
-    width: 80%;
+    width: 70%;
   }
 }
