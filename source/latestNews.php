@@ -80,7 +80,7 @@
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb" /></a>
+                <a href="#"><img src="assets/img/latest-news/neet-jee.jpg" alt="Thumb" /></a>
                 <div class="date">
                   <h4><span>24</span> Nov, 2018</h4>
                 </div>
@@ -95,17 +95,7 @@
                   two rapturous six depending objection happiness something
                   the partiality unaffected
                 </p>
-                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                <div class="meta">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-user"></i> Author</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
           </div>
@@ -114,7 +104,7 @@
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb" /></a>
+                <a href="#"><img src="assets/img/latest-news/9-11pic.jpg" alt="Thumb" /></a>
                 <div class="date">
                   <h4><span>12</span> Sep, 2018</h4>
                 </div>
@@ -133,17 +123,6 @@
                   two rapturous six depending objection happiness something
                   the partiality unaffected
                 </p>
-                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                <div class="meta">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-user"></i> Author</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -152,7 +131,7 @@
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb" /></a>
+                <a href="#"><img src="assets/img/latest-news/10-12pic.jpg" alt="Thumb" /></a>
                 <div class="date">
                   <h4><span>29</span> Dec, 2018</h4>
                 </div>
@@ -167,17 +146,6 @@
                   two rapturous six depending objection happiness something
                   the partiality unaffected
                 </p>
-                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                <div class="meta">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-user"></i> Author</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
