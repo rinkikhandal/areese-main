@@ -92,9 +92,9 @@ require_once './assets/db/config_session.inc.php';
                 AREESE Super30 Batch is a transformative initiative aimed at leveling the playing field for underprivileged students across India. Every year, 30 JEE and NEET aspirants are selected based on merit and financial need to receive:
               </p>
               <ul>
-                <li><span class="highlight">Free Coaching</span>: Expert-led classes tailored for <span class="highlight">JEE preparation for poor students</span> and <span class="highlight">NEET preparation free</span> of cost.</li>
-                <li><span class="highlight">Free Study Materials</span>: Access to updated textbooks, notes, mock tests, and practice papers.</li>
-                <li><span class="highlight">Free Accommodation & Meals</span>: A nurturing, stress-free environment where students can solely focus on excelling.</li>
+                <li class="blog-list"><span class="highlight">Free Coaching</span>: Expert-led classes tailored for <span class="highlight">JEE preparation for poor students</span> and <span class="highlight">NEET preparation free</span> of cost.</li>
+                <li class="blog-list"><span class="highlight">Free Study Materials</span>: Access to updated textbooks, notes, mock tests, and practice papers.</li>
+                <li class="blog-list"><span class="highlight">Free Accommodation & Meals</span>: A nurturing, stress-free environment where students can solely focus on excelling.</li>
               </ul>
               <p style="margin-top: 20px;">Our goal is simple yet powerful: to bridge the gap between talent and opportunity by delivering the <span class="highlight">Best Coaching for JEE</span> and <span class="highlight">Best Coaching for NEET</span> to students who deserve it the most.</p>
             </div>
@@ -106,10 +106,10 @@ require_once './assets/db/config_session.inc.php';
                 Choosing the AREESE Super30 Batch means choosing success without financial stress. Here's why it stands out:
               </p>
               <ul>
-                <li><span class="highlight">Cost-Free Education</span>: Comprehensive support including coaching, accommodation, and meals at zero cost.</li>
-                <li><span class="highlight">Expert Mentorship</span>: Some of the best educators specializing in Physics, Chemistry, Mathematics, and Biology guide students to conquer JEE and NEET.</li>
-                <li><span class="highlight">Holistic Development</span>: Students learn, collaborate, and grow in a community of like-minded achievers.</li>
-                <li><span class="highlight">Proven Success</span>: : The <span class="highlight">AREESE Super30 Batch</span> consistently produces students who achieve competitive ranks and secure admission into India's top engineering and medical colleges.</li>
+                <li class="blog-list"><span class="highlight">Cost-Free Education</span>: Comprehensive support including coaching, accommodation, and meals at zero cost.</li>
+                <li class="blog-list"><span class="highlight">Expert Mentorship</span>: Some of the best educators specializing in Physics, Chemistry, Mathematics, and Biology guide students to conquer JEE and NEET.</li>
+                <li class="blog-list"><span class="highlight">Holistic Development</span>: Students learn, collaborate, and grow in a community of like-minded achievers.</li>
+                <li class="blog-list"><span class="highlight">Proven Success</span>: : The <span class="highlight">AREESE Super30 Batch</span> consistently produces students who achieve competitive ranks and secure admission into India's top engineering and medical colleges.</li>
               </ul>
               <p style="margin-top: 20px;">For those seeking the <span class="highlight">Best Coaching for IITJEE</span> and <span class="highlight">Best Coaching for NEET</span> without the burden of high fees, AREESE is the ideal choice.</p>
             </div>
@@ -131,14 +131,14 @@ require_once './assets/db/config_session.inc.php';
               <p>If you are a talented student from an economically disadvantaged background, the <span class="highlight">AREESE Super30 Batch</span> can help you turn your dreams into reality.</p>
               <p>Selection is purely based on <span class="highlight">merit and financial need</span>. To apply:</p>
               <ul>
-                <li>
+                <li class="blog-list">
                   <!-- ===========WEBSITE LINK NEEDED=========== -->
                   Visit our website: <a href="#"><span class="highlight">Website link</span></a>
                 </li>
-                <li>
+                <li class="blog-list">
                   Check eligibility criteria and application details.
                 </li>
-                <li>
+                <li class="blog-list">
                   Prepare to embark on a life-changing journey with India's <span class="highlight">best free coaching program </span> for JEE and NEET.
                 </li>
               </ul>
@@ -172,12 +172,12 @@ require_once './assets/db/config_session.inc.php';
                 <div style="margin-block: 10px;">
                   <h4 class="highlight">What does the AREESE Super30 Batch offer?</h4>
                   <ul>
-                    <li>
+                    <li class="blog-list">
                       <span class="highlight">Free JEE & NEET Coaching</span> by expert faculty
                     </li>
-                    <li><span class="highlight">Free Study Materials</span> including notes, mock tests, and textbooks</li>
-                    <li><span class="highlight">Free Accommodation and Meals</span> for a stress-free learning environment</li>
-                    <li><span class="highlight">Holistic Mentorship</span> to develop both academic and personal skills</li>
+                    <li class="blog-list"><span class="highlight">Free Study Materials</span> including notes, mock tests, and textbooks</li>
+                    <li class="blog-list"><span class="highlight">Free Accommodation and Meals</span> for a stress-free learning environment</li>
+                    <li class="blog-list"><span class="highlight">Holistic Mentorship</span> to develop both academic and personal skills</li>
                   </ul>
                 </div>
                 <hr>
@@ -205,9 +205,9 @@ require_once './assets/db/config_session.inc.php';
                   <h4 class="highlight">What exams are students prepared for in AREESE Super30 Batch?</h4>
                   <p>Students are prepared rigorously for:</p>
                   <ul>
-                    <li><span class="highlight">
+                    <li class="blog-list"><span class="highlight">
                         JEE Main and JEE Advanced</span> (for engineering aspirants)</li>
-                    <li><span class="highlight">NEET UG
+                    <li class="blog-list"><span class="highlight">NEET UG
                       </span> (for medical aspirants)</li>
                   </ul>
                 </div>
@@ -228,10 +228,10 @@ require_once './assets/db/config_session.inc.php';
                   <h4 class="highlight">Why is AREESE Super30 Batch considered the Best Coaching for IITJEE and NEET?</h4>
                   <p>Because it combines:</p>
                   <ul>
-                    <li><span class="highlight">Top-tier faculty</span> guidance</li>
-                    <li><span class="highlight">Cost-free support</span> for education and living</li>
-                    <li><span class="highlight">A success-driven environment</span></li>
-                    <li>
+                    <li class="blog-list"><span class="highlight">Top-tier faculty</span> guidance</li>
+                    <li class="blog-list"><span class="highlight">Cost-free support</span> for education and living</li>
+                    <li class="blog-list"><span class="highlight">A success-driven environment</span></li>
+                    <li class="blog-list">
                       <span class="highlight">A proven track record</span> of results in JEE and NEET
                     </li>
                   </ul>
@@ -250,17 +250,17 @@ require_once './assets/db/config_session.inc.php';
                   <p>The syllabus for the AREESE Super30 Batch written test for two-year program applicants (students moving from Class 10 to Class 11) is as follows:</p>
                   <p class="highlight" style="margin-top:15px">For JEE Aspirants:</p>
                   <ul style="padding-left:20px; margin-top:-10px ;">
-                    <li>Physics (Class 10 NCERT Curriculum) </li>
-                    <li>Chemistry (Class 10 NCERT Curriculum) </li>
-                    <li>Mathematics (Class 10 NCERT Curriculum) </li>
-                    <li>Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
+                    <li class="blog-list">Physics (Class 10 NCERT Curriculum) </li>
+                    <li class="blog-list">Chemistry (Class 10 NCERT Curriculum) </li>
+                    <li class="blog-list">Mathematics (Class 10 NCERT Curriculum) </li>
+                    <li class="blog-list">Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
                   </ul>
                   <p class="highlight" style="margin-top:15px">For NEET Aspirants:</p>
                   <ul style="padding-left:20px; margin-top:-10px ;">
-                    <li>Physics (Class 10 NCERT Curriculum) </li>
-                    <li>Chemistry (Class 10 NCERT Curriculum) </li>
-                    <li>Mathematics (Class 10 NCERT Curriculum) </li>
-                    <li>Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
+                    <li class="blog-list">Physics (Class 10 NCERT Curriculum) </li>
+                    <li class="blog-list">Chemistry (Class 10 NCERT Curriculum) </li>
+                    <li class="blog-list">Mathematics (Class 10 NCERT Curriculum) </li>
+                    <li class="blog-list">Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
                   </ul>
                   <p style="margin-top:15px">The test focuses on foundational concepts from the Class 10 NCERT syllabus and assesses analytical skills through aptitude questions.</p>
 
@@ -270,17 +270,17 @@ require_once './assets/db/config_session.inc.php';
                   <h4 class="highlight">What is the syllabus for the AREESE Super30 Batch written test for 12th class( One-year program) applicants?</h4>
                   <p class="highlight" style="margin-top:15px">For JEE Aspirants:</p>
                   <ul style="padding-left:20px; margin-top:-10px ;">
-                    <li>Physics (Class 12 NCERT Curriculum) </li>
-                    <li>Chemistry (Class 12 NCERT Curriculum) </li>
-                    <li>Mathematics (Class 12 NCERT Curriculum) </li>
-                    <li>Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
+                    <li class="blog-list">Physics (Class 12 NCERT Curriculum) </li>
+                    <li class="blog-list">Chemistry (Class 12 NCERT Curriculum) </li>
+                    <li class="blog-list">Mathematics (Class 12 NCERT Curriculum) </li>
+                    <li class="blog-list">Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
                   </ul>
                   <p class="highlight" style="margin-top:15px">For NEET Aspirants:</p>
                   <ul style="padding-left:20px; margin-top:-10px ;">
-                    <li>Physics (Class 12 NCERT Curriculum) </li>
-                    <li>Chemistry (Class 12 NCERT Curriculum) </li>
-                    <li>Mathematics (Class 12 NCERT Curriculum) </li>
-                    <li>Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
+                    <li class="blog-list">Physics (Class 12 NCERT Curriculum) </li>
+                    <li class="blog-list">Chemistry (Class 12 NCERT Curriculum) </li>
+                    <li class="blog-list">Mathematics (Class 12 NCERT Curriculum) </li>
+                    <li class="blog-list">Aptitude Questions (Logical Reasoning, Basic Problem-Solving Skills)</li>
                   </ul>
                   <p style="margin-top:15px">The test focuses on foundational concepts from the Class 12 NCERT syllabus and assesses analytical skills through aptitude questions.</p>
 
@@ -290,15 +290,15 @@ require_once './assets/db/config_session.inc.php';
                   <h4 class="highlight">What is the pattern for the AREESE Super30 Batch written test?</h4>
                   <p style="margin-top:15px">The AREESE Super30 Batch written test follows the Single Choice Question (SCQ) format. Key details include:</p>
                   <ul style="padding-left:20px; margin-top:-10px ;">
-                    <li>Total Questions: 30 SCQs </li>
-                    <li>Total Time: 30 minutes </li>
-                    <li>Maximum Marks: 120 </li>
-                    <li>Marking Scheme:
+                    <li class="blog-list">Total Questions: 30 SCQs </li>
+                    <li class="blog-list">Total Time: 30 minutes </li>
+                    <li class="blog-list">Maximum Marks: 120 </li>
+                    <li class="blog-list">Marking Scheme:
                       <ul style="padding-left:25px;">
-                        <li style=" list-style:circle inside;">
+                        <li class="blog-list" style=" list-style:circle inside;">
                           +4 marks for each correct answer
                         </li>
-                        <li style="list-style:circle inside;">
+                        <li class="blog-list" style="list-style:circle inside;">
                           −1 mark for each incorrect answer (¼ negative marking)
                         </li>
                       </ul>
@@ -320,20 +320,7 @@ require_once './assets/db/config_session.inc.php';
 
           </div>
 
-          <!-- Pagination -->
-          <!-- <div class="row">
-              <div class="col-md-12 pagi-area">
-                <nav aria-label="navigation">
-                  <ul class="pagination">
-                    <li><a href="#">Previous</a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">Next</a></li>
-                  </ul>
-                </nav>
-              </div>
-            </div> -->
+
         </div>
         <!-- End Blog Content -->
       </div>

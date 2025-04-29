@@ -17,10 +17,7 @@
   font-weight: 600;
 }
 
-ul {
-}
-
-li {
+li.blog-list {
   list-style: disc inside;
 }
 
@@ -37,6 +34,7 @@ li {
   height: 4px;
   background-color: #f58026;
 }
+
 .blog-heading.after::before {
   content: "";
   position: absolute;

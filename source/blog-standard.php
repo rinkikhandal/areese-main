@@ -153,7 +153,7 @@ require_once './assets/db/config_session.inc.php';
                         </div>
                         <!-- Single Item -->
                         <!-- Pagination -->
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-md-12 pagi-area">
                                 <nav aria-label="navigation">
                                     <ul class="pagination">
@@ -165,7 +165,7 @@ require_once './assets/db/config_session.inc.php';
                                     </ul>
                                 </nav>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- End Blog Content -->
                 </div>
