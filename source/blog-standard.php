@@ -67,10 +67,10 @@ require_once './assets/db/config_session.inc.php';
                         <div class="single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="#"><img src="assets/img/1500x700.png" alt="Thumb"></a>
-                                    <div class="date">
+                                    <a href="#"><img src="assets/img/super30.jpg" alt="Thumb"></a>
+                                    <!-- <div class="date">
                                         <h4><span>24</span> Nov, 2018</h4>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="info">
                                     <h3>
@@ -96,10 +96,10 @@ require_once './assets/db/config_session.inc.php';
                         <div class="single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="#"><img src="assets/img/1500x700.png" alt="Thumb"></a>
-                                    <div class="date">
+                                    <a href="#"><img src="assets/img/pay-after.jpg" alt="Thumb"></a>
+                                    <!-- <div class="date">
                                         <h4><span>12</span> Sep, 2018</h4>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="info">
                                     <h3>
@@ -112,7 +112,7 @@ require_once './assets/db/config_session.inc.php';
                                     <div class="meta">
                                         <ul>
                                             <li>
-                                                <a href="#"><i class="fas fa-user"></i> Author</a>
+                                                <a href="#"><i class="fas fa-user"></i> Author: <strong>Pradip Kumar</strong></a>
                                             </li>
 
                                         </ul>
@@ -121,37 +121,7 @@ require_once './assets/db/config_session.inc.php';
                             </div>
                         </div>
                         <!-- Single Item -->
-                        <!-- Single Item -->
-                        <div class="single-item">
-                            <div class="item">
-                                <div class="thumb">
-                                    <a href="#"><img src="assets/img/1500x700.png" alt="Thumb"></a>
-                                    <div class="date">
-                                        <h4><span>29</span> Dec, 2018</h4>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <h3>
-                                        <a href="#">Improve ashamed married expense bed her comfort</a>
-                                    </h3>
-                                    <p>
-                                        Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
-                                    </p>
-                                    <a href="blog-page-singleItem.php">Read More <i class="fas fa-angle-double-right"></i></a>
-                                    <div class="meta">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fas fa-user"></i> Author</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Item -->
+
                         <!-- Pagination -->
                         <!-- <div class="row">
                             <div class="col-md-12 pagi-area">

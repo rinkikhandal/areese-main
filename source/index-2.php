@@ -195,9 +195,7 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-8 col-md-offset-2">
             <h2>Popular Courses</h2>
             <p>
-              Discourse assurance estimable applauded to so. Him everything
-              melancholy uncommonly but solicitude inhabiting projection off.
-              Connection stimulated estimating excellence an to impression.
+              AREESE Batches – Super30 Batch , Pay After Selection Batch , Regular Batch Choose from our elite Super30 Batch , risk-free Pay After Selection Program, or high-quality, affordable Regular Batches — all designed to maximize your success in JEE, NEET, and Board exams.
             </p>
           </div>
         </div>
@@ -227,7 +225,7 @@ require_once './assets/db/config_session.inc.php';
                   <p>Pre-Foundation</p>
                   <p class="">NTSE ∣ Olympiads ∣ Boards</p>
                   <p class=" mb-2">( Science ∣ Commerce )</p>
-                  <a href="http://www.bestinstituteforboardexam.com/" target="blank" class="btn btn-outline">More details</a>
+                  <a href="#" class="btn btn-outline">More details</a>
               </div>
             </div>
             <!-- End Single Item -->
@@ -249,7 +247,7 @@ require_once './assets/db/config_session.inc.php';
                   <p>Pre-Foundation</p>
                   <p>NTSE ∣ Olympiads ∣ Boards</p>
                   <p class=" mb-2">( Science ∣ Commerce )</p>
-                  <a href="https://areese.courses.store/" target="blank" class="btn btn-outline">More details</a>
+                  <a href="./online-learning.php" class="btn btn-outline">More details</a>
               </div>
             </div>
             <!-- End Single Item -->
@@ -276,7 +274,7 @@ require_once './assets/db/config_session.inc.php';
                     Olympiads
                   </p>
                   <p>Fully Residential Program</p>
-                  <a href="http://www.areesegurukulam.com/" target="blank" class="btn btn-outline">More details</a>
+                  <a href="./payAfter-batch.php" class="btn btn-outline">More details</a>
               </div>
             </div>
             <!-- End Single Item -->
@@ -302,7 +300,7 @@ require_once './assets/db/config_session.inc.php';
                   <p class="">Foundation ∣ Target Batches ∣ </p>
                   <p>Olympiads </p>
                   <p>Fully Residential Program</p>
-                  <a href="http://www.areesegurukulam.com/" target="blank" class="btn btn-outline">More details</a>
+                  <a href="./super30-batch.php" class="btn btn-outline">More details</a>
               </div>
             </div>
             <!-- End Single Item -->
@@ -322,9 +320,10 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-8 col-md-offset-2">
             <h2>Top Batches</h2>
             <p>
-              Discourse assurance estimable applauded to so. Him everything
-              melancholy uncommonly but solicitude inhabiting projection off.
-              Connection stimulated estimating excellence an to impression.
+              <span class="highlight">
+                AREESE Batches – Super30 Batch , Pay After Selection Batch , Regular Batch
+                Choose from our elite Super30 Batch
+              </span>, risk-free Pay After Selection Program, or high-quality, affordable Regular Batches — all designed to maximize your success in JEE, NEET, and Board exams.
             </p>
           </div>
         </div>
@@ -491,11 +490,7 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-8 col-md-offset-2">
             <h2>Experience Advisors</h2>
             <p>
-              Able an hope of body. Any nay shyness article matters own
-              removal nothing his forming. Gay own additions education
-              satisfied the perpetual. If he cause manor happy. Without
-              farther she exposed saw man led. Along on happy could cease
-              green oh.
+              At AREESE, our advisory team includes seasoned educators, IITians, doctors, and academic strategists with deep experience in JEE, NEET, and Board exam preparation. They guide curriculum planning, mentor students, and ensure every learner receives expert-backed support to excel in competitive and school-level exams alike.
             </p>
           </div>
         </div>
@@ -522,11 +517,7 @@ require_once './assets/db/config_session.inc.php';
           <div class="video-heading">
             <h2>Take a short tour in our campus</h2>
             <p>
-              Tolerably behaviour may admitting daughters offending her ask
-              own. Praise effect wishes change way and any wanted. Lively use
-              looked latter regard had. Do he it part more last in. Merits ye
-              if mr narrow points. Melancholy particular devonshire alteration
-              it favourable appearance
+              Explore our vibrant classrooms, smart labs, and student-friendly spaces designed to inspire learning and success.
             </p>
           </div>
         </div>
@@ -552,11 +543,7 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-8 col-md-offset-2">
             <h2>Latest News & Blogs</h2>
             <p>
-              Able an hope of body. Any nay shyness article matters own
-              removal nothing his forming. Gay own additions education
-              satisfied the perpetual. If he cause manor happy. Without
-              farther she exposed saw man led. Along on happy could cease
-              green oh.
+              Stay updated with AREESE announcements, exam tips, success stories, and expert insights on JEE, NEET, and Board preparation.
             </p>
           </div>
           <div class="latestNews">
@@ -571,30 +558,19 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb" /></a>
-                <div class="date">
+                <a href="#"><img src="assets/img/latest-news/9-11pic.jpg" alt="Thumb" /></a>
+                <!-- <div class="date">
                   <h4><span>24</span> Nov, 2018</h4>
-                </div>
+                </div> -->
               </div>
               <div class="info">
                 <h4 style="line-height: 30px;">
-                  NEET Crash Course 2025 - started from 11 <sup>th</sup> April
+                  <a href="#">Admissions Open for 9th & 11th Academic Foundation Batch </a>
                 </h4>
-                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
-                  Sitting mistake towards his few country ask. You delighted
-                  two rapturous six depending objection happiness something
-                  the partiality unaffected
+                  Join our Academic Foundation Batch for Classes 9th and 11th, designed to build a strong foundation for academic excellence and competitive exams. Enroll now to secure your spot! Application process started. Click Here Visit [insert form link] for details and apply online today
                 </p>
-                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                <div class="meta">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-user"></i> Author</a>
-                    </li>
 
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -603,34 +579,18 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb" /></a>
-                <div class="date">
+                <a href="#"><img src="assets/img/latest-news/neet-jee.jpg" alt="Thumb" /></a>
+                <!-- <div class="date">
                   <h4><span>12</span> Sep, 2018</h4>
-                </div>
+                </div> -->
               </div>
               <div class="info">
                 <h4 style="line-height: 30px;">
-                  New Batches Started
+                  <a href="#">Admissions Open for NEET & JEE Batches</a>
                 </h4>
-                <h6 style="margin-block:20px;font-size:1.5rem">
-                  <p style="margin-bottom:4px;color:#F58026;font-weight:400">9<sup>th</sup> & 11<sup>th</sup> - from 7<sup>th</sup> April </p>
-                  <hr style="border-top: 1px solid #CCCCCC;">
-                  <p style="margin-top:4px;color:#F58026;font-weight:400"> 10<sup>th</sup> & 12<sup>th</sup> - from 3<sup>th</sup> April</p>
-                </h6>
                 <p>
-                  Sitting mistake towards his few country ask. You delighted
-                  two rapturous six depending objection happiness something
-                  the partiality unaffected
+                  Kickstart your journey to top medical and engineering colleges with our NEET and JEE coaching batches for Classes 11th, 12th, and 12th-pass students. Our expert faculty, comprehensive study materials, and rigorous test series ensure thorough preparation for NEET and JEE exams. Enroll now to secure your spot! Admissions started on. Visit [insert form link] for details and apply online today
                 </p>
-                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                <div class="meta">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-user"></i> Author</a>
-                    </li>
-
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -639,30 +599,18 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb" /></a>
-                <div class="date">
+                <a href="#"><img src="assets/img/latest-news/10-12pic.jpg" alt="Thumb" /></a>
+                <!-- <div class="date">
                   <h4><span>29</span> Dec, 2018</h4>
-                </div>
+                </div> -->
               </div>
               <div class="info">
                 <h4 style="line-height: 30px;">
-                  NEET Dropper Batch 2026 - started from 12 <sup>th</sup> April
+                  <a href="#">Admissions Open for 10th & 12th Board Exam Preparation</a>
                 </h4>
-                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
-                  Sitting mistake towards his few country ask. You delighted
-                  two rapturous six depending objection happiness something
-                  the partiality unaffected
+                  Excel in your Class 10th and 12th Board Exams with our specialized coaching program! Designed to strengthen core concepts, enhance exam strategies, and boost confidence, our expert-led courses ensure top results. Admissions are now open. Visit [insert forms link] for more details and apply online today!
                 </p>
-                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
-                <div class="meta">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fas fa-user"></i> Author</a>
-                    </li>
-
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -682,11 +630,7 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-8 col-md-offset-2">
             <h2>Students Review</h2>
             <p>
-              Able an hope of body. Any nay shyness article matters own
-              removal nothing his forming. Gay own additions education
-              satisfied the perpetual. If he cause manor happy. Without
-              farther she exposed saw man led. Along on happy could cease
-              green oh.
+              Hear directly from our students about their learning experience, faculty support, and success stories at AREESE.
             </p>
           </div>
         </div>
@@ -767,13 +711,9 @@ require_once './assets/db/config_session.inc.php';
       <div class="row">
         <div class="site-heading text-center">
           <div class="col-md-8 col-md-offset-2">
-            <h2>Upcoming Events</h2>
+            <h2>Explore Our Apps</h2>
             <p>
-              Able an hope of body. Any nay shyness article matters own
-              removal nothing his forming. Gay own additions education
-              satisfied the perpetual. If he cause manor happy. Without
-              farther she exposed saw man led. Along on happy could cease
-              green oh.
+              Access live classes, study materials, test series, and performance tracking — all in one powerful app for JEE, NEET, and Board preparation.
             </p>
           </div>
         </div>
@@ -785,13 +725,13 @@ require_once './assets/db/config_session.inc.php';
             <!-- Single Item -->
             <div class="item vertical">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
+                <a href="#"><img src="assets/img/android.jpg" alt="Thumb"></a>
               </div>
               <div class="info" style="display:flex; align-items: center;justify-content: space-between;">
                 <h4>
                   <a href="#" style="display: block;height: 100;">AREESE ANDROID APP</a>
                 </h4>
-                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank" style="margin-top: 0;">
+                <a href="https://play.google.com/store/apps/details?id=co.classplus.areese&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank" style="margin-top: 0;">
                   INSTALL NOW
                 </a>
 
@@ -802,7 +742,7 @@ require_once './assets/db/config_session.inc.php';
             <!-- Single Item -->
             <div class=" item vertical">
               <div class="thumb">
-                <a href="#"><img src="assets/img/800x600.png" alt="Thumb"></a>
+                <a href="#"><img src="assets/img/IOS.jpg" alt="Thumb"></a>
 
               </div>
               <div class="info" style="display:flex; align-items: center;justify-content: space-between;">
@@ -811,7 +751,7 @@ require_once './assets/db/config_session.inc.php';
                 </h4>
 
 
-                <a href="https://play.google.com/store/search?q=areese&c=apps&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank" style="margin-top: 0;">
+                <a href="https://play.google.com/store/apps/details?id=co.classplus.areese&hl=en-US" class="btn btn-dark effect btn-xsm" target="blank" style="margin-top: 0;">
                   INSTALL NOW
                 </a>
               </div>
@@ -830,7 +770,7 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Footer 
     ============================================= -->
-  <?php include 'footer_light.php' ?>
+  <?php include 'footer_dark.php' ?>
   <!-- End Footer -->
 
   <!-- jQuery Frameworks

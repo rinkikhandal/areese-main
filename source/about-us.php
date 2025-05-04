@@ -89,8 +89,8 @@ require_once './assets/db/config_session.inc.php';
                                 <i class="flaticon-faculty-shield"></i>
                             </div>
                             <div class="info">
-                                <h4>Expert faculty</h4>
-                                <a href="#">Read More</a>
+                                <h4>Super30 Batch</h4>
+                                <a href="./super30-batch.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@ require_once './assets/db/config_session.inc.php';
                                 <i class="flaticon-book-2"></i>
                             </div>
                             <div class="info">
-                                <h4>Online learning</h4>
-                                <a href="#">Read More</a>
+                                <h4>Pay After Selection Batch</h4>
+                                <a href="./payAfter-batch.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -111,8 +111,8 @@ require_once './assets/db/config_session.inc.php';
                                 <i class="flaticon-education"></i>
                             </div>
                             <div class="info">
-                                <h4>Scholarship</h4>
-                                <a href="#">Read More</a>
+                                <h4>Online Learning</h4>
+                                <a href="./online-learning.php">Read More</a>
                             </div>
                         </div>
                     </div>

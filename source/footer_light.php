@@ -25,18 +25,6 @@
                     <li class="">
                       <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
                     </li>
-                    <!-- <li>
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-dribbble"></i></a> -->
-                    <!-- </li> -->
                   </ul>
                 </div>
               </div>

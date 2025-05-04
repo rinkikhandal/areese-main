@@ -80,20 +80,17 @@
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/latest-news/neet-jee.jpg" alt="Thumb" /></a>
-                <div class="date">
+                <a href="#"><img src="assets/img/latest-news/9-11pic.jpg" alt="Thumb" /></a>
+                <!-- <div class="date">
                   <h4><span>24</span> Nov, 2018</h4>
-                </div>
+                </div> -->
               </div>
               <div class="info">
                 <h4 style="line-height: 30px;">
-                  <a href="#">NEET Crash Course 2025 - started from 11 <sup>th</sup> April</a>
+                  <a href="#">Admissions Open for 9th & 11th Academic Foundation Batch </a>
                 </h4>
-                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
-                  Sitting mistake towards his few country ask. You delighted
-                  two rapturous six depending objection happiness something
-                  the partiality unaffected
+                  Join our Academic Foundation Batch for Classes 9th and 11th, designed to build a strong foundation for academic excellence and competitive exams. Enroll now to secure your spot! Application process started. Click Here Visit [insert form link] for details and apply online today
                 </p>
 
               </div>
@@ -104,24 +101,17 @@
           <div class="col-md-4 single-item">
             <div class="item">
               <div class="thumb">
-                <a href="#"><img src="assets/img/latest-news/9-11pic.jpg" alt="Thumb" /></a>
-                <div class="date">
+                <a href="#"><img src="assets/img/latest-news/neet-jee.jpg" alt="Thumb" /></a>
+                <!-- <div class="date">
                   <h4><span>12</span> Sep, 2018</h4>
-                </div>
+                </div> -->
               </div>
               <div class="info">
                 <h4 style="line-height: 30px;">
-                  <a href="#">New Batches Started</a>
+                  <a href="#">Admissions Open for NEET & JEE Batches</a>
                 </h4>
-                <h6 style="margin-block:20px;font-size:1.5rem">
-                  <p style="margin-bottom:4px;color:#F58026;font-weight:400">9<sup>th</sup> & 11<sup>th</sup> - from 7<sup>th</sup> April </p>
-                  <hr>
-                  <p style="margin-top:4px;color:#F58026;font-weight:400"> 10<sup>th</sup> & 12<sup>th</sup> - from 3<sup>th</sup> April</p>
-                </h6>
                 <p>
-                  Sitting mistake towards his few country ask. You delighted
-                  two rapturous six depending objection happiness something
-                  the partiality unaffected
+                  Kickstart your journey to top medical and engineering colleges with our NEET and JEE coaching batches for Classes 11th, 12th, and 12th-pass students. Our expert faculty, comprehensive study materials, and rigorous test series ensure thorough preparation for NEET and JEE exams. Enroll now to secure your spot! Admissions started on. Visit [insert form link] for details and apply online today
                 </p>
               </div>
             </div>
@@ -132,19 +122,16 @@
             <div class="item">
               <div class="thumb">
                 <a href="#"><img src="assets/img/latest-news/10-12pic.jpg" alt="Thumb" /></a>
-                <div class="date">
+                <!-- <div class="date">
                   <h4><span>29</span> Dec, 2018</h4>
-                </div>
+                </div> -->
               </div>
               <div class="info">
                 <h4 style="line-height: 30px;">
-                  <a href="#">NEET Dropper Batch 2026 - started from 12 <sup>th</sup> April</a>
+                  <a href="#">Admissions Open for 10th & 12th Board Exam Preparation</a>
                 </h4>
-                <h6 style="font-size:1.5rem;margin-block:20px;color:#F58026;font-weight:400">Get Admission Now</h6>
                 <p>
-                  Sitting mistake towards his few country ask. You delighted
-                  two rapturous six depending objection happiness something
-                  the partiality unaffected
+                  Excel in your Class 10th and 12th Board Exams with our specialized coaching program! Designed to strengthen core concepts, enhance exam strategies, and boost confidence, our expert-led courses ensure top results. Admissions are now open. Visit [insert forms link] for more details and apply online today!
                 </p>
               </div>
             </div>

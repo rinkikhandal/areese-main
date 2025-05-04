@@ -89,7 +89,10 @@ if (isset($_SESSION["admin"])) {
                           <td><?php echo htmlspecialchars($row["adminName"]) ?></td>
                           <td><?php echo htmlspecialchars($row["email"]) ?></td>
                           <td><?php echo htmlspecialchars($row["adminRole"]) ?></td>
-                          <td><a class="btn btn-edit" href=<?php echo "./admin/edit?id={$id}" ?>>Edit</a><a class="btn btn-del" href=<?php echo "./admin/delete?id={$id}" ?>>Delete</a></td>
+                          <td>
+                            <a class="btn btn-edit" href=<?php echo "./admin/edit?id={$id}" ?>>Edit</a><a class="btn btn-del" href=<?php echo "./admin/delete?id={$id}" ?>>Delete
+
+                            </a></td>
                         </tr>
                       <?php  } ?>
 

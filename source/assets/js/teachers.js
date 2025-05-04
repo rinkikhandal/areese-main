@@ -23,7 +23,7 @@ const teacherDetails = [
   },
   {
     id: 3,
-    name: "Pradeep Kumar",
+    name: "Pradip Kumar",
     subject: "Mathematics",
     honorific: "Mr.",
     edu: "B.Tech",

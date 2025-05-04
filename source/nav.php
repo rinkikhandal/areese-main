@@ -293,9 +293,8 @@
                                 ?></h5>
         </div>
         <ul>
-          <li><a href="./profile.php">Profile</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Recent Order</a></li>
+        
+          
           <?php
           if (isset($_SESSION["user"])) {
           ?>
@@ -329,8 +328,7 @@
         <ul>
           <li><a href="./about-us.php">About</a></li>
           <li><a href="./gallery.php">Portfolio</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Rating</a></li>
+          <li><a href="./contact.php">Contact</a></li>
           <li><a href="./index-2.php#popular-courses">Popular Courses</a></li>
         </ul>
       </div>

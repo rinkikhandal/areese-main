@@ -6,24 +6,26 @@
           <div class="f-item">
             <img src="assets/img/logo-light2.png" alt="Logo" style="max-width:250px;" />
             <p>
-              Excellence decisively nay man yet impression for contrasted
-              remarkably. There spoke happy for you are out. Fertile how old
-              address did showing because sitting replied six. Had arose
-              guest visit going off child she new.
+              AREESE is a premier coaching institute specializing in JEE, NEET, and Board exam preparation. With expert faculty, personalized mentoring, and proven study materials, AREESE offers a comprehensive learning experience for students aiming for top rankings.
             </p>
-            <p class="text-italic">
-              Please write your email and get our amazing updates, news and
-              support
-            </p>
+
             <div class="subscribe">
-              <form action="#">
-                <div class="input-group stylish-input-group">
-                  <input type="email" placeholder="Enter your e-mail here" class="form-control" name="email" />
-                  <button type="submit">
-                    <i class="fa fa-paper-plane"></i>
-                  </button>
-                </div>
-              </form>
+              <div class="social">
+                <ul>
+                  <li class="">
+                    <a href="https://www.facebook.com/AreeseCareerInstitute" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.linkedin.com/company/areese/" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.instagram.com/areesecareerinstitute/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                  </li>
+                  <li class="">
+                    <a href="https://www.youtube.com/channel/UCFHdtG7aSLjA4FjXgw-0XBA" target="_blank"><i class="fa-brands fa-youtube fa-lg"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -32,22 +34,14 @@
             <h4>Links</h4>
             <ul>
               <li>
-                <a href="#">Courses</a>
-              </li>
-              <li>
-                <a href="#">Result</a>
-              </li>
-              <li>
                 <a href="./about-us.php#portfolio">Gallery</a>
               </li>
+
               <li>
-                <a href="#">Faqs</a>
+                <a href="./teachers.php">Faculty</a>
               </li>
               <li>
-                <a href="#">Faculty</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+                <a href="./contact.php">Contact</a>
               </li>
             </ul>
           </div>
@@ -57,9 +51,12 @@
             <h4>Support</h4>
             <ul>
               <li>
-                <a href="#">Documentation</a>
+                <a href="./online-learning.php">Online Learning</a>
               </li>
               <li>
+                <a href="./faq.php">Faqs</a>
+              </li>
+              <!-- <li>
                 <a href="#">Forums</a>
               </li>
               <li>
@@ -73,7 +70,7 @@
               </li>
               <li>
                 <a href="#">Feedback</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
@@ -93,7 +90,7 @@
                 <p>Office <span>80/4, 2nd floor, Rathore Tower,Opp. Sanganer Bus Depot,Pratap Nagar, Jaipur 302033</p>
               </li>
             </ul>
-            <div class="opening-info">
+            <!-- <div class="opening-info">
               <h5>Opening Hours</h5>
               <ul>
                 <li>
@@ -109,7 +106,7 @@
                   <div class="pull-right closed">Closed</div>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -129,13 +126,10 @@
           <div class="col-md-6 text-right link">
             <ul>
               <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
                 <a href="#">Terms of user</a>
-              </li>
-              <li>
-                <a href="#">License</a>
-              </li>
-              <li>
-                <a href="#">Support</a>
               </li>
             </ul>
           </div>
