@@ -510,7 +510,7 @@ require_once './assets/db/config_session.inc.php';
 
   <!-- Start Video Area
     ============================================= -->
-  <div class="video-area padding-xl text-center bg-fixed text-light shadow dark-hard" style="background-image: url(assets/img/2440x1578.png)">
+  <div class="video-area padding-xl text-center bg-fixed text-light shadow dark-hard" >
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">

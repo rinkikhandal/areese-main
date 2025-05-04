@@ -83,14 +83,10 @@ require_once './assets/db/config_session.inc.php';
                 <h1 data-animation="animated fadeInUp">
                   AREESE Super30 <span>Residential Campus</span>
                 </h1>
-                <p data-animation="animated fadeInUp">
-                  Supposing breakfast day fulfilled off depending
-                  questions. Whatever boy her exertion his extended.
-                  Ecstatic followed handsome drawings entirely mrs one
-                  yet outweigh. Of acceptance insipidity remarkably is
-                  invitation.
+                <p data-animation="animated fadeInUp" style="color:white">
+                  The AREESE Super-30 Batch is a life-changing initiative that aims to provide top-quality education to underprivileged students.
                 </p>
-                <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a>
+                <!-- <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a> -->
               </div>
             </div>
           </div>

@@ -93,14 +93,10 @@ require_once './assets/db/config_session.inc.php';
                 <h1 data-animation="animated fadeInUp">
                   AREESE Pay After Selection <span>Residential Campus</span>
                 </h1>
-                <p data-animation="animated fadeInUp">
-                  Supposing breakfast day fulfilled off depending
-                  questions. Whatever boy her exertion his extended.
-                  Ecstatic followed handsome drawings entirely mrs one
-                  yet outweigh. Of acceptance insipidity remarkably is
-                  invitation.
+                <p data-animation="animated fadeInUp" style="color:white">
+                  Every student, regardless of the coaching center they attend, pays a substantial amount in coaching fees with the hope of securing a good rank in competitive exams like JEE and NEET. However, during the preparation for these exams, coaching institutes often focus more on students who perform well in tests, leaving behind those who are underperforming
                 </p>
-                <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a>
+                <!-- <a data-animation="animated fadeInDown" class="btn circle btn-light effect btn-md" href="#">View Courses</a> -->
               </div>
             </div>
           </div>
