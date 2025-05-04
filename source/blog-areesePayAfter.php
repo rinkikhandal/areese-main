@@ -301,12 +301,6 @@ require_once './assets/db/config_session.inc.php';
                   <p style="margin-top:15px">This pattern is designed to assess students' accuracy, speed, and conceptual understanding.</p>
 
                 </div>
-                <hr>
-                <div style="margin-block: 10px;">
-                  <h4 class="highlight">Who is funding the AREESE Super30 Batch?</h4>
-                  <p>The AREESE Institute is the primary sponsor of the Super30 Batch. Additionally, <span class="highlight">alumni of the AREESE Super30 </span>program who have successfully achieved their goals also contribute to funding as a way of giving back and supporting future aspirants.</p>
-
-                </div>
               </div>
 
             </div>
