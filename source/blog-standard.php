@@ -83,7 +83,7 @@ require_once './assets/db/config_session.inc.php';
                                     <div class="meta">
                                         <ul>
                                             <li>
-                                                <a href="#"><i class="fas fa-user"></i> Author: <strong>Pradeep Kumar</strong></a>
+                                                <a href="#"><i class="fas fa-user"></i> Author: <strong>Pradip Kumar</strong></a>
                                             </li>
 
                                         </ul>
@@ -103,12 +103,12 @@ require_once './assets/db/config_session.inc.php';
                                 </div>
                                 <div class="info">
                                     <h3>
-                                        <a href="#">So delightful up dissimilar by unreserved</a>
+                                        <a href="#">Pay After Selection Batch: A Game-Changer in JEE & NEET Coaching</a>
                                     </h3>
                                     <p>
-                                        Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
+                                        In the fiercely competitive world of entrance exams like <span class="highlight">JEE (Joint Entrance Examination)</span> and <span class="highlight">NEET (National Eligibility cum Entrance Test)</span>, every student dreams of success—but not every student receives equal support. Traditional coaching models often fall short when it comes to nurturing underperforming students.
                                     </p>
-                                    <a href="blog-page-singleItem.php">Read More <i class="fas fa-angle-double-right"></i></a>
+                                    <a href="blog-areesePayAfter.php">Read More <i class="fas fa-angle-double-right"></i></a>
                                     <div class="meta">
                                         <ul>
                                             <li>
