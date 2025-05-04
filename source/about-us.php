@@ -238,7 +238,7 @@ require_once './assets/db/config_session.inc.php';
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Experience Advisors</h2>
                         <p>
-                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
+                            our advisory team includes seasoned educators, IITians, doctors, and academic strategists with deep experience in JEE, NEET, and Board exam preparation. They guide curriculum planning, mentor students, and ensure every learner receives expert-backed support to excel in competitive and school-level exams alike.
                         </p>
                     </div>
                 </div>
@@ -296,14 +296,14 @@ require_once './assets/db/config_session.inc.php';
 
     <!-- Start Video Area
     ============================================= -->
-    <div class="video-area padding-xl text-center bg-fixed text-light shadow dark-hard" style="background-image: url(assets/img/2440x1578.png);">
+    <div class="video-area padding-xl text-center bg-fixed text-light shadow dark-hard">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="video-heading">
                         <h2>Take a short tour in our campus</h2>
                         <p>
-                            Tolerably behaviour may admitting daughters offending her ask own. Praise effect wishes change way and any wanted. Lively use looked latter regard had. Do he it part more last in. Merits ye if mr narrow points. Melancholy particular devonshire alteration it favourable appearance
+                            Explore our vibrant classrooms, smart labs, and student-friendly spaces designed to inspire learning and success.
                         </p>
                     </div>
                 </div>
@@ -330,7 +330,7 @@ require_once './assets/db/config_session.inc.php';
                     <div class="col-md-8 col-md-offset-2">
                         <h2>Our Gallery</h2>
                         <p>
-                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
+                            Take a glimpse into life at AREESE — from classroom sessions and expert seminars to student activities, success celebrations, and campus highlights. Experience the vibrant learning environment that drives our students toward excellence.
                         </p>
                     </div>
                 </div>

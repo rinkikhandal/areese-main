@@ -67,7 +67,9 @@ require_once './assets/db/config_session.inc.php';
               </div>
               <div class="info">
                 <h4>Call Us</h4>
-                <span> +91 76100 76200</span>
+                <p> +91 76100 76200</p>
+                <p> +91 63766 35779</p>
+                <p> 0141-2791873</p>
               </div>
             </div>
           </div>
@@ -90,7 +92,9 @@ require_once './assets/db/config_session.inc.php';
               </div>
               <div class="info">
                 <h4>Email Us</h4>
-                <span>info@areese.org</span>
+                <p>info@areese.org</p>
+                <p>areesegurukulam@gmail.com</p>
+                <p>areesecareerinstitute@gmail.com</p>
               </div>
             </div>
           </div>
@@ -119,10 +123,6 @@ require_once './assets/db/config_session.inc.php';
           <div class="col-md-6 form">
             <div class="heading">
               <h3>Contact Us</h3>
-              <p>
-                Occasional terminated insensible and inhabiting gay. So know
-                do fond to half on. Now who promise was justice new winding
-              </p>
             </div>
             <form
               action="assets/mail/contact.php"
