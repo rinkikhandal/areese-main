@@ -90,7 +90,7 @@
         <span>
           <a href="#12class">more details</a>
         </span>
-        <!-- <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span> -->
+        <span><a class="popup-with-form" href="#apply-course-form">Enroll Now</a></span>
       </div>
     </section>
     <section>

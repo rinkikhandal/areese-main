@@ -1,4 +1,4 @@
-<form action="#" method="POST" id="apply-course-form" class="mfp-hide white-popup-block apply-course-form">
+<form action="#" method="POST" id="apply-course-form" class="mfp-hide white-popup-block apply-course-form" style="overflow-block:auto;">
   <div class="col-md-4 login-social">
     <h4>Apply For Your Desired Course</h4>
     <ul>
@@ -45,7 +45,17 @@
     <div class="col-md-12">
       <div class="row">
         <div class="form-group">
-          <input class="form-control" placeholder="Course you want to apply for*" type="text" name="course-name" />
+          <select class="form-control select-class" name="course-name" required>
+            <option disabled selected value="">-- Choose the course you want to apply for --</option>
+            <option value="NEET-11th" class="display:block">NEET 11th Batch</option>
+            <option value="NEET-12th">NEET 12th Batch</option>
+            <option value="NEET-Dropper">NEET Dropper Batch</option>
+            <option value="NEET-Dropper-Plus">NEET Dropper Plus Batch</option>
+            <option value="JEE-11th">JEE 11th Batch</option>
+            <option value="JEE-12th">JEE 12th Batch</option>
+            <option value="JEE-Dropper">JEE Dropper Batch</option>
+            <option value="JEE-Dropper-Plus">JEE Dropper Plus Batch</option>
+          </select>
         </div>
       </div>
     </div>
@@ -59,6 +69,10 @@
       <div id="message" class="alert-msg">
       </div>
     </div>
-    <!-- <p class="link-bottom">Are you a member? <a class="popup-with-form" href="#login-form">Login now</a></p> -->
+    <p class="link-bottom">Are you a member? <a class="popup-with-form" href="#login-form">Login now</a></p>
   </div>
 </form>
+
+<script>
+  
+</script>
